@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="dark">
+<title>Face Edit Ranking</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <span id="practice-tag" class="tag" hidden></span>
+  <span id="prog-text"></span>
+  <div id="prog" aria-hidden="true" hidden></div>
+  <button id="btn-how" class="link" type="button" hidden data-i18n="howLink"></button>
+  <div class="lang" role="group" aria-label="Language">
+    <button data-lang="zh">中文</button><button data-lang="en">English</button>
+  </div>
+</header>
+
+<main>
+  <section id="v-gate" class="page" hidden>
+    <div class="page-body"><h1 data-i18n="gateTitle"></h1><p class="lede" data-i18n="gateBody"></p></div>
+  </section>
+
+  <section id="v-start" class="page start" hidden>
+    <div class="start-intro">
+      <p class="kicker" data-i18n="kicker"></p>
+      <h1 data-i18n="title"></h1>
+      <p class="lede" data-i18n="lede"></p>
+      <dl class="facts">
+        <div><dt data-i18n="fMinN"></dt><dd data-i18n="fMin"></dd></div>
+        <div><dt id="f-sets">6</dt><dd data-i18n="fSets"></dd></div>
+        <div><dt>3</dt><dd data-i18n="fQs"></dd></div>
+      </dl>
+      <p class="muted start-hint" data-i18n="startHint"></p>
+    </div>
+    <div class="doc">
+      <div class="doc-head"><h2 id="doc-title" data-i18n="docTitle"></h2><span data-i18n="docScroll"></span></div>
+      <div class="doc-body" tabindex="0" role="region" aria-labelledby="doc-title">
+        <div id="about"></div>
+        <section><h3 data-i18n="infoTitle"></h3><dl id="info"></dl></section>
+        <section><h3 data-i18n="privacyTitle"></h3><dl id="privacy"></dl></section>
+        <section><h3 data-i18n="detailTitle"></h3><dl id="detail"></dl></section>
+        <section><h3 data-i18n="rightsTitle"></h3><dl id="rights"></dl></section>
+      </div>
+    </div>
+    <div class="start-act">
+      <div class="lottery">
+        <label for="lottery-email" data-i18n="lotteryTitle"></label>
+        <p data-i18n="lotteryBody"></p>
+        <input id="lottery-email" type="email" maxlength="254" autocomplete="email" spellcheck="false" placeholder="you@example.com">
+      </div>
+      <div class="consent">
+        <a id="consent-link" target="_blank" rel="noopener noreferrer" data-i18n="consentDoc"></a>
+        <label class="check"><input id="consent-check" type="checkbox" required><span data-i18n="consentCheck"></span></label>
+      </div>
+      <button id="btn-start" class="primary" disabled data-i18n="agree"></button>
+      <p id="start-err" class="err"></p>
+    </div>
+  </section>
+
+  <section id="v-intro" class="page intro" hidden>
+    <div class="page-body">
+      <h1 data-i18n="introTitle"></h1>
+      <p class="lede" data-i18n="introLede"></p>
+      <ol class="rules">
+        <li><b data-i18n="rule1"></b><span data-i18n="rule1d"></span></li>
+        <li><b data-i18n="rule2"></b><span data-i18n="rule2d"></span></li>
+        <li><b data-i18n="rule3"></b><span data-i18n="rule3d"></span></li>
+      </ol>
+    </div>
+    <div class="page-body">
+      <div class="diagram" aria-hidden="true">
+        <div class="d-steps"><span class="on">①</span><span>②</span><span>③</span></div>
+        <div class="d-grid">
+          <i class="d-tile"><b>2</b></i><i class="d-tile"><b>5</b></i><i class="d-tile"><b>1</b></i><i class="d-tile"><b>7</b></i>
+          <i class="d-tile"><b>4</b></i><i class="d-tile"><b>3</b></i><i class="d-tile"><b>6</b></i>
+        </div>
+      </div>
+      <p class="note" data-i18n="note1"></p>
+      <p class="note" data-i18n="note2"></p>
+      <p class="note muted" data-i18n="note3"></p>
+      <button id="btn-intro" class="primary"></button>
+      <p id="intro-sub" class="muted"></p>
+    </div>
+  </section>
+
+  <section id="v-trial" class="trial" hidden>
+    <div class="title-row">
+      <span id="task-chip" class="chip"></span><span id="part-name" class="part-name"></span><span id="task-line" class="task-line"></span>
+    </div>
+    <div id="refs" class="refs"></div>
+    <div class="main-col">
+      <div class="stepbar">
+        <div class="steps-tabs" role="tablist">
+          <button id="step-0" class="st" type="button" role="tab">1</button><button id="step-1" class="st" type="button" role="tab">2</button><button id="step-2" class="st" type="button" role="tab">3</button>
+        </div>
+        <div class="step-text"><h2 id="step-q"></h2><p id="step-hint" class="hint"></p></div>
+        <div id="slots" class="slots"></div>
+      </div>
+      <div id="grid" class="grid"></div>
+      <div id="fb-text" class="fb" hidden></div>
+      <div class="nav">
+        <button id="btn-back" class="back" type="button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg>
+          <span id="back-label"></span>
+        </button>
+        <button id="btn-reset" class="ghost" type="button"></button>
+        <span id="stage-note" class="muted"></span>
+        <button id="btn-next" class="primary" disabled></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="v-section" class="page section" hidden>
+    <div class="page-body wide">
+      <p id="sec-kicker" class="muted"></p>
+      <div class="sec-head"><span id="sec-chip" class="chip big"></span><h1 id="sec-title"></h1></div>
+      <p id="sec-body" class="lede"></p>
+      <p id="sec-parts" class="sec-parts"></p>
+      <button id="btn-section" class="primary" data-i18n="cont"></button>
+    </div>
+  </section>
+
+  <section id="v-end" class="page" hidden>
+    <div>
+      <svg class="tick" viewBox="0 0 72 60" aria-hidden="true"><path pathLength="1" d="M8 32 C13 38 18 44 24 52 C32 36 46 20 66 7"></path></svg>
+      <h1 data-i18n="done"></h1>
+    </div>
+    <div class="page-body">
+      <p id="end-status" class="lede"></p>
+      <p class="muted"><span id="end-code-note"></span><br><code id="end-code"></code></p>
+      <p id="end-lottery" class="muted"></p>
+      <div class="end-actions">
+        <button id="btn-retry" hidden data-i18n="retry"></button>
+        <button id="btn-save" hidden data-i18n="saveFile"></button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="lightbox" hidden role="dialog" aria-modal="true">
+  <div class="lb-box">
+    <div class="lb-top"><span id="lb-pos"></span><span id="lb-q" class="muted"></span><span id="lb-state" class="lb-state"></span><button id="lb-close" type="button" aria-label="close">✕</button></div>
+    <div class="lb-body">
+      <div id="lb-refs" class="lb-refs"></div>
+      <div class="lb-main"><img id="lb-main" alt=""><div id="lb-closes" class="lb-closes"></div></div>
+    </div>
+    <div id="lb-ctl" class="lb-ctl"><button id="lb-prev" type="button">‹</button><button id="lb-pick" class="primary" type="button"></button><button id="lb-next" type="button">›</button></div>
+  </div>
+</div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
