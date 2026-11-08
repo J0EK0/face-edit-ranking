@@ -749,7 +749,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t4d8346f4d6",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/5f43c569569a1639.jpg",
+       "closes": [
+        "img/278f9b4cf5870b21.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/0e82d70984842232.jpg",
+       "closes": [
+        "img/81e89f74f6071af9.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "cdd420bc8be",
+       "img": "img/1aea7efea4367aba.jpg",
+       "closes": [
+        "img/241f626654b03bfa.jpg"
+       ]
+      },
+      {
+       "id": "ccd93f3bd13",
+       "img": "img/a3614b2c5c11d815.jpg",
+       "closes": [
+        "img/9ff41d584bb03487.jpg"
+       ]
+      },
+      {
+       "id": "c225ef4db94",
+       "img": "img/70ffb1718720e9a4.jpg",
+       "closes": [
+        "img/d4264a07a37f05fa.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t2f0e95500a",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/4bf003939adaaf2f.jpg",
+       "closes": [
+        "img/ba541a78eba6f25a.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/0fe9f93e46bb2a79.jpg",
+       "closes": [
+        "img/1bb97eee8f81e105.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth closed",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴閉著",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c4c879da783",
+       "img": "img/c6f14ffdf0db40e7.jpg",
+       "closes": [
+        "img/9344dbd66aa9e061.jpg"
+       ]
+      },
+      {
+       "id": "c7fa146e373",
+       "img": "img/55a3128a262226a6.jpg",
+       "closes": [
+        "img/6bf9330b25af10d2.jpg"
+       ]
+      },
+      {
+       "id": "c47fa1419a0",
+       "img": "img/ce147fba2033dfae.jpg",
+       "closes": [
+        "img/c68c80da5458ed0f.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tdbed51d934",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/b5484534a04bc7bb.jpg",
+       "closes": [
+        "img/b8abede27b5aada4.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/cd0c37d896f81746.jpg",
+       "closes": [
+        "img/a08bec91db2b0d26.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light blonde long wavy",
+     "instr_zh": "把這個人的頭髮改成淺金色、長（超過肩膀）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c0f1c3cc1f5",
+       "img": "img/bdfcd2be0738d76c.jpg",
+       "closes": [
+        "img/f28be36c8ea68eab.jpg"
+       ]
+      },
+      {
+       "id": "c380c8beb57",
+       "img": "img/998bc08ebcc0236a.jpg",
+       "closes": [
+        "img/f3013546489db979.jpg"
+       ]
+      },
+      {
+       "id": "c9292b475a2",
+       "img": "img/e34fc5661ff61e3c.jpg",
+       "closes": [
+        "img/0238753f60b96317.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "te6319f3447",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/dd1437931e62ebaf.jpg",
+       "closes": [
+        "img/5bba1e8f6192b296.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/bfcc4088c490809d.jpg",
+       "closes": [
+        "img/1e2768e59d09de5b.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown long straight",
+     "instr_zh": "把這個人的頭髮改成深棕色、長（超過肩膀）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c153a893cf2",
+       "img": "img/31be0a3f7ea99b5f.jpg",
+       "closes": [
+        "img/bd9dd3d540d3ffcb.jpg"
+       ]
+      },
+      {
+       "id": "cf39ecf5399",
+       "img": "img/06d7e758b04f10ba.jpg",
+       "closes": [
+        "img/447226b37f63cfc5.jpg"
+       ]
+      },
+      {
+       "id": "c03639c91a2",
+       "img": "img/5285c8508d8529a3.jpg",
+       "closes": [
+        "img/17f0c6212429c9c1.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 1,
@@ -1493,7 +1702,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t42e8b9f2c6",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/2ccd841201d76e1f.jpg",
+       "closes": [
+        "img/5c69d7b02ffbb929.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/53bb70c21852d572.jpg",
+       "closes": [
+        "img/b9563fc8ad21bbc3.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c7cb090d5a0",
+       "img": "img/4690d98a793d256e.jpg",
+       "closes": [
+        "img/f4207580acc5e635.jpg"
+       ]
+      },
+      {
+       "id": "c9b7e4f0a7a",
+       "img": "img/61e2a8d7664361f9.jpg",
+       "closes": [
+        "img/7636f21c6bdb4840.jpg"
+       ]
+      },
+      {
+       "id": "c7b6b417a29",
+       "img": "img/22406cab2316b682.jpg",
+       "closes": [
+        "img/70f38054d0b6b133.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t4f8ed02af5",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/13229f6a5b512d42.jpg",
+       "closes": [
+        "img/c49ee5aeaeddaa9f.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/02aba5d335de2f5e.jpg",
+       "closes": [
+        "img/ad9af3260767e06e.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c90e2240707",
+       "img": "img/c78ca4df55e1d0a0.jpg",
+       "closes": [
+        "img/721efef3c934e957.jpg"
+       ]
+      },
+      {
+       "id": "c3d71024218",
+       "img": "img/440a11a991ff62f6.jpg",
+       "closes": [
+        "img/f0635154a6e3d162.jpg"
+       ]
+      },
+      {
+       "id": "c2a33300318",
+       "img": "img/b0c94fd437a0f4be.jpg",
+       "closes": [
+        "img/b4244e536c3af1d3.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tabed6775ae",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/dd1437931e62ebaf.jpg",
+       "closes": [
+        "img/5bba1e8f6192b296.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/bfcc4088c490809d.jpg",
+       "closes": [
+        "img/1e2768e59d09de5b.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown long straight",
+     "instr_zh": "把這個人的頭髮改成深棕色、長（超過肩膀）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c52b660ac43",
+       "img": "img/5285c8508d8529a3.jpg",
+       "closes": [
+        "img/17f0c6212429c9c1.jpg"
+       ]
+      },
+      {
+       "id": "cb8237ca2c4",
+       "img": "img/06d7e758b04f10ba.jpg",
+       "closes": [
+        "img/447226b37f63cfc5.jpg"
+       ]
+      },
+      {
+       "id": "c69524e72b3",
+       "img": "img/31be0a3f7ea99b5f.jpg",
+       "closes": [
+        "img/bd9dd3d540d3ffcb.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tf5b515abf7",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/a411daf3e3b646fb.jpg",
+       "closes": [
+        "img/b76f9b281892cf72.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/4125ee9267170cbd.jpg",
+       "closes": [
+        "img/5acb68db676881c8.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown long straight",
+     "instr_zh": "把這個人的頭髮改成深棕色、長（超過肩膀）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c18204537c2",
+       "img": "img/d8362340be751bf4.jpg",
+       "closes": [
+        "img/b0c3b1b960e5a144.jpg"
+       ]
+      },
+      {
+       "id": "c4094491149",
+       "img": "img/b13930bf6b9c9917.jpg",
+       "closes": [
+        "img/1a9fda0b75ce2d07.jpg"
+       ]
+      },
+      {
+       "id": "c4ea62bc7d6",
+       "img": "img/5228d3bf5d2972b4.jpg",
+       "closes": [
+        "img/4121142b2883b304.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 2,
@@ -2237,7 +2655,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "tafa5e441fb",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/c575973ab3824b68.jpg",
+       "closes": [
+        "img/483e407d3e4f695c.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/d1cd38fc7202b6c9.jpg",
+       "closes": [
+        "img/f8d2a253d4dab31a.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c3fde0d464b",
+       "img": "img/73ea60eff418e07e.jpg",
+       "closes": [
+        "img/6a6200ad9ade67cc.jpg"
+       ]
+      },
+      {
+       "id": "cc3e02de0d4",
+       "img": "img/16ecb747b6698cd2.jpg",
+       "closes": [
+        "img/9c86958f5ea901e5.jpg"
+       ]
+      },
+      {
+       "id": "cec9146c1c1",
+       "img": "img/02368c5694d0ae70.jpg",
+       "closes": [
+        "img/585cd23802374963.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t144664211a",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/d92dbd59d58a607a.jpg",
+       "closes": [
+        "img/dc03b67605c1fff0.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/3484f75423f37459.jpg",
+       "closes": [
+        "img/c6016ff079c29700.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "ca831d0de59",
+       "img": "img/e7044eb45ac7326d.jpg",
+       "closes": [
+        "img/43881361596343b1.jpg"
+       ]
+      },
+      {
+       "id": "c9354ee861f",
+       "img": "img/0727fcdc568320f2.jpg",
+       "closes": [
+        "img/354a92b01942adcd.jpg"
+       ]
+      },
+      {
+       "id": "cec5dbbd3de",
+       "img": "img/a47476707f670eb9.jpg",
+       "closes": [
+        "img/656ce9b7f7d6fda0.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t2670dec7a3",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/a411daf3e3b646fb.jpg",
+       "closes": [
+        "img/b76f9b281892cf72.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/4125ee9267170cbd.jpg",
+       "closes": [
+        "img/5acb68db676881c8.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown long straight",
+     "instr_zh": "把這個人的頭髮改成深棕色、長（超過肩膀）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cd622aad4ef",
+       "img": "img/5228d3bf5d2972b4.jpg",
+       "closes": [
+        "img/4121142b2883b304.jpg"
+       ]
+      },
+      {
+       "id": "cdf096c09d2",
+       "img": "img/d8362340be751bf4.jpg",
+       "closes": [
+        "img/b0c3b1b960e5a144.jpg"
+       ]
+      },
+      {
+       "id": "cf9d7a53791",
+       "img": "img/b13930bf6b9c9917.jpg",
+       "closes": [
+        "img/1a9fda0b75ce2d07.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t8e36942829",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/8c38a9327e412dbd.jpg",
+       "closes": [
+        "img/70d21324db227cd6.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/0cc933b63e3dbcee.jpg",
+       "closes": [
+        "img/7df2a0566c6e27f9.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown short straight",
+     "instr_zh": "把這個人的頭髮改成深棕色、短（約到下巴以上）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "ce6b3ecc71a",
+       "img": "img/34d1341254244831.jpg",
+       "closes": [
+        "img/7fb953cb1fd59271.jpg"
+       ]
+      },
+      {
+       "id": "c8a54c862f3",
+       "img": "img/815ff152f914d8a5.jpg",
+       "closes": [
+        "img/2fc495f83142c55a.jpg"
+       ]
+      },
+      {
+       "id": "c47144200fa",
+       "img": "img/fbbe7058f9a7edce.jpg",
+       "closes": [
+        "img/20b052e246d37ddb.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 3,
@@ -2981,7 +3608,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t6a01a37379",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/3ece8befd4614564.jpg",
+       "closes": [
+        "img/db2f213d535893c5.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/fc1a6e56d4b7e3ba.jpg",
+       "closes": [
+        "img/48c891cb3933e3a1.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c6bc569189f",
+       "img": "img/bf84609f18c9a753.jpg",
+       "closes": [
+        "img/65951965c3ae9a1f.jpg"
+       ]
+      },
+      {
+       "id": "c24b35144bc",
+       "img": "img/de52408c1046ba7b.jpg",
+       "closes": [
+        "img/67d94d92820fcfb9.jpg"
+       ]
+      },
+      {
+       "id": "c19ab88ed7b",
+       "img": "img/e843262ee9bcdfce.jpg",
+       "closes": [
+        "img/6bebfc0a3d017512.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t5492fc001f",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/2a6a909b3615525f.jpg",
+       "closes": [
+        "img/59d8151e4698ef0d.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/3d2d5e4c61edffeb.jpg",
+       "closes": [
+        "img/0d50c4f5dd716193.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth open",
+     "instr_zh": "讓這個人微笑，嘴巴張開",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c74089ae7e7",
+       "img": "img/b603f20f57548e5a.jpg",
+       "closes": [
+        "img/5e12458d7c1f90cb.jpg"
+       ]
+      },
+      {
+       "id": "c12e9c07355",
+       "img": "img/f45b36b7d152431e.jpg",
+       "closes": [
+        "img/2c5650277cda576a.jpg"
+       ]
+      },
+      {
+       "id": "c082db7041a",
+       "img": "img/a797e0c6dc4fd7db.jpg",
+       "closes": [
+        "img/5dbad07c02fee357.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t250652fe62",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/8c38a9327e412dbd.jpg",
+       "closes": [
+        "img/70d21324db227cd6.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/0cc933b63e3dbcee.jpg",
+       "closes": [
+        "img/7df2a0566c6e27f9.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown short straight",
+     "instr_zh": "把這個人的頭髮改成深棕色、短（約到下巴以上）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c50dbb933ef",
+       "img": "img/34d1341254244831.jpg",
+       "closes": [
+        "img/7fb953cb1fd59271.jpg"
+       ]
+      },
+      {
+       "id": "c7e56912f01",
+       "img": "img/fbbe7058f9a7edce.jpg",
+       "closes": [
+        "img/20b052e246d37ddb.jpg"
+       ]
+      },
+      {
+       "id": "c60a0b1e2f8",
+       "img": "img/815ff152f914d8a5.jpg",
+       "closes": [
+        "img/2fc495f83142c55a.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t9e38d1e7df",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/19f66c9d396d528c.jpg",
+       "closes": [
+        "img/d2ecea7304faf9ab.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/e3c230f8229bc7b1.jpg",
+       "closes": [
+        "img/a3555e9529af45b7.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light blonde long straight",
+     "instr_zh": "把這個人的頭髮改成淺金色、長（超過肩膀）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c619b4e4c54",
+       "img": "img/971aed3ae1978e88.jpg",
+       "closes": [
+        "img/a2763caff6c9f62f.jpg"
+       ]
+      },
+      {
+       "id": "c278ef24f3d",
+       "img": "img/e73b898c7851ddc0.jpg",
+       "closes": [
+        "img/522e038fed715778.jpg"
+       ]
+      },
+      {
+       "id": "c96e18ba9bc",
+       "img": "img/5e260c4e30aa5a06.jpg",
+       "closes": [
+        "img/7d311212afee277c.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 4,
@@ -3725,7 +4561,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "tbbe4db8d40",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/afdfc398cc751e47.jpg",
+       "closes": [
+        "img/0be422b6536a0e46.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/9535ff7f80dcd179.jpg",
+       "closes": [
+        "img/2f2cddb2b2b99236.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth closed",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴閉著",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "cd421d7e6c8",
+       "img": "img/4589bcc164972da7.jpg",
+       "closes": [
+        "img/0e32e04540504d82.jpg"
+       ]
+      },
+      {
+       "id": "ceb8e87f423",
+       "img": "img/ad8ffc690cbfcb1b.jpg",
+       "closes": [
+        "img/3de3767ac1aafc13.jpg"
+       ]
+      },
+      {
+       "id": "c8fe3ab5892",
+       "img": "img/418e41963930ce74.jpg",
+       "closes": [
+        "img/3c76b4e8e9743f97.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t1fb24efaa1",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/cddc01eb85108e1e.jpg",
+       "closes": [
+        "img/b6a0c4496c3c17f9.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/c9d7cec4c0d6427b.jpg",
+       "closes": [
+        "img/042eacb8669533e1.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cdce657e981",
+       "img": "img/bfacff908d03f69d.jpg",
+       "closes": [
+        "img/e8623f47b3eb1a9c.jpg"
+       ]
+      },
+      {
+       "id": "c7c03f94354",
+       "img": "img/8ee8c5525b6d2f7c.jpg",
+       "closes": [
+        "img/35deeed5e4c10cde.jpg"
+       ]
+      },
+      {
+       "id": "c3791ab4111",
+       "img": "img/9418c107b75d6b0f.jpg",
+       "closes": [
+        "img/2c67833bb7f19ac0.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t1c39793b6c",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/19f66c9d396d528c.jpg",
+       "closes": [
+        "img/d2ecea7304faf9ab.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/e3c230f8229bc7b1.jpg",
+       "closes": [
+        "img/a3555e9529af45b7.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light blonde long straight",
+     "instr_zh": "把這個人的頭髮改成淺金色、長（超過肩膀）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c7369442dd5",
+       "img": "img/971aed3ae1978e88.jpg",
+       "closes": [
+        "img/a2763caff6c9f62f.jpg"
+       ]
+      },
+      {
+       "id": "caa8651896c",
+       "img": "img/e73b898c7851ddc0.jpg",
+       "closes": [
+        "img/522e038fed715778.jpg"
+       ]
+      },
+      {
+       "id": "c5573b5d6e1",
+       "img": "img/5e260c4e30aa5a06.jpg",
+       "closes": [
+        "img/7d311212afee277c.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "ta70aa96d52",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/9ab8bdf0e20ecac8.jpg",
+       "closes": [
+        "img/d20c9a4ae7f2914e.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/4182f542860e2781.jpg",
+       "closes": [
+        "img/4f4fb8302bc089a7.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light brown short wavy",
+     "instr_zh": "把這個人的頭髮改成淺棕色、短（約到下巴以上）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c0941929a5d",
+       "img": "img/085ee97e0529561b.jpg",
+       "closes": [
+        "img/3c1f378599926032.jpg"
+       ]
+      },
+      {
+       "id": "c18df572d49",
+       "img": "img/c28b76f1037e3d64.jpg",
+       "closes": [
+        "img/21be5d80e46f4e52.jpg"
+       ]
+      },
+      {
+       "id": "ca10bb73a6c",
+       "img": "img/e7e8ff27d9620112.jpg",
+       "closes": [
+        "img/dcee07f4eac59dce.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 5,
@@ -4469,7 +5514,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t1b10eca280",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/92969f6a1c141857.jpg",
+       "closes": [
+        "img/0b05bbdafaf8b976.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/c50c7767d720c567.jpg",
+       "closes": [
+        "img/87767508fbe57f9a.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth open",
+     "instr_zh": "讓這個人微笑，嘴巴張開",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cdbb56afb2b",
+       "img": "img/12de1470c203ec52.jpg",
+       "closes": [
+        "img/6fac82c77855f7be.jpg"
+       ]
+      },
+      {
+       "id": "c0f9bae3d00",
+       "img": "img/2dbf30fb6a0e7982.jpg",
+       "closes": [
+        "img/11f5b6ab4a05f0a3.jpg"
+       ]
+      },
+      {
+       "id": "c5575febfe7",
+       "img": "img/11371bb685eca1f5.jpg",
+       "closes": [
+        "img/08a14dc4b578cca6.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t0ca43d6aad",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/9aafad4bae62b4ea.jpg",
+       "closes": [
+        "img/886b4c012ddcb198.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/ed219fba373664fd.jpg",
+       "closes": [
+        "img/63154a5eab50be60.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c99b2bca94b",
+       "img": "img/7bdb961eb1d5e7d2.jpg",
+       "closes": [
+        "img/f3a184dc2ff49539.jpg"
+       ]
+      },
+      {
+       "id": "cbd5e81972f",
+       "img": "img/1cc41d6133389337.jpg",
+       "closes": [
+        "img/5695029f141ba394.jpg"
+       ]
+      },
+      {
+       "id": "c30620597db",
+       "img": "img/d923d2dfef84479b.jpg",
+       "closes": [
+        "img/9166b6f74fc7b3c7.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t5e6bb3fa52",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/9ab8bdf0e20ecac8.jpg",
+       "closes": [
+        "img/d20c9a4ae7f2914e.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/4182f542860e2781.jpg",
+       "closes": [
+        "img/4f4fb8302bc089a7.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light brown short wavy",
+     "instr_zh": "把這個人的頭髮改成淺棕色、短（約到下巴以上）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cef6aefced6",
+       "img": "img/085ee97e0529561b.jpg",
+       "closes": [
+        "img/3c1f378599926032.jpg"
+       ]
+      },
+      {
+       "id": "cc6b45699f4",
+       "img": "img/c28b76f1037e3d64.jpg",
+       "closes": [
+        "img/21be5d80e46f4e52.jpg"
+       ]
+      },
+      {
+       "id": "cae3fe5731c",
+       "img": "img/e7e8ff27d9620112.jpg",
+       "closes": [
+        "img/dcee07f4eac59dce.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tac2e21a7a8",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/9ab7f0b6bd98d516.jpg",
+       "closes": [
+        "img/2a4d2711a28f3daa.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/5c3fa4b2274f1130.jpg",
+       "closes": [
+        "img/034bd58a0aea182f.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person golden blonde short wavy",
+     "instr_zh": "把這個人的頭髮改成金色、短（約到下巴以上）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c905b0665e1",
+       "img": "img/7d2c36b3122de658.jpg",
+       "closes": [
+        "img/3c824dcf733cf545.jpg"
+       ]
+      },
+      {
+       "id": "c2b81a680a9",
+       "img": "img/cf05b2217507c0d4.jpg",
+       "closes": [
+        "img/7bd2605587195341.jpg"
+       ]
+      },
+      {
+       "id": "cebb33cd25d",
+       "img": "img/3928958eb6366190.jpg",
+       "closes": [
+        "img/f66b3c9c02c32f56.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 6,
@@ -5213,7 +6467,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "te88a5d4380",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/5f287ec13bc2a18e.jpg",
+       "closes": [
+        "img/10804531a370ea9e.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/b4c1693399c1b8a9.jpg",
+       "closes": [
+        "img/fba902e1796188ec.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c8355a49535",
+       "img": "img/81c68a5424471c38.jpg",
+       "closes": [
+        "img/063f0a0b3be0bb37.jpg"
+       ]
+      },
+      {
+       "id": "cdfaba93850",
+       "img": "img/45e35acd9fe8053d.jpg",
+       "closes": [
+        "img/5c2e8fbb9d8ea84a.jpg"
+       ]
+      },
+      {
+       "id": "c97c4f20a03",
+       "img": "img/fc9f3c895e58ab9d.jpg",
+       "closes": [
+        "img/a3607fcfc6db050a.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "td5de891b67",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/f7653fb28fee1a41.jpg",
+       "closes": [
+        "img/a972785314c3af5c.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/b1c56c1bd9e7a8b0.jpg",
+       "closes": [
+        "img/ede3d44eea2753f6.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "ccf9b6956e6",
+       "img": "img/04614a6396dc7f0d.jpg",
+       "closes": [
+        "img/e4a7617cfb0a890e.jpg"
+       ]
+      },
+      {
+       "id": "c45e4c68171",
+       "img": "img/55a6ecc47b7ec965.jpg",
+       "closes": [
+        "img/36957130b5c8014d.jpg"
+       ]
+      },
+      {
+       "id": "c595ecea3ef",
+       "img": "img/a593193b25a23310.jpg",
+       "closes": [
+        "img/3ca543c993b54389.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "ta6891024c9",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/9ab7f0b6bd98d516.jpg",
+       "closes": [
+        "img/2a4d2711a28f3daa.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/5c3fa4b2274f1130.jpg",
+       "closes": [
+        "img/034bd58a0aea182f.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person golden blonde short wavy",
+     "instr_zh": "把這個人的頭髮改成金色、短（約到下巴以上）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c57d6d90407",
+       "img": "img/cf05b2217507c0d4.jpg",
+       "closes": [
+        "img/7bd2605587195341.jpg"
+       ]
+      },
+      {
+       "id": "c743978c31b",
+       "img": "img/7d2c36b3122de658.jpg",
+       "closes": [
+        "img/3c824dcf733cf545.jpg"
+       ]
+      },
+      {
+       "id": "c9c3006ac06",
+       "img": "img/3928958eb6366190.jpg",
+       "closes": [
+        "img/f66b3c9c02c32f56.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t1d2a58bc6b",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/5b267a827b22cf30.jpg",
+       "closes": [
+        "img/1280cfa53dc2dee9.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/d1291753b0f703d8.jpg",
+       "closes": [
+        "img/9754e493087c555c.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light brown long straight",
+     "instr_zh": "把這個人的頭髮改成淺棕色、長（超過肩膀）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c8842191cc6",
+       "img": "img/9d5096873d4fd584.jpg",
+       "closes": [
+        "img/47feb0cfe72aaf26.jpg"
+       ]
+      },
+      {
+       "id": "cf78ab8d7f9",
+       "img": "img/d5da18ace358b08b.jpg",
+       "closes": [
+        "img/837c73b607b428b9.jpg"
+       ]
+      },
+      {
+       "id": "c6d3b8848a0",
+       "img": "img/df024d1feccfd67a.jpg",
+       "closes": [
+        "img/04e896d5240e5ab4.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 7,
@@ -5957,7 +7420,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t50d74fb705",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/4cfd5ac1e14f28a6.jpg",
+       "closes": [
+        "img/ab67baa3c4a63f32.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/7ed764fe5c98342c.jpg",
+       "closes": [
+        "img/d911889c07e43855.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c2d84835638",
+       "img": "img/e649f7bb6aad1a1a.jpg",
+       "closes": [
+        "img/1e56c77eba8eb095.jpg"
+       ]
+      },
+      {
+       "id": "c7f06619d07",
+       "img": "img/6b1da9f576914698.jpg",
+       "closes": [
+        "img/3caedf2da7cadbbe.jpg"
+       ]
+      },
+      {
+       "id": "c986c951d37",
+       "img": "img/623c5a098b324ba3.jpg",
+       "closes": [
+        "img/8a282fb664ad7ba1.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tb7c36aa611",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/a13c66ddc902b9ef.jpg",
+       "closes": [
+        "img/b14015bfe9d2ba4e.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/f10b9df9e6dedee4.jpg",
+       "closes": [
+        "img/de5942a7c7bc9aec.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "cd54849ad22",
+       "img": "img/b0d9f698d425774c.jpg",
+       "closes": [
+        "img/f9236f1b1738b9ae.jpg"
+       ]
+      },
+      {
+       "id": "cbec6c32d2c",
+       "img": "img/e22fdb51771eba54.jpg",
+       "closes": [
+        "img/b7a38c7d8fea420f.jpg"
+       ]
+      },
+      {
+       "id": "c1f9dd23d22",
+       "img": "img/73e642c54e5a5d4a.jpg",
+       "closes": [
+        "img/3ff56f473f54e2a8.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t7843d14e8c",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/5b267a827b22cf30.jpg",
+       "closes": [
+        "img/1280cfa53dc2dee9.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/d1291753b0f703d8.jpg",
+       "closes": [
+        "img/9754e493087c555c.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light brown long straight",
+     "instr_zh": "把這個人的頭髮改成淺棕色、長（超過肩膀）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c5b119b1a0e",
+       "img": "img/df024d1feccfd67a.jpg",
+       "closes": [
+        "img/04e896d5240e5ab4.jpg"
+       ]
+      },
+      {
+       "id": "cc028193d6e",
+       "img": "img/9d5096873d4fd584.jpg",
+       "closes": [
+        "img/47feb0cfe72aaf26.jpg"
+       ]
+      },
+      {
+       "id": "cffa3d747eb",
+       "img": "img/d5da18ace358b08b.jpg",
+       "closes": [
+        "img/837c73b607b428b9.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t87540769a5",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/d989e849908b9950.jpg",
+       "closes": [
+        "img/e9c55e9710e746c5.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/151ac39454ad538c.jpg",
+       "closes": [
+        "img/8074e585d6142bc6.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light brown short wavy",
+     "instr_zh": "把這個人的頭髮改成淺棕色、短（約到下巴以上）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c92d8e3a0cd",
+       "img": "img/9743fc186d96b106.jpg",
+       "closes": [
+        "img/743ea0fc9d0f4d79.jpg"
+       ]
+      },
+      {
+       "id": "c35fe92c6fd",
+       "img": "img/b133ab999afbc09c.jpg",
+       "closes": [
+        "img/535e33c2990bae8c.jpg"
+       ]
+      },
+      {
+       "id": "cd1d3f0f833",
+       "img": "img/ee6845e8a9ab5cc3.jpg",
+       "closes": [
+        "img/8bae60e8ef94d0e6.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 8,
@@ -6701,7 +8373,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t9acdf5641b",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/6ab297ab1aaa303c.jpg",
+       "closes": [
+        "img/efa9cca6412aa8c6.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/b351111cbc078daa.jpg",
+       "closes": [
+        "img/d43a6e393ceaa990.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "cc46c302957",
+       "img": "img/c8bf63eb93b491ee.jpg",
+       "closes": [
+        "img/4dbbfce9f1fde865.jpg"
+       ]
+      },
+      {
+       "id": "c47233778ad",
+       "img": "img/71a3a93b8e45a4ea.jpg",
+       "closes": [
+        "img/c53a67ee09975b2f.jpg"
+       ]
+      },
+      {
+       "id": "c3b5458a51c",
+       "img": "img/3d316059f5b367d2.jpg",
+       "closes": [
+        "img/58d011de8ecf42bb.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tba4fe1b158",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/3688ff3cc6089d54.jpg",
+       "closes": [
+        "img/6d5f0b9056670993.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/7a34b13217eaec8f.jpg",
+       "closes": [
+        "img/d6acfe46bbfee5e8.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "cdb42ea47ee",
+       "img": "img/e49205741e53b084.jpg",
+       "closes": [
+        "img/3dc4ec44268c0177.jpg"
+       ]
+      },
+      {
+       "id": "cc5b619cf9f",
+       "img": "img/bafbfaa00917e807.jpg",
+       "closes": [
+        "img/026d6fce1900b65b.jpg"
+       ]
+      },
+      {
+       "id": "c506c41ab35",
+       "img": "img/454a9818ea4062a1.jpg",
+       "closes": [
+        "img/a543c9235d0a08cc.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t62e06f7ca3",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/d989e849908b9950.jpg",
+       "closes": [
+        "img/e9c55e9710e746c5.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/151ac39454ad538c.jpg",
+       "closes": [
+        "img/8074e585d6142bc6.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light brown short wavy",
+     "instr_zh": "把這個人的頭髮改成淺棕色、短（約到下巴以上）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c9a3e37f6a0",
+       "img": "img/b133ab999afbc09c.jpg",
+       "closes": [
+        "img/535e33c2990bae8c.jpg"
+       ]
+      },
+      {
+       "id": "ceaeac69583",
+       "img": "img/9743fc186d96b106.jpg",
+       "closes": [
+        "img/743ea0fc9d0f4d79.jpg"
+       ]
+      },
+      {
+       "id": "cae53ec0af8",
+       "img": "img/ee6845e8a9ab5cc3.jpg",
+       "closes": [
+        "img/8bae60e8ef94d0e6.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t7bda6bcccb",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/706a1fd1670369d2.jpg",
+       "closes": [
+        "img/ec161440712ed7ae.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/ee569443d9ec9804.jpg",
+       "closes": [
+        "img/0c2e0559da8d9db0.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light brown long straight",
+     "instr_zh": "把這個人的頭髮改成淺棕色、長（超過肩膀）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c6bdc776b8a",
+       "img": "img/c8a29ed89b2c2f0f.jpg",
+       "closes": [
+        "img/f5114cb3498da02a.jpg"
+       ]
+      },
+      {
+       "id": "c918b3a7ba6",
+       "img": "img/4405367ad1f20fa3.jpg",
+       "closes": [
+        "img/e35b154d99b4f73f.jpg"
+       ]
+      },
+      {
+       "id": "c172c86f722",
+       "img": "img/f568f69997f50b98.jpg",
+       "closes": [
+        "img/c97a13d85839b150.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 9,
@@ -7445,7 +9326,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t5031102c08",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/6800e1b71bef758b.jpg",
+       "closes": [
+        "img/641e51de6a117310.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/6c78db6015c75c09.jpg",
+       "closes": [
+        "img/324d0f37f652b606.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c509f4bc4b5",
+       "img": "img/b1a5115f56f1de81.jpg",
+       "closes": [
+        "img/7203ffdb4ff49d0f.jpg"
+       ]
+      },
+      {
+       "id": "c3ae3a2f560",
+       "img": "img/9f050e23a3184861.jpg",
+       "closes": [
+        "img/cab069d7784e27ad.jpg"
+       ]
+      },
+      {
+       "id": "c518010edba",
+       "img": "img/70c1238011a2e7a6.jpg",
+       "closes": [
+        "img/7ce7a65ac7b07e7b.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t85bb098368",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/02fa27c14df23fbe.jpg",
+       "closes": [
+        "img/1fdcbacbdc8d970e.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/72b505d5f8fa6826.jpg",
+       "closes": [
+        "img/54c086f494cb6080.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth closed",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴閉著",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "cacaa0cc6dd",
+       "img": "img/ddcab698605f9824.jpg",
+       "closes": [
+        "img/a9838077f2f8f411.jpg"
+       ]
+      },
+      {
+       "id": "c36c1ded0d9",
+       "img": "img/b4a17095bcee1aa9.jpg",
+       "closes": [
+        "img/ea46b5c71f142f42.jpg"
+       ]
+      },
+      {
+       "id": "cd9541abb08",
+       "img": "img/7539edbf053ef5f3.jpg",
+       "closes": [
+        "img/feb935910110d876.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tf4b1e1f979",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/706a1fd1670369d2.jpg",
+       "closes": [
+        "img/ec161440712ed7ae.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/ee569443d9ec9804.jpg",
+       "closes": [
+        "img/0c2e0559da8d9db0.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light brown long straight",
+     "instr_zh": "把這個人的頭髮改成淺棕色、長（超過肩膀）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cb793b23c77",
+       "img": "img/c8a29ed89b2c2f0f.jpg",
+       "closes": [
+        "img/f5114cb3498da02a.jpg"
+       ]
+      },
+      {
+       "id": "c5229493721",
+       "img": "img/f568f69997f50b98.jpg",
+       "closes": [
+        "img/c97a13d85839b150.jpg"
+       ]
+      },
+      {
+       "id": "c8c60f3cd68",
+       "img": "img/4405367ad1f20fa3.jpg",
+       "closes": [
+        "img/e35b154d99b4f73f.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t90c70d9b76",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/71a811fdb1c94c97.jpg",
+       "closes": [
+        "img/930ece8c14138ef0.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/2e91fee77e7cb0d2.jpg",
+       "closes": [
+        "img/216f608873541b71.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light brown short wavy",
+     "instr_zh": "把這個人的頭髮改成淺棕色、短（約到下巴以上）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cdb152b73db",
+       "img": "img/78f3b0f19141b933.jpg",
+       "closes": [
+        "img/8781bc7ab6cae13b.jpg"
+       ]
+      },
+      {
+       "id": "cbe41c2cc26",
+       "img": "img/0adb1de422046a78.jpg",
+       "closes": [
+        "img/b91a9b61d55b0f2d.jpg"
+       ]
+      },
+      {
+       "id": "c9ff9c1080d",
+       "img": "img/6e9cd0d8eba58fa7.jpg",
+       "closes": [
+        "img/0bedb97ded42f33d.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 10,
@@ -8189,7 +10279,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "tf6baa0e6f8",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/27faa5a58d8db457.jpg",
+       "closes": [
+        "img/5c175b7a478c1102.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/4074cc6acf2051cd.jpg",
+       "closes": [
+        "img/c980441bcafd982e.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "cbdf1ce3c16",
+       "img": "img/e84683b8ae28ca92.jpg",
+       "closes": [
+        "img/d4464c4dab623ce8.jpg"
+       ]
+      },
+      {
+       "id": "c57d32717a7",
+       "img": "img/6c9851858979724c.jpg",
+       "closes": [
+        "img/28862fe605913f49.jpg"
+       ]
+      },
+      {
+       "id": "cbbb8c60069",
+       "img": "img/a2818ef7ff6ad30e.jpg",
+       "closes": [
+        "img/3e5c45af1bdfe776.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t06eed347e5",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/52d6bcde78f934bd.jpg",
+       "closes": [
+        "img/6d3b6e9c1cbcb064.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/bc1a7f0a352a240a.jpg",
+       "closes": [
+        "img/fd2fb8c1a2168a47.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth open",
+     "instr_zh": "讓這個人微笑，嘴巴張開",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c27706c074f",
+       "img": "img/e86aeecc895a73bc.jpg",
+       "closes": [
+        "img/b853d10cb8869ef8.jpg"
+       ]
+      },
+      {
+       "id": "c1bc011d48d",
+       "img": "img/82e8852abbd81509.jpg",
+       "closes": [
+        "img/2804867ace5a99f9.jpg"
+       ]
+      },
+      {
+       "id": "c46ce4f4996",
+       "img": "img/ee5adbc572840eb0.jpg",
+       "closes": [
+        "img/e16b870cff4194de.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t57c1524b87",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/71a811fdb1c94c97.jpg",
+       "closes": [
+        "img/930ece8c14138ef0.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/2e91fee77e7cb0d2.jpg",
+       "closes": [
+        "img/216f608873541b71.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light brown short wavy",
+     "instr_zh": "把這個人的頭髮改成淺棕色、短（約到下巴以上）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c55671281b8",
+       "img": "img/6e9cd0d8eba58fa7.jpg",
+       "closes": [
+        "img/0bedb97ded42f33d.jpg"
+       ]
+      },
+      {
+       "id": "c9e290a3bd4",
+       "img": "img/78f3b0f19141b933.jpg",
+       "closes": [
+        "img/8781bc7ab6cae13b.jpg"
+       ]
+      },
+      {
+       "id": "c69601d239a",
+       "img": "img/0adb1de422046a78.jpg",
+       "closes": [
+        "img/b91a9b61d55b0f2d.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tdfb11ec19f",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/60375f732065040d.jpg",
+       "closes": [
+        "img/d37059128af1bff1.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/ba5700d640c37eeb.jpg",
+       "closes": [
+        "img/efee77650a38ccec.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person jet black short curly",
+     "instr_zh": "把這個人的頭髮改成黑色、短（約到下巴以上）、捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c6b1b0b299d",
+       "img": "img/ccb0aeeba5cd8bd4.jpg",
+       "closes": [
+        "img/f7116062e5b4357e.jpg"
+       ]
+      },
+      {
+       "id": "c148372dc81",
+       "img": "img/96396de1a1507bea.jpg",
+       "closes": [
+        "img/c1a4b44a207ae08e.jpg"
+       ]
+      },
+      {
+       "id": "cc391f0037a",
+       "img": "img/95cfae4951af43e7.jpg",
+       "closes": [
+        "img/15265bede4e16e77.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 11,
@@ -8933,7 +11232,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t197c6fc0d6",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/7c3ae9987b5fc554.jpg",
+       "closes": [
+        "img/409d5512ccca9b8e.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/1e5d48c2fec593f7.jpg",
+       "closes": [
+        "img/292130c58b3da644.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cee12d9da7f",
+       "img": "img/28071db7bcd5884a.jpg",
+       "closes": [
+        "img/789187e1388ecd0b.jpg"
+       ]
+      },
+      {
+       "id": "c89ca387987",
+       "img": "img/503203016a9c9a3c.jpg",
+       "closes": [
+        "img/f1f1d5ef4f0f161f.jpg"
+       ]
+      },
+      {
+       "id": "c0307b1df44",
+       "img": "img/f1a0bd5d28a495c4.jpg",
+       "closes": [
+        "img/faf019c0b39a77a4.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tf7859849e0",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/0b10d8eb2b2b9f5b.jpg",
+       "closes": [
+        "img/0e84fe296aca9d7b.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/bcc21e8adebb594f.jpg",
+       "closes": [
+        "img/83bd0811df9aab36.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth closed",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴閉著",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "cdef1d725eb",
+       "img": "img/5489ce5a147b2388.jpg",
+       "closes": [
+        "img/b5cef33cdeed48a7.jpg"
+       ]
+      },
+      {
+       "id": "c9c30e9f0f2",
+       "img": "img/fa1da707ec2621d8.jpg",
+       "closes": [
+        "img/983df603465783d8.jpg"
+       ]
+      },
+      {
+       "id": "c69d8777eeb",
+       "img": "img/05485e99f7579b0e.jpg",
+       "closes": [
+        "img/365a27a66e3b8c70.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t434e6328d9",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/60375f732065040d.jpg",
+       "closes": [
+        "img/d37059128af1bff1.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/ba5700d640c37eeb.jpg",
+       "closes": [
+        "img/efee77650a38ccec.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person jet black short curly",
+     "instr_zh": "把這個人的頭髮改成黑色、短（約到下巴以上）、捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cfb0a2118af",
+       "img": "img/ccb0aeeba5cd8bd4.jpg",
+       "closes": [
+        "img/f7116062e5b4357e.jpg"
+       ]
+      },
+      {
+       "id": "c4657142bb1",
+       "img": "img/96396de1a1507bea.jpg",
+       "closes": [
+        "img/c1a4b44a207ae08e.jpg"
+       ]
+      },
+      {
+       "id": "c0212ceb77e",
+       "img": "img/95cfae4951af43e7.jpg",
+       "closes": [
+        "img/15265bede4e16e77.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t318a90d69d",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/4d902314426bf4c4.jpg",
+       "closes": [
+        "img/7a7751d647a7ed19.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/bed980ac2ff9106a.jpg",
+       "closes": [
+        "img/33c3d6b1752590df.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light brown short straight",
+     "instr_zh": "把這個人的頭髮改成淺棕色、短（約到下巴以上）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cf942e585ff",
+       "img": "img/96d3132c384855ca.jpg",
+       "closes": [
+        "img/70180b16fa39e0db.jpg"
+       ]
+      },
+      {
+       "id": "c5561c94540",
+       "img": "img/2f73f111227859e9.jpg",
+       "closes": [
+        "img/27cbf66e041aa950.jpg"
+       ]
+      },
+      {
+       "id": "c1ddbb6e4e6",
+       "img": "img/b8c97878bb0d8d68.jpg",
+       "closes": [
+        "img/a3fb226fdeb6897c.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 12,
@@ -9677,7 +12185,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t4c47fb800c",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/23bfc27b89ec5033.jpg",
+       "closes": [
+        "img/42f378e99663e56e.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/8bb7bf2a03e91858.jpg",
+       "closes": [
+        "img/d810e1f5c5979a61.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth open",
+     "instr_zh": "讓這個人微笑，嘴巴張開",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c81e76cc389",
+       "img": "img/a3645e57f91cb46b.jpg",
+       "closes": [
+        "img/0fff07059be882fe.jpg"
+       ]
+      },
+      {
+       "id": "c0270ff0cb8",
+       "img": "img/32b8d2b931769e3f.jpg",
+       "closes": [
+        "img/e1f091ed89548ab1.jpg"
+       ]
+      },
+      {
+       "id": "c30aef0acf9",
+       "img": "img/d0b0e75d015d83c4.jpg",
+       "closes": [
+        "img/616e7d85e6f190fa.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "ta782ebc5e3",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/ecbc76fca9036402.jpg",
+       "closes": [
+        "img/79c4f69a263ce6f9.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/2f66528a23ef307a.jpg",
+       "closes": [
+        "img/fc4698ce04abf898.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c8659303b70",
+       "img": "img/29fc935bc9aa7e4a.jpg",
+       "closes": [
+        "img/a45bb358f0b1e4ab.jpg"
+       ]
+      },
+      {
+       "id": "c6a2961e786",
+       "img": "img/b978b884fcea65e3.jpg",
+       "closes": [
+        "img/5d0fa7bd59db0719.jpg"
+       ]
+      },
+      {
+       "id": "cc5e6c5a2af",
+       "img": "img/4a81d6a0902d8aa9.jpg",
+       "closes": [
+        "img/4f866e3c0088d96b.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t9db822dd05",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/4d902314426bf4c4.jpg",
+       "closes": [
+        "img/7a7751d647a7ed19.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/bed980ac2ff9106a.jpg",
+       "closes": [
+        "img/33c3d6b1752590df.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light brown short straight",
+     "instr_zh": "把這個人的頭髮改成淺棕色、短（約到下巴以上）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c1b59d8e951",
+       "img": "img/96d3132c384855ca.jpg",
+       "closes": [
+        "img/70180b16fa39e0db.jpg"
+       ]
+      },
+      {
+       "id": "c9ceba4807a",
+       "img": "img/2f73f111227859e9.jpg",
+       "closes": [
+        "img/27cbf66e041aa950.jpg"
+       ]
+      },
+      {
+       "id": "c5abd860dc7",
+       "img": "img/b8c97878bb0d8d68.jpg",
+       "closes": [
+        "img/a3fb226fdeb6897c.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "ta8d4bd25a8",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/24a1db13f115b101.jpg",
+       "closes": [
+        "img/2e43e4641ef41ff5.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/82610dcf71c5545e.jpg",
+       "closes": [
+        "img/0182510a28b7991f.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown short wavy",
+     "instr_zh": "把這個人的頭髮改成深棕色、短（約到下巴以上）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cec292bd7c5",
+       "img": "img/9cb998c4b14c12ee.jpg",
+       "closes": [
+        "img/6a50e56186ad4092.jpg"
+       ]
+      },
+      {
+       "id": "c34d362cfe2",
+       "img": "img/5724eb8ac55731dd.jpg",
+       "closes": [
+        "img/eaf6cd5a693a6253.jpg"
+       ]
+      },
+      {
+       "id": "ca9195700dd",
+       "img": "img/9a6f032bf9dcdda3.jpg",
+       "closes": [
+        "img/320650cfeb2b4f5f.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 13,
@@ -10421,7 +13138,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t3678346386",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/76de8ae02a10116f.jpg",
+       "closes": [
+        "img/fa9332b8c9022380.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/188ca20837cadec3.jpg",
+       "closes": [
+        "img/a6a3b9a4e7455b53.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c1d09b06f18",
+       "img": "img/f4d1fc025d398f24.jpg",
+       "closes": [
+        "img/936d2fefaa548aba.jpg"
+       ]
+      },
+      {
+       "id": "c8f238b7cdf",
+       "img": "img/4f4ccab0f51376b4.jpg",
+       "closes": [
+        "img/15fa74e36d5bfdf9.jpg"
+       ]
+      },
+      {
+       "id": "c73ad437a67",
+       "img": "img/3e3a3a126769e2d1.jpg",
+       "closes": [
+        "img/71b24b8f0a888c46.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "ta40e55ab45",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/740f354e7eabdadb.jpg",
+       "closes": [
+        "img/8f090db7c2610dc4.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/2555895926931c53.jpg",
+       "closes": [
+        "img/e39be36ed0b945ad.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c12fae14951",
+       "img": "img/6d3e27e27a0cd360.jpg",
+       "closes": [
+        "img/141f4c35d5947013.jpg"
+       ]
+      },
+      {
+       "id": "cfeb3d7ec3c",
+       "img": "img/e87f30e38d7e0b59.jpg",
+       "closes": [
+        "img/5d5c7581dbe73ffb.jpg"
+       ]
+      },
+      {
+       "id": "c2b6ddc905a",
+       "img": "img/92f0e08c1a1017bf.jpg",
+       "closes": [
+        "img/8c0f6b96efc4c2b0.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t5642da8536",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/24a1db13f115b101.jpg",
+       "closes": [
+        "img/2e43e4641ef41ff5.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/82610dcf71c5545e.jpg",
+       "closes": [
+        "img/0182510a28b7991f.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown short wavy",
+     "instr_zh": "把這個人的頭髮改成深棕色、短（約到下巴以上）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cd70cc5e064",
+       "img": "img/9a6f032bf9dcdda3.jpg",
+       "closes": [
+        "img/320650cfeb2b4f5f.jpg"
+       ]
+      },
+      {
+       "id": "c6b39217422",
+       "img": "img/5724eb8ac55731dd.jpg",
+       "closes": [
+        "img/eaf6cd5a693a6253.jpg"
+       ]
+      },
+      {
+       "id": "c6faef54117",
+       "img": "img/9cb998c4b14c12ee.jpg",
+       "closes": [
+        "img/6a50e56186ad4092.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tb3e9fdcafa",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/b97be978e166f242.jpg",
+       "closes": [
+        "img/8b39cc1037680621.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/8ae1c517db8428d5.jpg",
+       "closes": [
+        "img/2febbafa44d07312.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown medium wavy",
+     "instr_zh": "把這個人的頭髮改成深棕色、中長（約到肩膀）、波浪捲髮",
+     "instr_note_en": "(medium = about shoulder length)",
+     "cands": [
+      {
+       "id": "c684e327bc2",
+       "img": "img/6da2912511d78690.jpg",
+       "closes": [
+        "img/cbe7d0f365e89a33.jpg"
+       ]
+      },
+      {
+       "id": "cfee8a1e25a",
+       "img": "img/9eb63fa503f0d381.jpg",
+       "closes": [
+        "img/7550dda65026b374.jpg"
+       ]
+      },
+      {
+       "id": "cc4dd55459f",
+       "img": "img/de6ef2761eb123e1.jpg",
+       "closes": [
+        "img/5c4c03ca7f6d0634.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 14,
@@ -11165,7 +14091,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "ta42deaa592",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/d622c88039d989c6.jpg",
+       "closes": [
+        "img/e8cd7afa4634d767.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/bef2be876f0619af.jpg",
+       "closes": [
+        "img/f19efbbf6affd894.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c164e9b7768",
+       "img": "img/5f8799cd70485e1b.jpg",
+       "closes": [
+        "img/0ec4dc8ba658cac7.jpg"
+       ]
+      },
+      {
+       "id": "c928b1ee983",
+       "img": "img/546c847bb0bf9fed.jpg",
+       "closes": [
+        "img/0aacec892f377b3c.jpg"
+       ]
+      },
+      {
+       "id": "c95ecca0d2e",
+       "img": "img/e97e361f53af5a82.jpg",
+       "closes": [
+        "img/0833fc5cd4634d66.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t7867581c7d",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/5f43c569569a1639.jpg",
+       "closes": [
+        "img/278f9b4cf5870b21.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/0e82d70984842232.jpg",
+       "closes": [
+        "img/81e89f74f6071af9.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c28938f3b58",
+       "img": "img/a3614b2c5c11d815.jpg",
+       "closes": [
+        "img/9ff41d584bb03487.jpg"
+       ]
+      },
+      {
+       "id": "cf008d2d4d9",
+       "img": "img/70ffb1718720e9a4.jpg",
+       "closes": [
+        "img/d4264a07a37f05fa.jpg"
+       ]
+      },
+      {
+       "id": "c882d14e5b5",
+       "img": "img/1aea7efea4367aba.jpg",
+       "closes": [
+        "img/241f626654b03bfa.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t054b24208e",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/b97be978e166f242.jpg",
+       "closes": [
+        "img/8b39cc1037680621.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/8ae1c517db8428d5.jpg",
+       "closes": [
+        "img/2febbafa44d07312.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown medium wavy",
+     "instr_zh": "把這個人的頭髮改成深棕色、中長（約到肩膀）、波浪捲髮",
+     "instr_note_en": "(medium = about shoulder length)",
+     "cands": [
+      {
+       "id": "c2b8bfaf808",
+       "img": "img/9eb63fa503f0d381.jpg",
+       "closes": [
+        "img/7550dda65026b374.jpg"
+       ]
+      },
+      {
+       "id": "ce9b793e33b",
+       "img": "img/6da2912511d78690.jpg",
+       "closes": [
+        "img/cbe7d0f365e89a33.jpg"
+       ]
+      },
+      {
+       "id": "cade8c370ec",
+       "img": "img/de6ef2761eb123e1.jpg",
+       "closes": [
+        "img/5c4c03ca7f6d0634.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t04c6159433",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/116f1bed8a34be5a.jpg",
+       "closes": [
+        "img/d6726573be7fdac6.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/3e031808f60ab2e7.jpg",
+       "closes": [
+        "img/5672f96b0eea1262.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person jet black long wavy",
+     "instr_zh": "把這個人的頭髮改成黑色、長（超過肩膀）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c2ed34595fa",
+       "img": "img/af5a64225b6411bc.jpg",
+       "closes": [
+        "img/5c265e2beb945cf3.jpg"
+       ]
+      },
+      {
+       "id": "cf0fe8ab438",
+       "img": "img/f223d46f839c5b8c.jpg",
+       "closes": [
+        "img/9946777c85a4a41a.jpg"
+       ]
+      },
+      {
+       "id": "cb590f15ffa",
+       "img": "img/9bd33fa2edd307a6.jpg",
+       "closes": [
+        "img/17fb37f826bb6408.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 15,
@@ -11909,7 +15044,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t1408625352",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/ed1999e1234d6c1b.jpg",
+       "closes": [
+        "img/96d91b486f4ae1ea.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/f76a7422d0f483c8.jpg",
+       "closes": [
+        "img/ddf5aa6bfd9b222a.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cf6638176c9",
+       "img": "img/f0883d4e46c0a456.jpg",
+       "closes": [
+        "img/59db1b4031d3524d.jpg"
+       ]
+      },
+      {
+       "id": "ce3898e72a7",
+       "img": "img/e0984c14be051096.jpg",
+       "closes": [
+        "img/c415c5973781c521.jpg"
+       ]
+      },
+      {
+       "id": "c185c6fff73",
+       "img": "img/d3894ee2254fe70e.jpg",
+       "closes": [
+        "img/d67a7e015bfc3fa4.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t246fdf5b5f",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/2ccd841201d76e1f.jpg",
+       "closes": [
+        "img/5c69d7b02ffbb929.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/53bb70c21852d572.jpg",
+       "closes": [
+        "img/b9563fc8ad21bbc3.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "ce8a4c8a8c2",
+       "img": "img/4690d98a793d256e.jpg",
+       "closes": [
+        "img/f4207580acc5e635.jpg"
+       ]
+      },
+      {
+       "id": "c7e504ffe99",
+       "img": "img/61e2a8d7664361f9.jpg",
+       "closes": [
+        "img/7636f21c6bdb4840.jpg"
+       ]
+      },
+      {
+       "id": "cf8c9c32297",
+       "img": "img/22406cab2316b682.jpg",
+       "closes": [
+        "img/70f38054d0b6b133.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t12a1aa7d2a",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/116f1bed8a34be5a.jpg",
+       "closes": [
+        "img/d6726573be7fdac6.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/3e031808f60ab2e7.jpg",
+       "closes": [
+        "img/5672f96b0eea1262.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person jet black long wavy",
+     "instr_zh": "把這個人的頭髮改成黑色、長（超過肩膀）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cb11a01eb25",
+       "img": "img/9bd33fa2edd307a6.jpg",
+       "closes": [
+        "img/17fb37f826bb6408.jpg"
+       ]
+      },
+      {
+       "id": "ce2b16790c6",
+       "img": "img/af5a64225b6411bc.jpg",
+       "closes": [
+        "img/5c265e2beb945cf3.jpg"
+       ]
+      },
+      {
+       "id": "c1b706da2d8",
+       "img": "img/f223d46f839c5b8c.jpg",
+       "closes": [
+        "img/9946777c85a4a41a.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t6446c44e84",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/556fe40573123f4f.jpg",
+       "closes": [
+        "img/7193e76ca3d83d51.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/b981eece100bc384.jpg",
+       "closes": [
+        "img/e3cccedd37069e8c.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light brown long wavy",
+     "instr_zh": "把這個人的頭髮改成淺棕色、長（超過肩膀）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c8373b1a620",
+       "img": "img/5ba945f82d9a1072.jpg",
+       "closes": [
+        "img/4e7c7ce2b0985c66.jpg"
+       ]
+      },
+      {
+       "id": "c124697fa81",
+       "img": "img/e9922833b09f3ef9.jpg",
+       "closes": [
+        "img/667c13e3d3999620.jpg"
+       ]
+      },
+      {
+       "id": "c95e4b5649a",
+       "img": "img/6739a9c82a69230c.jpg",
+       "closes": [
+        "img/400c2414539e1b74.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 16,
@@ -12653,7 +15997,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "te40bc91f18",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/4bf003939adaaf2f.jpg",
+       "closes": [
+        "img/ba541a78eba6f25a.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/0fe9f93e46bb2a79.jpg",
+       "closes": [
+        "img/1bb97eee8f81e105.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth closed",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴閉著",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c6ef8d13edd",
+       "img": "img/ce147fba2033dfae.jpg",
+       "closes": [
+        "img/c68c80da5458ed0f.jpg"
+       ]
+      },
+      {
+       "id": "c1932e1af88",
+       "img": "img/55a3128a262226a6.jpg",
+       "closes": [
+        "img/6bf9330b25af10d2.jpg"
+       ]
+      },
+      {
+       "id": "c26e33009cd",
+       "img": "img/c6f14ffdf0db40e7.jpg",
+       "closes": [
+        "img/9344dbd66aa9e061.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "ta7e97e1902",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/c575973ab3824b68.jpg",
+       "closes": [
+        "img/483e407d3e4f695c.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/d1cd38fc7202b6c9.jpg",
+       "closes": [
+        "img/f8d2a253d4dab31a.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c62df4b81e5",
+       "img": "img/16ecb747b6698cd2.jpg",
+       "closes": [
+        "img/9c86958f5ea901e5.jpg"
+       ]
+      },
+      {
+       "id": "cfac70e251f",
+       "img": "img/73ea60eff418e07e.jpg",
+       "closes": [
+        "img/6a6200ad9ade67cc.jpg"
+       ]
+      },
+      {
+       "id": "c7290c82324",
+       "img": "img/02368c5694d0ae70.jpg",
+       "closes": [
+        "img/585cd23802374963.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "td6850c81d7",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/556fe40573123f4f.jpg",
+       "closes": [
+        "img/7193e76ca3d83d51.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/b981eece100bc384.jpg",
+       "closes": [
+        "img/e3cccedd37069e8c.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light brown long wavy",
+     "instr_zh": "把這個人的頭髮改成淺棕色、長（超過肩膀）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c19737bd8a7",
+       "img": "img/6739a9c82a69230c.jpg",
+       "closes": [
+        "img/400c2414539e1b74.jpg"
+       ]
+      },
+      {
+       "id": "c22776ab53f",
+       "img": "img/e9922833b09f3ef9.jpg",
+       "closes": [
+        "img/667c13e3d3999620.jpg"
+       ]
+      },
+      {
+       "id": "c929201b665",
+       "img": "img/5ba945f82d9a1072.jpg",
+       "closes": [
+        "img/4e7c7ce2b0985c66.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tdf413d0d0b",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/a9302909f3057d4b.jpg",
+       "closes": [
+        "img/dad5eb5c27723781.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/d05c554e5f34bc68.jpg",
+       "closes": [
+        "img/6aefef0b01243010.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown long wavy",
+     "instr_zh": "把這個人的頭髮改成深棕色、長（超過肩膀）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c6db63d344d",
+       "img": "img/af0e82745dee0fd1.jpg",
+       "closes": [
+        "img/dd658b39a15b3b2e.jpg"
+       ]
+      },
+      {
+       "id": "c8e260f5ee1",
+       "img": "img/0c4417705658e920.jpg",
+       "closes": [
+        "img/88500e092ba0b794.jpg"
+       ]
+      },
+      {
+       "id": "cc42ebba505",
+       "img": "img/4d6674cc404cb23c.jpg",
+       "closes": [
+        "img/7b0f32e3a407d6b4.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 17,
@@ -13397,7 +16950,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "tb5be58ad96",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/13229f6a5b512d42.jpg",
+       "closes": [
+        "img/c49ee5aeaeddaa9f.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/02aba5d335de2f5e.jpg",
+       "closes": [
+        "img/ad9af3260767e06e.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c5db1244f72",
+       "img": "img/b0c94fd437a0f4be.jpg",
+       "closes": [
+        "img/b4244e536c3af1d3.jpg"
+       ]
+      },
+      {
+       "id": "c447aad132f",
+       "img": "img/440a11a991ff62f6.jpg",
+       "closes": [
+        "img/f0635154a6e3d162.jpg"
+       ]
+      },
+      {
+       "id": "c6d9c3e3aa0",
+       "img": "img/c78ca4df55e1d0a0.jpg",
+       "closes": [
+        "img/721efef3c934e957.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t49235b18fa",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/3ece8befd4614564.jpg",
+       "closes": [
+        "img/db2f213d535893c5.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/fc1a6e56d4b7e3ba.jpg",
+       "closes": [
+        "img/48c891cb3933e3a1.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cbcc38f416e",
+       "img": "img/e843262ee9bcdfce.jpg",
+       "closes": [
+        "img/6bebfc0a3d017512.jpg"
+       ]
+      },
+      {
+       "id": "cd55155882a",
+       "img": "img/de52408c1046ba7b.jpg",
+       "closes": [
+        "img/67d94d92820fcfb9.jpg"
+       ]
+      },
+      {
+       "id": "c7b676e5397",
+       "img": "img/bf84609f18c9a753.jpg",
+       "closes": [
+        "img/65951965c3ae9a1f.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tef3abdcea4",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/a9302909f3057d4b.jpg",
+       "closes": [
+        "img/dad5eb5c27723781.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/d05c554e5f34bc68.jpg",
+       "closes": [
+        "img/6aefef0b01243010.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown long wavy",
+     "instr_zh": "把這個人的頭髮改成深棕色、長（超過肩膀）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "ca541d73452",
+       "img": "img/af0e82745dee0fd1.jpg",
+       "closes": [
+        "img/dd658b39a15b3b2e.jpg"
+       ]
+      },
+      {
+       "id": "ca6482a648e",
+       "img": "img/0c4417705658e920.jpg",
+       "closes": [
+        "img/88500e092ba0b794.jpg"
+       ]
+      },
+      {
+       "id": "ca67c23fa13",
+       "img": "img/4d6674cc404cb23c.jpg",
+       "closes": [
+        "img/7b0f32e3a407d6b4.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t978a43ecdf",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/c769e89378ec932a.jpg",
+       "closes": [
+        "img/702e3ef002f0a3c1.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/acd14d87725c8d16.jpg",
+       "closes": [
+        "img/1f41eaa18a78cebe.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown long wavy",
+     "instr_zh": "把這個人的頭髮改成深棕色、長（超過肩膀）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c1f3de37ce3",
+       "img": "img/d5a36fbad7b00a12.jpg",
+       "closes": [
+        "img/c0c37d50213e6660.jpg"
+       ]
+      },
+      {
+       "id": "c141a2bbf4e",
+       "img": "img/9e7a1573bcc466dd.jpg",
+       "closes": [
+        "img/a5a79745454ca7c5.jpg"
+       ]
+      },
+      {
+       "id": "ca53941d92f",
+       "img": "img/0ec423b474e41ed6.jpg",
+       "closes": [
+        "img/9d67b259baedb19e.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 18,
@@ -14141,7 +17903,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "td1c9a42d2f",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/d92dbd59d58a607a.jpg",
+       "closes": [
+        "img/dc03b67605c1fff0.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/3484f75423f37459.jpg",
+       "closes": [
+        "img/c6016ff079c29700.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c61cc39e798",
+       "img": "img/0727fcdc568320f2.jpg",
+       "closes": [
+        "img/354a92b01942adcd.jpg"
+       ]
+      },
+      {
+       "id": "ce24cbefe80",
+       "img": "img/a47476707f670eb9.jpg",
+       "closes": [
+        "img/656ce9b7f7d6fda0.jpg"
+       ]
+      },
+      {
+       "id": "c58e67c1022",
+       "img": "img/e7044eb45ac7326d.jpg",
+       "closes": [
+        "img/43881361596343b1.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t441efc990e",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/afdfc398cc751e47.jpg",
+       "closes": [
+        "img/0be422b6536a0e46.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/9535ff7f80dcd179.jpg",
+       "closes": [
+        "img/2f2cddb2b2b99236.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth closed",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴閉著",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c64afa0c10d",
+       "img": "img/4589bcc164972da7.jpg",
+       "closes": [
+        "img/0e32e04540504d82.jpg"
+       ]
+      },
+      {
+       "id": "c519897932f",
+       "img": "img/ad8ffc690cbfcb1b.jpg",
+       "closes": [
+        "img/3de3767ac1aafc13.jpg"
+       ]
+      },
+      {
+       "id": "c8040174de8",
+       "img": "img/418e41963930ce74.jpg",
+       "closes": [
+        "img/3c76b4e8e9743f97.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t6f8b4d27b2",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/c769e89378ec932a.jpg",
+       "closes": [
+        "img/702e3ef002f0a3c1.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/acd14d87725c8d16.jpg",
+       "closes": [
+        "img/1f41eaa18a78cebe.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown long wavy",
+     "instr_zh": "把這個人的頭髮改成深棕色、長（超過肩膀）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c1f856fae05",
+       "img": "img/d5a36fbad7b00a12.jpg",
+       "closes": [
+        "img/c0c37d50213e6660.jpg"
+       ]
+      },
+      {
+       "id": "cf44c41aad8",
+       "img": "img/0ec423b474e41ed6.jpg",
+       "closes": [
+        "img/9d67b259baedb19e.jpg"
+       ]
+      },
+      {
+       "id": "c32776119fe",
+       "img": "img/9e7a1573bcc466dd.jpg",
+       "closes": [
+        "img/a5a79745454ca7c5.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tcc1aa9f46e",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/33cb66cf116aa117.jpg",
+       "closes": [
+        "img/06279fb551d348c7.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/2a684519b96586dc.jpg",
+       "closes": [
+        "img/55e8a7b4812f146f.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown long wavy",
+     "instr_zh": "把這個人的頭髮改成深棕色、長（超過肩膀）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c3461545701",
+       "img": "img/b24035a4830bd262.jpg",
+       "closes": [
+        "img/f6008744c7d308eb.jpg"
+       ]
+      },
+      {
+       "id": "cb345eb660d",
+       "img": "img/d5070e93270462cb.jpg",
+       "closes": [
+        "img/6bc0592efbb33f23.jpg"
+       ]
+      },
+      {
+       "id": "c1d4cf73adb",
+       "img": "img/d579fe5fad9fef44.jpg",
+       "closes": [
+        "img/d4b1ca25bc188a72.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 19,
@@ -14885,7 +18856,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t57930a5fb1",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/2a6a909b3615525f.jpg",
+       "closes": [
+        "img/59d8151e4698ef0d.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/3d2d5e4c61edffeb.jpg",
+       "closes": [
+        "img/0d50c4f5dd716193.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth open",
+     "instr_zh": "讓這個人微笑，嘴巴張開",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c16903c6f98",
+       "img": "img/a797e0c6dc4fd7db.jpg",
+       "closes": [
+        "img/5dbad07c02fee357.jpg"
+       ]
+      },
+      {
+       "id": "c5c107a1499",
+       "img": "img/b603f20f57548e5a.jpg",
+       "closes": [
+        "img/5e12458d7c1f90cb.jpg"
+       ]
+      },
+      {
+       "id": "cd5bed5ea60",
+       "img": "img/f45b36b7d152431e.jpg",
+       "closes": [
+        "img/2c5650277cda576a.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t68297869ab",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/92969f6a1c141857.jpg",
+       "closes": [
+        "img/0b05bbdafaf8b976.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/c50c7767d720c567.jpg",
+       "closes": [
+        "img/87767508fbe57f9a.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth open",
+     "instr_zh": "讓這個人微笑，嘴巴張開",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c1928d4f128",
+       "img": "img/11371bb685eca1f5.jpg",
+       "closes": [
+        "img/08a14dc4b578cca6.jpg"
+       ]
+      },
+      {
+       "id": "c34f6db51eb",
+       "img": "img/12de1470c203ec52.jpg",
+       "closes": [
+        "img/6fac82c77855f7be.jpg"
+       ]
+      },
+      {
+       "id": "cd3a5a68e5b",
+       "img": "img/2dbf30fb6a0e7982.jpg",
+       "closes": [
+        "img/11f5b6ab4a05f0a3.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tfef15b9b44",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/33cb66cf116aa117.jpg",
+       "closes": [
+        "img/06279fb551d348c7.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/2a684519b96586dc.jpg",
+       "closes": [
+        "img/55e8a7b4812f146f.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown long wavy",
+     "instr_zh": "把這個人的頭髮改成深棕色、長（超過肩膀）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cd368b15cab",
+       "img": "img/d579fe5fad9fef44.jpg",
+       "closes": [
+        "img/d4b1ca25bc188a72.jpg"
+       ]
+      },
+      {
+       "id": "ca44274bae3",
+       "img": "img/d5070e93270462cb.jpg",
+       "closes": [
+        "img/6bc0592efbb33f23.jpg"
+       ]
+      },
+      {
+       "id": "cf6625d49a0",
+       "img": "img/b24035a4830bd262.jpg",
+       "closes": [
+        "img/f6008744c7d308eb.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t63d57834cb",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/5b6037148e0ff321.jpg",
+       "closes": [
+        "img/e4ad1884fdb617f0.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/6e890f43f972ee67.jpg",
+       "closes": [
+        "img/4d67659f4ed06527.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person jet black long wavy",
+     "instr_zh": "把這個人的頭髮改成黑色、長（超過肩膀）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "ce431f75b28",
+       "img": "img/19569b65099993a6.jpg",
+       "closes": [
+        "img/fe1ce1993882f4b8.jpg"
+       ]
+      },
+      {
+       "id": "c43903fbacc",
+       "img": "img/2d5a180650b5af59.jpg",
+       "closes": [
+        "img/393ce173fb448992.jpg"
+       ]
+      },
+      {
+       "id": "c760a11bac4",
+       "img": "img/feec0dcc1c2573c6.jpg",
+       "closes": [
+        "img/3b8bac98b803d3ae.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 20,
@@ -15629,7 +19809,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t385f921f09",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/cddc01eb85108e1e.jpg",
+       "closes": [
+        "img/b6a0c4496c3c17f9.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/c9d7cec4c0d6427b.jpg",
+       "closes": [
+        "img/042eacb8669533e1.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c03ab752583",
+       "img": "img/bfacff908d03f69d.jpg",
+       "closes": [
+        "img/e8623f47b3eb1a9c.jpg"
+       ]
+      },
+      {
+       "id": "c0d93eee4d7",
+       "img": "img/9418c107b75d6b0f.jpg",
+       "closes": [
+        "img/2c67833bb7f19ac0.jpg"
+       ]
+      },
+      {
+       "id": "cf8a6580b56",
+       "img": "img/8ee8c5525b6d2f7c.jpg",
+       "closes": [
+        "img/35deeed5e4c10cde.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t0dc6acdbea",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/5f287ec13bc2a18e.jpg",
+       "closes": [
+        "img/10804531a370ea9e.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/b4c1693399c1b8a9.jpg",
+       "closes": [
+        "img/fba902e1796188ec.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c138f7f36fe",
+       "img": "img/45e35acd9fe8053d.jpg",
+       "closes": [
+        "img/5c2e8fbb9d8ea84a.jpg"
+       ]
+      },
+      {
+       "id": "c2a63936193",
+       "img": "img/81c68a5424471c38.jpg",
+       "closes": [
+        "img/063f0a0b3be0bb37.jpg"
+       ]
+      },
+      {
+       "id": "c5a7426b881",
+       "img": "img/fc9f3c895e58ab9d.jpg",
+       "closes": [
+        "img/a3607fcfc6db050a.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t12edf77dfa",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/5b6037148e0ff321.jpg",
+       "closes": [
+        "img/e4ad1884fdb617f0.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/6e890f43f972ee67.jpg",
+       "closes": [
+        "img/4d67659f4ed06527.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person jet black long wavy",
+     "instr_zh": "把這個人的頭髮改成黑色、長（超過肩膀）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c9e9ac662b3",
+       "img": "img/2d5a180650b5af59.jpg",
+       "closes": [
+        "img/393ce173fb448992.jpg"
+       ]
+      },
+      {
+       "id": "cbae61cb034",
+       "img": "img/19569b65099993a6.jpg",
+       "closes": [
+        "img/fe1ce1993882f4b8.jpg"
+       ]
+      },
+      {
+       "id": "c4d4e09569e",
+       "img": "img/feec0dcc1c2573c6.jpg",
+       "closes": [
+        "img/3b8bac98b803d3ae.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t6f4273e90a",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/b43440549ce33994.jpg",
+       "closes": [
+        "img/8adaf0faaf915465.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/2301a400eb8ed00f.jpg",
+       "closes": [
+        "img/60964f832fd522aa.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person golden blonde long straight",
+     "instr_zh": "把這個人的頭髮改成金色、長（超過肩膀）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c175cadaf22",
+       "img": "img/6f00029d5ef010ad.jpg",
+       "closes": [
+        "img/d5d61269308fb1d9.jpg"
+       ]
+      },
+      {
+       "id": "c188b91034e",
+       "img": "img/b895910785f77a9d.jpg",
+       "closes": [
+        "img/4bb1a2b88353791f.jpg"
+       ]
+      },
+      {
+       "id": "c81f157a426",
+       "img": "img/6f2d5f75304daee7.jpg",
+       "closes": [
+        "img/12ce8b50a7a4679c.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 21,
@@ -16373,7 +20762,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t55a6638371",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/9aafad4bae62b4ea.jpg",
+       "closes": [
+        "img/886b4c012ddcb198.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/ed219fba373664fd.jpg",
+       "closes": [
+        "img/63154a5eab50be60.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "cf9f552ee00",
+       "img": "img/1cc41d6133389337.jpg",
+       "closes": [
+        "img/5695029f141ba394.jpg"
+       ]
+      },
+      {
+       "id": "cf8d24d8d47",
+       "img": "img/7bdb961eb1d5e7d2.jpg",
+       "closes": [
+        "img/f3a184dc2ff49539.jpg"
+       ]
+      },
+      {
+       "id": "cbb83833735",
+       "img": "img/d923d2dfef84479b.jpg",
+       "closes": [
+        "img/9166b6f74fc7b3c7.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "ta045a41453",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/4cfd5ac1e14f28a6.jpg",
+       "closes": [
+        "img/ab67baa3c4a63f32.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/7ed764fe5c98342c.jpg",
+       "closes": [
+        "img/d911889c07e43855.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c697cdf7c28",
+       "img": "img/6b1da9f576914698.jpg",
+       "closes": [
+        "img/3caedf2da7cadbbe.jpg"
+       ]
+      },
+      {
+       "id": "c97fcffb966",
+       "img": "img/e649f7bb6aad1a1a.jpg",
+       "closes": [
+        "img/1e56c77eba8eb095.jpg"
+       ]
+      },
+      {
+       "id": "cd9defc021f",
+       "img": "img/623c5a098b324ba3.jpg",
+       "closes": [
+        "img/8a282fb664ad7ba1.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t71942d3bd1",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/b43440549ce33994.jpg",
+       "closes": [
+        "img/8adaf0faaf915465.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/2301a400eb8ed00f.jpg",
+       "closes": [
+        "img/60964f832fd522aa.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person golden blonde long straight",
+     "instr_zh": "把這個人的頭髮改成金色、長（超過肩膀）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c1ddd4dad10",
+       "img": "img/6f00029d5ef010ad.jpg",
+       "closes": [
+        "img/d5d61269308fb1d9.jpg"
+       ]
+      },
+      {
+       "id": "ca4056b83b4",
+       "img": "img/6f2d5f75304daee7.jpg",
+       "closes": [
+        "img/12ce8b50a7a4679c.jpg"
+       ]
+      },
+      {
+       "id": "cf6b0e5fdc2",
+       "img": "img/b895910785f77a9d.jpg",
+       "closes": [
+        "img/4bb1a2b88353791f.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "te7e0f84456",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/4f207ce096e59b5c.jpg",
+       "closes": [
+        "img/7dbc964158533369.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/c1325185dc02e41c.jpg",
+       "closes": [
+        "img/24180137e0fc5a2d.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light brown short straight",
+     "instr_zh": "把這個人的頭髮改成淺棕色、短（約到下巴以上）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c4855a9f706",
+       "img": "img/c31d38701d56cb23.jpg",
+       "closes": [
+        "img/23041b9d9b8bf4bc.jpg"
+       ]
+      },
+      {
+       "id": "ccf3537d2ca",
+       "img": "img/4248d142d42a2949.jpg",
+       "closes": [
+        "img/e9c4a1683279bc95.jpg"
+       ]
+      },
+      {
+       "id": "c9e47dfdf58",
+       "img": "img/67a5e4975844e0f2.jpg",
+       "closes": [
+        "img/2f3d72fce9082f0f.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 22,
@@ -17117,7 +21715,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "ta094d0454e",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/f7653fb28fee1a41.jpg",
+       "closes": [
+        "img/a972785314c3af5c.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/b1c56c1bd9e7a8b0.jpg",
+       "closes": [
+        "img/ede3d44eea2753f6.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c4f13bb89e2",
+       "img": "img/04614a6396dc7f0d.jpg",
+       "closes": [
+        "img/e4a7617cfb0a890e.jpg"
+       ]
+      },
+      {
+       "id": "ca7db58afc9",
+       "img": "img/55a6ecc47b7ec965.jpg",
+       "closes": [
+        "img/36957130b5c8014d.jpg"
+       ]
+      },
+      {
+       "id": "ce6f69ca0e1",
+       "img": "img/a593193b25a23310.jpg",
+       "closes": [
+        "img/3ca543c993b54389.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tddefb1008a",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/6ab297ab1aaa303c.jpg",
+       "closes": [
+        "img/efa9cca6412aa8c6.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/b351111cbc078daa.jpg",
+       "closes": [
+        "img/d43a6e393ceaa990.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "cfcf533426b",
+       "img": "img/71a3a93b8e45a4ea.jpg",
+       "closes": [
+        "img/c53a67ee09975b2f.jpg"
+       ]
+      },
+      {
+       "id": "cb902912c49",
+       "img": "img/3d316059f5b367d2.jpg",
+       "closes": [
+        "img/58d011de8ecf42bb.jpg"
+       ]
+      },
+      {
+       "id": "c1de745a45c",
+       "img": "img/c8bf63eb93b491ee.jpg",
+       "closes": [
+        "img/4dbbfce9f1fde865.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t2dbdc9d637",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/4f207ce096e59b5c.jpg",
+       "closes": [
+        "img/7dbc964158533369.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/c1325185dc02e41c.jpg",
+       "closes": [
+        "img/24180137e0fc5a2d.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light brown short straight",
+     "instr_zh": "把這個人的頭髮改成淺棕色、短（約到下巴以上）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cb0444cc5c0",
+       "img": "img/4248d142d42a2949.jpg",
+       "closes": [
+        "img/e9c4a1683279bc95.jpg"
+       ]
+      },
+      {
+       "id": "c2f02bbeb0d",
+       "img": "img/67a5e4975844e0f2.jpg",
+       "closes": [
+        "img/2f3d72fce9082f0f.jpg"
+       ]
+      },
+      {
+       "id": "c246673bb68",
+       "img": "img/c31d38701d56cb23.jpg",
+       "closes": [
+        "img/23041b9d9b8bf4bc.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t006771978b",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/248926eb3a7109cb.jpg",
+       "closes": [
+        "img/a096547b7820b756.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/4afb7f2f798e0f1e.jpg",
+       "closes": [
+        "img/84d4e4898fe7f2d6.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown long straight",
+     "instr_zh": "把這個人的頭髮改成深棕色、長（超過肩膀）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c995d264323",
+       "img": "img/1a2e26c58c76e2a2.jpg",
+       "closes": [
+        "img/67a1399d9fb8189b.jpg"
+       ]
+      },
+      {
+       "id": "c4ff75db5b1",
+       "img": "img/97d29d8df6dcc92e.jpg",
+       "closes": [
+        "img/e611daafd837ce59.jpg"
+       ]
+      },
+      {
+       "id": "c8f88814eec",
+       "img": "img/29bd4bd226f43d20.jpg",
+       "closes": [
+        "img/6c5f59c3b6c25c6f.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 23,
@@ -17861,7 +22668,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t6e2268cec9",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/a13c66ddc902b9ef.jpg",
+       "closes": [
+        "img/b14015bfe9d2ba4e.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/f10b9df9e6dedee4.jpg",
+       "closes": [
+        "img/de5942a7c7bc9aec.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "cddd09eb468",
+       "img": "img/b0d9f698d425774c.jpg",
+       "closes": [
+        "img/f9236f1b1738b9ae.jpg"
+       ]
+      },
+      {
+       "id": "caa0427d555",
+       "img": "img/73e642c54e5a5d4a.jpg",
+       "closes": [
+        "img/3ff56f473f54e2a8.jpg"
+       ]
+      },
+      {
+       "id": "ce2dce317f2",
+       "img": "img/e22fdb51771eba54.jpg",
+       "closes": [
+        "img/b7a38c7d8fea420f.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "td70fcd3b10",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/6800e1b71bef758b.jpg",
+       "closes": [
+        "img/641e51de6a117310.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/6c78db6015c75c09.jpg",
+       "closes": [
+        "img/324d0f37f652b606.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c6d3e9c6c13",
+       "img": "img/70c1238011a2e7a6.jpg",
+       "closes": [
+        "img/7ce7a65ac7b07e7b.jpg"
+       ]
+      },
+      {
+       "id": "c222c126d48",
+       "img": "img/b1a5115f56f1de81.jpg",
+       "closes": [
+        "img/7203ffdb4ff49d0f.jpg"
+       ]
+      },
+      {
+       "id": "c0ce06750ac",
+       "img": "img/9f050e23a3184861.jpg",
+       "closes": [
+        "img/cab069d7784e27ad.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tf7b5991f6d",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/248926eb3a7109cb.jpg",
+       "closes": [
+        "img/a096547b7820b756.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/4afb7f2f798e0f1e.jpg",
+       "closes": [
+        "img/84d4e4898fe7f2d6.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown long straight",
+     "instr_zh": "把這個人的頭髮改成深棕色、長（超過肩膀）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c9c2b60f4ac",
+       "img": "img/29bd4bd226f43d20.jpg",
+       "closes": [
+        "img/6c5f59c3b6c25c6f.jpg"
+       ]
+      },
+      {
+       "id": "c1fec076253",
+       "img": "img/1a2e26c58c76e2a2.jpg",
+       "closes": [
+        "img/67a1399d9fb8189b.jpg"
+       ]
+      },
+      {
+       "id": "caf92e8b80a",
+       "img": "img/97d29d8df6dcc92e.jpg",
+       "closes": [
+        "img/e611daafd837ce59.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t3d9d4c7417",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/31f440aea569e13f.jpg",
+       "closes": [
+        "img/fab5cbd32adf5edc.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/f358e464757c4b4a.jpg",
+       "closes": [
+        "img/a074fd5dd0969830.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light blonde short wavy",
+     "instr_zh": "把這個人的頭髮改成淺金色、短（約到下巴以上）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c941e10c4cf",
+       "img": "img/ec511314992af10c.jpg",
+       "closes": [
+        "img/f6ef8a824bd8b28a.jpg"
+       ]
+      },
+      {
+       "id": "cd98516b49c",
+       "img": "img/318a87bcd03662f8.jpg",
+       "closes": [
+        "img/7ab9feb0cb6cb09c.jpg"
+       ]
+      },
+      {
+       "id": "c14a56d9d2e",
+       "img": "img/481c05d81bc4eaf1.jpg",
+       "closes": [
+        "img/ece9da8db651d2d9.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 24,
@@ -18605,7 +23621,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t64fd6efa67",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/3688ff3cc6089d54.jpg",
+       "closes": [
+        "img/6d5f0b9056670993.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/7a34b13217eaec8f.jpg",
+       "closes": [
+        "img/d6acfe46bbfee5e8.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c5af022adb2",
+       "img": "img/454a9818ea4062a1.jpg",
+       "closes": [
+        "img/a543c9235d0a08cc.jpg"
+       ]
+      },
+      {
+       "id": "c3d0c949ca3",
+       "img": "img/bafbfaa00917e807.jpg",
+       "closes": [
+        "img/026d6fce1900b65b.jpg"
+       ]
+      },
+      {
+       "id": "c8bf94e2fef",
+       "img": "img/e49205741e53b084.jpg",
+       "closes": [
+        "img/3dc4ec44268c0177.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tf7a19da301",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/27faa5a58d8db457.jpg",
+       "closes": [
+        "img/5c175b7a478c1102.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/4074cc6acf2051cd.jpg",
+       "closes": [
+        "img/c980441bcafd982e.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c98c1b20fa4",
+       "img": "img/6c9851858979724c.jpg",
+       "closes": [
+        "img/28862fe605913f49.jpg"
+       ]
+      },
+      {
+       "id": "c8b36e0e8c4",
+       "img": "img/e84683b8ae28ca92.jpg",
+       "closes": [
+        "img/d4464c4dab623ce8.jpg"
+       ]
+      },
+      {
+       "id": "c0dd58f6fb2",
+       "img": "img/a2818ef7ff6ad30e.jpg",
+       "closes": [
+        "img/3e5c45af1bdfe776.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t0e6b2930a0",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/31f440aea569e13f.jpg",
+       "closes": [
+        "img/fab5cbd32adf5edc.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/f358e464757c4b4a.jpg",
+       "closes": [
+        "img/a074fd5dd0969830.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light blonde short wavy",
+     "instr_zh": "把這個人的頭髮改成淺金色、短（約到下巴以上）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cbc20e5b92c",
+       "img": "img/318a87bcd03662f8.jpg",
+       "closes": [
+        "img/7ab9feb0cb6cb09c.jpg"
+       ]
+      },
+      {
+       "id": "c48b896b98a",
+       "img": "img/481c05d81bc4eaf1.jpg",
+       "closes": [
+        "img/ece9da8db651d2d9.jpg"
+       ]
+      },
+      {
+       "id": "cf8eca38da4",
+       "img": "img/ec511314992af10c.jpg",
+       "closes": [
+        "img/f6ef8a824bd8b28a.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t94cbba9608",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/d0645cc65e5ed86b.jpg",
+       "closes": [
+        "img/7982d1d5cec53b56.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/78f350fa3d5c2844.jpg",
+       "closes": [
+        "img/1d75ae897e485aea.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person golden blonde medium straight",
+     "instr_zh": "把這個人的頭髮改成金色、中長（約到肩膀）、直髮",
+     "instr_note_en": "(medium = about shoulder length)",
+     "cands": [
+      {
+       "id": "c581eb5c615",
+       "img": "img/eb764d1a8e56543c.jpg",
+       "closes": [
+        "img/09660982251b2f40.jpg"
+       ]
+      },
+      {
+       "id": "c368dea2424",
+       "img": "img/c292e13d9b51607d.jpg",
+       "closes": [
+        "img/e2f64bc9bcfd5a30.jpg"
+       ]
+      },
+      {
+       "id": "ce321ce8fd5",
+       "img": "img/34c5c475e62f5d51.jpg",
+       "closes": [
+        "img/f894e9f2a2997b56.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 25,
@@ -19349,7 +24574,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t98da38d1bf",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/02fa27c14df23fbe.jpg",
+       "closes": [
+        "img/1fdcbacbdc8d970e.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/72b505d5f8fa6826.jpg",
+       "closes": [
+        "img/54c086f494cb6080.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth closed",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴閉著",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c6062fc13c5",
+       "img": "img/b4a17095bcee1aa9.jpg",
+       "closes": [
+        "img/ea46b5c71f142f42.jpg"
+       ]
+      },
+      {
+       "id": "c2f6e60bf0a",
+       "img": "img/ddcab698605f9824.jpg",
+       "closes": [
+        "img/a9838077f2f8f411.jpg"
+       ]
+      },
+      {
+       "id": "c8dab0f4ba2",
+       "img": "img/7539edbf053ef5f3.jpg",
+       "closes": [
+        "img/feb935910110d876.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t75781ddc3c",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/7c3ae9987b5fc554.jpg",
+       "closes": [
+        "img/409d5512ccca9b8e.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/1e5d48c2fec593f7.jpg",
+       "closes": [
+        "img/292130c58b3da644.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "ce83aa1d23f",
+       "img": "img/503203016a9c9a3c.jpg",
+       "closes": [
+        "img/f1f1d5ef4f0f161f.jpg"
+       ]
+      },
+      {
+       "id": "c8429013224",
+       "img": "img/28071db7bcd5884a.jpg",
+       "closes": [
+        "img/789187e1388ecd0b.jpg"
+       ]
+      },
+      {
+       "id": "cba15e76cfd",
+       "img": "img/f1a0bd5d28a495c4.jpg",
+       "closes": [
+        "img/faf019c0b39a77a4.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t7a5f0df28b",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/d0645cc65e5ed86b.jpg",
+       "closes": [
+        "img/7982d1d5cec53b56.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/78f350fa3d5c2844.jpg",
+       "closes": [
+        "img/1d75ae897e485aea.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person golden blonde medium straight",
+     "instr_zh": "把這個人的頭髮改成金色、中長（約到肩膀）、直髮",
+     "instr_note_en": "(medium = about shoulder length)",
+     "cands": [
+      {
+       "id": "c1f68c1469e",
+       "img": "img/c292e13d9b51607d.jpg",
+       "closes": [
+        "img/e2f64bc9bcfd5a30.jpg"
+       ]
+      },
+      {
+       "id": "c8fcee9fa6b",
+       "img": "img/34c5c475e62f5d51.jpg",
+       "closes": [
+        "img/f894e9f2a2997b56.jpg"
+       ]
+      },
+      {
+       "id": "c80b38d0bb0",
+       "img": "img/eb764d1a8e56543c.jpg",
+       "closes": [
+        "img/09660982251b2f40.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t70d08bc236",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/055392832e431607.jpg",
+       "closes": [
+        "img/5c33afb32b6fa245.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/c1ecdbebd1b44dee.jpg",
+       "closes": [
+        "img/0b3e3c36069af316.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown short straight",
+     "instr_zh": "把這個人的頭髮改成深棕色、短（約到下巴以上）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c37db3c176e",
+       "img": "img/31fb8462f2ef5594.jpg",
+       "closes": [
+        "img/b26ca974a8e19907.jpg"
+       ]
+      },
+      {
+       "id": "c9fd4d8f1fe",
+       "img": "img/823ce03e497e6585.jpg",
+       "closes": [
+        "img/39a3e89a04ba1d48.jpg"
+       ]
+      },
+      {
+       "id": "c4e280aa8ea",
+       "img": "img/2613e9dcca338520.jpg",
+       "closes": [
+        "img/606c484756afc07e.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 26,
@@ -20093,7 +25527,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "tcb9b2b65cc",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/52d6bcde78f934bd.jpg",
+       "closes": [
+        "img/6d3b6e9c1cbcb064.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/bc1a7f0a352a240a.jpg",
+       "closes": [
+        "img/fd2fb8c1a2168a47.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth open",
+     "instr_zh": "讓這個人微笑，嘴巴張開",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c22b47e96b9",
+       "img": "img/82e8852abbd81509.jpg",
+       "closes": [
+        "img/2804867ace5a99f9.jpg"
+       ]
+      },
+      {
+       "id": "c6ae1027e30",
+       "img": "img/ee5adbc572840eb0.jpg",
+       "closes": [
+        "img/e16b870cff4194de.jpg"
+       ]
+      },
+      {
+       "id": "c08abd88b7c",
+       "img": "img/e86aeecc895a73bc.jpg",
+       "closes": [
+        "img/b853d10cb8869ef8.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tb62ad9706a",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/23bfc27b89ec5033.jpg",
+       "closes": [
+        "img/42f378e99663e56e.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/8bb7bf2a03e91858.jpg",
+       "closes": [
+        "img/d810e1f5c5979a61.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth open",
+     "instr_zh": "讓這個人微笑，嘴巴張開",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c34d755c439",
+       "img": "img/32b8d2b931769e3f.jpg",
+       "closes": [
+        "img/e1f091ed89548ab1.jpg"
+       ]
+      },
+      {
+       "id": "cc15fb30209",
+       "img": "img/a3645e57f91cb46b.jpg",
+       "closes": [
+        "img/0fff07059be882fe.jpg"
+       ]
+      },
+      {
+       "id": "c3c0078b934",
+       "img": "img/d0b0e75d015d83c4.jpg",
+       "closes": [
+        "img/616e7d85e6f190fa.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tbaccd3c5f7",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/055392832e431607.jpg",
+       "closes": [
+        "img/5c33afb32b6fa245.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/c1ecdbebd1b44dee.jpg",
+       "closes": [
+        "img/0b3e3c36069af316.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown short straight",
+     "instr_zh": "把這個人的頭髮改成深棕色、短（約到下巴以上）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c04cbe1e8be",
+       "img": "img/31fb8462f2ef5594.jpg",
+       "closes": [
+        "img/b26ca974a8e19907.jpg"
+       ]
+      },
+      {
+       "id": "c0647f665f8",
+       "img": "img/2613e9dcca338520.jpg",
+       "closes": [
+        "img/606c484756afc07e.jpg"
+       ]
+      },
+      {
+       "id": "c4a8fe0bfc2",
+       "img": "img/823ce03e497e6585.jpg",
+       "closes": [
+        "img/39a3e89a04ba1d48.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t692f893c3d",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/defd9c4b8513bf60.jpg",
+       "closes": [
+        "img/62734ab7ff764e1f.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/c2595726293ab2e8.jpg",
+       "closes": [
+        "img/7808630fcffb77e9.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person jet black medium wavy",
+     "instr_zh": "把這個人的頭髮改成黑色、中長（約到肩膀）、波浪捲髮",
+     "instr_note_en": "(medium = about shoulder length)",
+     "cands": [
+      {
+       "id": "c09d1d2f684",
+       "img": "img/f216f6622fd99a56.jpg",
+       "closes": [
+        "img/b50d90e1ca54700c.jpg"
+       ]
+      },
+      {
+       "id": "c1510bf0593",
+       "img": "img/6437847f2123cca8.jpg",
+       "closes": [
+        "img/34f7cb0803754c44.jpg"
+       ]
+      },
+      {
+       "id": "c58331a02ac",
+       "img": "img/01961cddea51ce84.jpg",
+       "closes": [
+        "img/3a6c0369c1042478.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 27,
@@ -20837,7 +26480,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "tf416112b00",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/0b10d8eb2b2b9f5b.jpg",
+       "closes": [
+        "img/0e84fe296aca9d7b.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/bcc21e8adebb594f.jpg",
+       "closes": [
+        "img/83bd0811df9aab36.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth closed",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴閉著",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c17c3d7db58",
+       "img": "img/fa1da707ec2621d8.jpg",
+       "closes": [
+        "img/983df603465783d8.jpg"
+       ]
+      },
+      {
+       "id": "c1b0471bbc0",
+       "img": "img/05485e99f7579b0e.jpg",
+       "closes": [
+        "img/365a27a66e3b8c70.jpg"
+       ]
+      },
+      {
+       "id": "cc3c2a60d8b",
+       "img": "img/5489ce5a147b2388.jpg",
+       "closes": [
+        "img/b5cef33cdeed48a7.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t9419102ef3",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/76de8ae02a10116f.jpg",
+       "closes": [
+        "img/fa9332b8c9022380.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/188ca20837cadec3.jpg",
+       "closes": [
+        "img/a6a3b9a4e7455b53.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cca98f07356",
+       "img": "img/3e3a3a126769e2d1.jpg",
+       "closes": [
+        "img/71b24b8f0a888c46.jpg"
+       ]
+      },
+      {
+       "id": "c794b79b184",
+       "img": "img/f4d1fc025d398f24.jpg",
+       "closes": [
+        "img/936d2fefaa548aba.jpg"
+       ]
+      },
+      {
+       "id": "caecd0ed961",
+       "img": "img/4f4ccab0f51376b4.jpg",
+       "closes": [
+        "img/15fa74e36d5bfdf9.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t24333a2ef8",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/defd9c4b8513bf60.jpg",
+       "closes": [
+        "img/62734ab7ff764e1f.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/c2595726293ab2e8.jpg",
+       "closes": [
+        "img/7808630fcffb77e9.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person jet black medium wavy",
+     "instr_zh": "把這個人的頭髮改成黑色、中長（約到肩膀）、波浪捲髮",
+     "instr_note_en": "(medium = about shoulder length)",
+     "cands": [
+      {
+       "id": "c43cdf411d7",
+       "img": "img/f216f6622fd99a56.jpg",
+       "closes": [
+        "img/b50d90e1ca54700c.jpg"
+       ]
+      },
+      {
+       "id": "cc545ca8577",
+       "img": "img/6437847f2123cca8.jpg",
+       "closes": [
+        "img/34f7cb0803754c44.jpg"
+       ]
+      },
+      {
+       "id": "c787021f4c4",
+       "img": "img/01961cddea51ce84.jpg",
+       "closes": [
+        "img/3a6c0369c1042478.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t8566bc7ab4",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/45af72cc79e0610b.jpg",
+       "closes": [
+        "img/d962207efcc45760.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/bd9c54687c5e35db.jpg",
+       "closes": [
+        "img/c3236fe79cf1356a.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dirty blonde short wavy",
+     "instr_zh": "把這個人的頭髮改成深金色、短（約到下巴以上）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c66722c57d1",
+       "img": "img/99924ca34c39c342.jpg",
+       "closes": [
+        "img/ff257a9302bd8e2c.jpg"
+       ]
+      },
+      {
+       "id": "c10ea8d7719",
+       "img": "img/42fb1da97bd0e1ad.jpg",
+       "closes": [
+        "img/93535df2429f8a00.jpg"
+       ]
+      },
+      {
+       "id": "ce78e5f8232",
+       "img": "img/748172b663fe41e4.jpg",
+       "closes": [
+        "img/72b746c97c7fb32d.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 28,
@@ -21581,7 +27433,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t287acb485d",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/ecbc76fca9036402.jpg",
+       "closes": [
+        "img/79c4f69a263ce6f9.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/2f66528a23ef307a.jpg",
+       "closes": [
+        "img/fc4698ce04abf898.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c560f5584c9",
+       "img": "img/b978b884fcea65e3.jpg",
+       "closes": [
+        "img/5d0fa7bd59db0719.jpg"
+       ]
+      },
+      {
+       "id": "c61a0265dc0",
+       "img": "img/4a81d6a0902d8aa9.jpg",
+       "closes": [
+        "img/4f866e3c0088d96b.jpg"
+       ]
+      },
+      {
+       "id": "cdcb0cba7fc",
+       "img": "img/29fc935bc9aa7e4a.jpg",
+       "closes": [
+        "img/a45bb358f0b1e4ab.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tbf91c0c925",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/d622c88039d989c6.jpg",
+       "closes": [
+        "img/e8cd7afa4634d767.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/bef2be876f0619af.jpg",
+       "closes": [
+        "img/f19efbbf6affd894.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "cbad431b3e8",
+       "img": "img/5f8799cd70485e1b.jpg",
+       "closes": [
+        "img/0ec4dc8ba658cac7.jpg"
+       ]
+      },
+      {
+       "id": "ce31018b7e9",
+       "img": "img/e97e361f53af5a82.jpg",
+       "closes": [
+        "img/0833fc5cd4634d66.jpg"
+       ]
+      },
+      {
+       "id": "c14f717f3bc",
+       "img": "img/546c847bb0bf9fed.jpg",
+       "closes": [
+        "img/0aacec892f377b3c.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t7901942201",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/45af72cc79e0610b.jpg",
+       "closes": [
+        "img/d962207efcc45760.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/bd9c54687c5e35db.jpg",
+       "closes": [
+        "img/c3236fe79cf1356a.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dirty blonde short wavy",
+     "instr_zh": "把這個人的頭髮改成深金色、短（約到下巴以上）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c94ddba84ac",
+       "img": "img/748172b663fe41e4.jpg",
+       "closes": [
+        "img/72b746c97c7fb32d.jpg"
+       ]
+      },
+      {
+       "id": "c6bfb63b3aa",
+       "img": "img/99924ca34c39c342.jpg",
+       "closes": [
+        "img/ff257a9302bd8e2c.jpg"
+       ]
+      },
+      {
+       "id": "cf35a92a25e",
+       "img": "img/42fb1da97bd0e1ad.jpg",
+       "closes": [
+        "img/93535df2429f8a00.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t84df2b0089",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/5357150ad228144f.jpg",
+       "closes": [
+        "img/f8af51cb0a140a2e.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/0535409ac54af3c6.jpg",
+       "closes": [
+        "img/195d026dc476ec60.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light blonde long straight",
+     "instr_zh": "把這個人的頭髮改成淺金色、長（超過肩膀）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c9c116128fc",
+       "img": "img/d0d721648ddae207.jpg",
+       "closes": [
+        "img/d2fe146b139d4544.jpg"
+       ]
+      },
+      {
+       "id": "cdb04f795d5",
+       "img": "img/e661aa82fd97f2fa.jpg",
+       "closes": [
+        "img/4cf395c82137e87f.jpg"
+       ]
+      },
+      {
+       "id": "cfc914eae4c",
+       "img": "img/0a8132af079b3cb0.jpg",
+       "closes": [
+        "img/f2218f26785daed6.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "group": 29,
@@ -22325,7 +28386,216 @@
      ]
     }
    ],
-   "multi": []
+   "multi": [
+    {
+     "tid": "t27cd81309a",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/740f354e7eabdadb.jpg",
+       "closes": [
+        "img/8f090db7c2610dc4.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/2555895926931c53.jpg",
+       "closes": [
+        "img/e39be36ed0b945ad.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c1efaf05260",
+       "img": "img/92f0e08c1a1017bf.jpg",
+       "closes": [
+        "img/8c0f6b96efc4c2b0.jpg"
+       ]
+      },
+      {
+       "id": "c1509d44679",
+       "img": "img/e87f30e38d7e0b59.jpg",
+       "closes": [
+        "img/5d5c7581dbe73ffb.jpg"
+       ]
+      },
+      {
+       "id": "c470b9b8431",
+       "img": "img/6d3e27e27a0cd360.jpg",
+       "closes": [
+        "img/141f4c35d5947013.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t819ce5ad4a",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "mouth"
+     ],
+     "swap_part": "hair",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/ed1999e1234d6c1b.jpg",
+       "closes": [
+        "img/96d91b486f4ae1ea.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/f76a7422d0f483c8.jpg",
+       "closes": [
+        "img/ddf5aa6bfd9b222a.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c2657d35a1d",
+       "img": "img/e0984c14be051096.jpg",
+       "closes": [
+        "img/c415c5973781c521.jpg"
+       ]
+      },
+      {
+       "id": "c3d5e42805b",
+       "img": "img/f0883d4e46c0a456.jpg",
+       "closes": [
+        "img/59db1b4031d3524d.jpg"
+       ]
+      },
+      {
+       "id": "c59944c1a8b",
+       "img": "img/d3894ee2254fe70e.jpg",
+       "closes": [
+        "img/d67a7e015bfc3fa4.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t322b3afc4a",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/5357150ad228144f.jpg",
+       "closes": [
+        "img/f8af51cb0a140a2e.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/0535409ac54af3c6.jpg",
+       "closes": [
+        "img/195d026dc476ec60.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light blonde long straight",
+     "instr_zh": "把這個人的頭髮改成淺金色、長（超過肩膀）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "ca3b59935ac",
+       "img": "img/d0d721648ddae207.jpg",
+       "closes": [
+        "img/d2fe146b139d4544.jpg"
+       ]
+      },
+      {
+       "id": "ccb7725672c",
+       "img": "img/e661aa82fd97f2fa.jpg",
+       "closes": [
+        "img/4cf395c82137e87f.jpg"
+       ]
+      },
+      {
+       "id": "cac42953578",
+       "img": "img/0a8132af079b3cb0.jpg",
+       "closes": [
+        "img/f2218f26785daed6.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t5082a3999b",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/b5484534a04bc7bb.jpg",
+       "closes": [
+        "img/b8abede27b5aada4.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/cd0c37d896f81746.jpg",
+       "closes": [
+        "img/a08bec91db2b0d26.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light blonde long wavy",
+     "instr_zh": "把這個人的頭髮改成淺金色、長（超過肩膀）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c2fd94e8b9a",
+       "img": "img/e34fc5661ff61e3c.jpg",
+       "closes": [
+        "img/0238753f60b96317.jpg"
+       ]
+      },
+      {
+       "id": "ce7ec07624a",
+       "img": "img/998bc08ebcc0236a.jpg",
+       "closes": [
+        "img/f3013546489db979.jpg"
+       ]
+      },
+      {
+       "id": "c41286bda26",
+       "img": "img/bdfcd2be0738d76c.jpg",
+       "closes": [
+        "img/f28be36c8ea68eab.jpg"
+       ]
+      }
+     ]
+    }
+   ]
   }
  ],
  "practice": [

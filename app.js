@@ -6,7 +6,7 @@
 "use strict";
 
 const CFG = window.STUDY_CONFIG || { mode: "off" };
-const APP_VERSION = "v5.1";
+const APP_VERSION = "v5.2";
 
 // Consent and study information: v3/v4 wording (DESIGN_v3.md), with the storage lines rewritten to say what this
 // version does (answers are collected through Google Forms, as the consent form itself says).
@@ -124,7 +124,7 @@ const BASE = {
 const STUDY = {
   zh: {
     lede: "每組有一張原圖，和好幾張用不同 AI 方法修改出來的結果。請依三個問題，各把這些結果從最好排到最差。",
-    fMinN: "25",
+    fMinN: "30",
     about1: "本研究透過這個網頁進行問卷調查，提供由模型預先生成的影像，請您對同一張照片的多張修改結果進行評分排序，答案經由 Google 表單收集。",
     howLink: "作答說明",
     introTitle: "每組結果分三輪排名",
@@ -138,10 +138,11 @@ const STUDY = {
     startPractice: "開始練習（1 題）", practiceSub: "練習不計分，只排一次，熟悉怎麼點名次", backToSets: "回到題目",
     practiceTag: () => "練習題（不計分）",
     chip: { swap: "換部位", text: "依指令修改", multi: "多部位" },
-    taskLine: { swap: "把參考圖 B 的{part}換到原圖 A 上", text: "照指令改原圖 A 的{part}", multi: "一次改原圖 A 的{part}" },
+    taskLine: { swap: "把參考圖 B 的{part}換到原圖 A 上", text: "照指令改原圖 A 的{part}", multi: "把參考圖 B 的{swap}換到原圖 A 上，並照指令改{text}" },
     secKicker: (k, n, m) => (k === 0 ? `練習結束。第 1 段，共 ${n} 段（${m} 組）` : `第 ${k + 1} 段，共 ${n} 段（${m} 組）`),
     secTitle: { swap: "換部位", text: "依指令修改", multi: "多部位" },
     secCrit: { part: "：① 部位改得對不對", keep: "：② 其他地方有沒有保持原樣", natural: "：③ 整張自不自然" },
+    secCritMulti: { swap: "：① 換的部位像不像 B", text: "：② 改的部位有沒有照指令", keep: "：③ 其他地方有沒有保持原樣", natural: "：④ 整張自不自然" },
     secBody: {
       swap: {
         part: "每組都有參考圖 B 和 7 張結果。這一輪只看要換的部位像不像 B 的，其他地方先不管。",
@@ -154,20 +155,22 @@ const STUDY = {
         natural: "同一批組最後出現一次。這一輪只看整張自不自然，不管有沒有照指令改。",
       },
       multi: {
-        part: "每組同時改好幾個部位：有的從參考圖換過來，有的照指令修改。這一輪每個被點名的部位都要看。",
-        keep: "同一批組再出現一次。這一輪只看被點名的部位以外有沒有保持原樣。",
-        natural: "同一批組最後出現一次。這一輪只看整張自不自然。",
+        swap: "最後一段每組同時改兩個部位：一個從參考圖 B 換過來，另一個照指令修改，每組 3 張結果，分四輪排。這一輪只看換過來的那個部位像不像 B 的。",
+        text: "同一批組再出現一次，圖的位置重新打亂。這一輪只看照指令改的那個部位有沒有改對。",
+        keep: "同一批組再出現一次。這一輪只看兩個被改的部位以外：還是不是 A 這個人，臉型、膚色、背景、光線、姿勢有沒有變。",
+        natural: "同一批組最後出現一次。這一輪只看整張自不自然，不管有沒有改成功。",
       },
     },
     secPart: (part, n) => `${part} ${n} 組`,
     cont: "繼續",
     cap: { A: "原圖 A", B: "參考圖 B", C: "參考圖 C" }, instr: "修改指令",
     crit: {
-      part: { swap: "① 哪張的{part}最像 B 的？", text: "① 哪張的{part}最符合指令？", multi: "① 哪張的指定部位都改得最對？" },
-      keep: "② 除了{part}以外，哪張最像原圖 A？",
-      natural: "③ 哪張整張看起來最自然？",
+      part: { swap: "哪張的{part}最像 B 的？", text: "哪張的{part}最符合指令？" },
+      keep: "除了{part}以外，哪張最像原圖 A？",
+      natural: "哪張整張看起來最自然？",
     },
-    critShort: { part: "部位", keep: "其他地方", natural: "自然" },
+    critMulti: { swap: "哪張的{swap}最像 B 的？", text: "哪張的{text}最符合指令？", keep: "除了{swap}和{text}以外，哪張最像原圖 A？", natural: "哪張整張看起來最自然？" },
+    critShort: { part: "部位", keep: "其他地方", natural: "自然", swap: "換的部位", text: "改的部位" },
     hint: {
       part_swap: { mouth: "只看嘴巴本身像不像 B 的；壞掉、沒變的排後面", eyes: "只看眼珠顏色像不像 B 的", hair: "只看頭髮：髮色、長短、直捲" },
       part_text: { mouth: "笑不笑、嘴巴張開或閉著，兩項都要看", eyes: "只看眼珠顏色；眼皮、眼影或眼白變色不算", hair: "髮色、長短、直捲，每一項都要看" },
@@ -189,7 +192,7 @@ const STUDY = {
   },
   en: {
     lede: "Each set shows one original photo and several results edited by different AI methods. Rank the results from best to worst, once for each of three questions.",
-    fMinN: "25",
+    fMinN: "30",
     about1: "This questionnaire runs on this web page. It shows images generated in advance by the models and asks you to rate and rank several edited results of the same photo; answers are collected through Google Forms.",
     howLink: "Instructions",
     introTitle: "Each set is ranked in three rounds",
@@ -203,10 +206,11 @@ const STUDY = {
     startPractice: "Start practice (1 question)", practiceSub: "Practice is not scored; rank once to learn the clicking", backToSets: "Back to the sets",
     practiceTag: () => "Practice (not scored)",
     chip: { swap: "Part swap", text: "Text edit", multi: "Several parts" },
-    taskLine: { swap: "Put B's {part} onto original photo A", text: "Edit the {part} in original photo A as instructed", multi: "Edit the {part} of original photo A at once" },
+    taskLine: { swap: "Put B's {part} onto original photo A", text: "Edit the {part} in original photo A as instructed", multi: "Put B's {swap} onto original photo A and edit the {text} as instructed" },
     secKicker: (k, n, m) => (k === 0 ? `Practice finished. Round 1 of ${n} (${m} sets)` : `Round ${k + 1} of ${n} (${m} sets)`),
     secTitle: { swap: "Part swap", text: "Text edit", multi: "Several parts" },
     secCrit: { part: ": (1) is the part right", keep: ": (2) is the rest unchanged", natural: ": (3) does it look natural" },
+    secCritMulti: { swap: ": (1) does the swapped part look like B's", text: ": (2) does the edited part follow the instruction", keep: ": (3) is the rest unchanged", natural: ": (4) does it look natural" },
     secBody: {
       swap: {
         part: "Every set has a reference photo B and 7 results. In this round look only at the swapped part: does it look like B's. Ignore the rest for now.",
@@ -219,20 +223,22 @@ const STUDY = {
         natural: "The same sets come back one last time. In this round look only at whether the whole photo looks natural, whether or not the edit was done.",
       },
       multi: {
-        part: "Each set edits several parts at once: some are taken from reference photos, some follow an instruction. In this round check every part that is named.",
-        keep: "The same sets come back. In this round look only outside the named parts.",
-        natural: "The same sets come back one last time. In this round look only at whether the whole photo looks natural.",
+        swap: "In this last part each set edits two parts at once: one is taken from reference photo B, the other follows an instruction. Each set has 3 results and is ranked in four rounds. In this round look only at the swapped part: does it look like B's.",
+        text: "The same sets come back, reshuffled. In this round look only at the part edited by the instruction: was it done right.",
+        keep: "The same sets come back. In this round look only outside the two edited parts: is it still the person in A, with the same face shape, skin, background, lighting and pose.",
+        natural: "The same sets come back one last time. In this round look only at whether the whole photo looks natural, whether or not the edits worked.",
       },
     },
     secPart: (part, n) => `${part}: ${n} sets`,
     cont: "Continue",
     cap: { A: "Original A", B: "Reference B", C: "Reference C" }, instr: "Instruction",
     crit: {
-      part: { swap: "(1) Whose {part} looks most like B's?", text: "(1) Whose {part} best follows the instruction?", multi: "(1) Which edits every named part best?" },
-      keep: "(2) Apart from the {part}, which looks most like original A?",
-      natural: "(3) Which looks most natural overall?",
+      part: { swap: "Whose {part} looks most like B's?", text: "Whose {part} best follows the instruction?" },
+      keep: "Apart from the {part}, which looks most like original A?",
+      natural: "Which looks most natural overall?",
     },
-    critShort: { part: "Part", keep: "Rest kept", natural: "Natural" },
+    critMulti: { swap: "Whose {swap} looks most like B's?", text: "Whose {text} best follows the instruction?", keep: "Apart from the {swap} and the {text}, which looks most like original A?", natural: "Which looks most natural overall?" },
+    critShort: { part: "Part", keep: "Rest kept", natural: "Natural", swap: "Swapped part", text: "Edited part" },
     hint: {
       part_swap: { mouth: "Look only at the mouth: does it look like B's? Broken or unchanged goes low", eyes: "Look only at iris colour: does it match B's?", hair: "Look only at the hair: colour, length, straight or curly" },
       part_text: { mouth: "Smiling or not, mouth open or closed: check both", eyes: "Look only at iris colour; colour on eyelids or the whites does not count", hair: "Colour, length, straight or wavy: check every part" },
@@ -256,6 +262,11 @@ const STUDY = {
 const I18N = { zh: Object.assign({}, BASE.zh, STUDY.zh), en: Object.assign({}, BASE.en, STUDY.en) };
 
 const CRITERIA = ["part", "keep", "natural"];
+// multi-part sets (one part swapped from B, another edited by text) are ranked on four criteria
+const MULTI_CRITERIA = ["swap", "text", "keep", "natural"];
+const ALL_CRITERIA = ["part", "keep", "natural", "swap", "text"];
+function critsOf(it) { return it.task === "multi" ? MULTI_CRITERIA : CRITERIA; }
+function critNum(it, c) { const i = critsOf(it).indexOf(c); return lang === "zh" ? "①②③④"[i] : `(${i + 1})`; }
 const EMAIL_RE = /^[A-Za-z0-9][A-Za-z0-9._%+-]*@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)+$/;
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -339,7 +350,7 @@ function ordered(L, pid) {
   const blocks = [g.items.filter((it) => it.task === "swap"), g.items.filter((it) => it.task === "text"), g.multi || []];
   let prevLast = null;
   blocks.filter((b) => b.length).forEach((items) => {
-    CRITERIA.forEach((c) => {
+    critsOf(items[0]).forEach((c) => {
       let ids = passOrder(items, rnd);
       if (ids.length > 1 && ids[0] === prevLast) ids = [ids[1], ids[0], ...ids.slice(2)];
       ids.forEach((tid) => order.push(`${tid}|${c}`));
@@ -476,7 +487,7 @@ function renderSection() {
   });
   $("sec-kicker").textContent = T("secKicker")(k, S.cuts.length, ids.length);
   $("sec-chip").textContent = T("chip")[task];
-  $("sec-title").textContent = T("secTitle")[task] + T("secCrit")[crit];
+  $("sec-title").textContent = T("secTitle")[task] + T(task === "multi" ? "secCritMulti" : "secCrit")[crit];
   $("sec-body").textContent = T("secBody")[task][crit];
   $("sec-parts").replaceChildren(...parts.map((p) => el("span", null, T("secPart")(p.part, p.n))));
 }
@@ -488,14 +499,13 @@ function leaveSection() {
 
 // ---------- one screen ----------
 // cur.ranks[c]: candidate ids in rank order for criterion c (complete when it has every candidate).
-// cur.stage: the criterion of this step (0, 1, 2); a step ranks one criterion only.
+// cur.crit: the criterion of this step; a step ranks one criterion only.
 function setItem(it, practice, prev, crit) {
-  const stage = CRITERIA.indexOf(crit || "part");
-  const layout = practice ? it.cands.map((c) => c.id) : layoutFor(it, CRITERIA[stage]);
-  const ranks = { part: [], keep: [], natural: [] };
-  if (prev) ranks[CRITERIA[stage]] = prev.rank.slice();
+  crit = crit || critsOf(it)[0];
+  const layout = practice ? it.cands.map((c) => c.id) : layoutFor(it, crit);
+  const ranks = { [crit]: prev ? prev.rank.slice() : [] };
   cur = { it, practice, layout, n: it.cands.length, byId: Object.fromEntries(it.cands.map((c) => [c.id, c])),
-          ranks, stage, ms: {}, prevRt: prev ? prev.rt_ms : 0,
+          ranks, crit, ms: {}, prevRt: prev ? prev.rt_ms : 0,
           revisit: !!prev, zooms: prev ? prev.zooms : 0, showFb: false, t0: performance.now() };
   renderRefs();
   $("v-trial").classList.toggle("practice", practice);
@@ -533,7 +543,9 @@ function renderRefs() {
     const f = el("figure");
     const img = el("img"); img.src = r.img; img.alt = ""; img.onclick = () => zoomRef(r.img);
     f.append(img);
-    (r.closes || []).forEach((src) => { const c = el("img", "close"); c.src = src; c.alt = ""; c.onclick = () => zoomRef(src); f.append(c); });
+    // multi-part sets: B's mouth close-up only when the mouth is the part taken from B
+    const showClose = !(it.task === "multi" && r.role === "B" && it.swap_part !== "mouth");
+    (showClose ? r.closes || [] : []).forEach((src) => { const c = el("img", "close"); c.src = src; c.alt = ""; c.onclick = () => zoomRef(src); f.append(c); });
     f.append(el("figcaption", null, T("cap")[r.role]));
     return f;
   });
@@ -548,13 +560,12 @@ function renderRefs() {
 }
 
 function elapsed() { return cur.prevRt + Math.round(performance.now() - cur.t0); }
-function stageDone(k) { return cur.ranks[CRITERIA[k]].length === cur.n; }
-function allDone() { return stageDone(cur.stage); }
+function allDone() { return cur.ranks[cur.crit].length === cur.n; }
 
 // One click on a candidate in the current criterion.
 function act(cid) {
   if (!cur || cur.showFb) return;
-  const c = CRITERIA[cur.stage], r = cur.ranks[c];
+  const c = cur.crit, r = cur.ranks[c];
   const at = r.indexOf(cid);
   if (at >= 0) cur.ranks[c] = r.slice(0, at);           // clicking a ranked one undoes it and everything after
   else if (r.length < cur.n) {
@@ -565,11 +576,11 @@ function act(cid) {
 }
 function undo() {
   if (!cur || cur.showFb) return;
-  const c = CRITERIA[cur.stage];
+  const c = cur.crit;
   cur.ranks[c] = cur.ranks[c].slice(0, -1);
   renderTrial();
 }
-function resetStage() { if (cur && !cur.showFb) { cur.ranks[CRITERIA[cur.stage]] = []; renderTrial(); } }
+function resetStage() { if (cur && !cur.showFb) { cur.ranks[cur.crit] = []; renderTrial(); } }
 function goStage(k) { /* one criterion per step: the step buttons only show which question this is */ }
 function flashStage() {
   const bar = document.querySelector(".stepbar");
@@ -583,31 +594,40 @@ function renderPracticeTag() {
 }
 
 function stepText() {
-  const it = cur.it, part = partName(it), c = CRITERIA[cur.stage];
-  const q = c === "part" ? T("crit").part[it.task] : T("crit")[c];
-  let hint;
-  if (c === "part") hint = it.task === "multi" ? T("hint").part_multi : T("hint")[`part_${it.task}`][it.parts[0]];
-  else hint = T("hint")[c];
-  return [q.replaceAll("{part}", part), hint];
+  const it = cur.it, c = cur.crit;
+  let q, hint;
+  if (it.task === "multi") {
+    q = T("critMulti")[c].replaceAll("{swap}", T("part")[it.swap_part]).replaceAll("{text}", T("part")[it.text_part]);
+    hint = c === "swap" ? T("hint").part_swap[it.swap_part] : c === "text" ? T("hint").part_text[it.text_part] : T("hint")[c];
+  } else {
+    q = (c === "part" ? T("crit").part[it.task] : T("crit")[c]).replaceAll("{part}", partName(it));
+    hint = c === "part" ? T("hint")[`part_${it.task}`][it.parts[0]] : T("hint")[c];
+  }
+  return [`${critNum(it, c)} ${q}`, hint];
+}
+function taskLine(it) {
+  if (it.task !== "multi") return T("taskLine")[it.task].replaceAll("{part}", partName(it));
+  return T("taskLine").multi.replaceAll("{swap}", T("part")[it.swap_part]).replaceAll("{text}", T("part")[it.text_part]);
 }
 
 function renderTrial() {
-  const it = cur.it, part = partName(it), c = CRITERIA[cur.stage], r = cur.ranks[c];
+  const it = cur.it, part = partName(it), c = cur.crit, r = cur.ranks[c];
   $("task-chip").textContent = T("chip")[it.task];
   $("part-name").textContent = part;
-  $("task-line").textContent = T("taskLine")[it.task].replaceAll("{part}", part);
+  $("task-line").textContent = taskLine(it);
   const [q, hint] = stepText();
   $("step-q").textContent = q;
   $("step-hint").textContent = hint;
-  [0, 1, 2].forEach((k) => {
-    const b = $(`step-${k}`);
-    b.classList.toggle("on", k === cur.stage);
-    b.classList.toggle("done", stageDone(k));
-    b.setAttribute("aria-selected", k === cur.stage);
-    b.title = T("critShort")[CRITERIA[k]];
-    b.disabled = cur.showFb;
-    b.hidden = k !== cur.stage;
-  });
+  // one criterion per step: a single step badge shows which question this is
+  [1, 2].forEach((k) => { $(`step-${k}`).hidden = true; });
+  const b = $("step-0");
+  b.hidden = false;
+  b.textContent = String(critsOf(it).indexOf(c) + 1);
+  b.classList.add("on");
+  b.classList.toggle("done", allDone());
+  b.setAttribute("aria-selected", true);
+  b.title = T("critShort")[c];
+  b.disabled = cur.showFb;
   $("slots").replaceChildren(el("span", "slot-text" + (r.length === cur.n ? " done" : ""),
     r.length === cur.n ? T("stageDone") : T("nextOf")(r.length + 1, cur.n)));
   const ref = cur.showFb ? cur.it.ref : null;
@@ -671,7 +691,7 @@ function next() {
     cur = null; S.phase = "main"; S.section = 1; save(); showSection();
     return;
   }
-  const crit = CRITERIA[cur.stage], key = S.order[S.idx];
+  const crit = cur.crit, key = S.order[S.idx];
   const rec = { tid: cur.it.tid, crit, seq: S.idx, layout: cur.layout, rank: cur.ranks[crit].slice(),
                 rt_ms: elapsed(), zooms: cur.zooms };
   const old = S.answers[key];
@@ -707,7 +727,7 @@ function row(r) {
   const rk = (c) => (r.crit === c ? j(r.rank) : "");
   return { study: bank.study_id, app: APP_VERSION, pid: S.pid, list: S.list, kind: r.kind, tid: r.tid || "",
            crit: r.crit || "", seq: r.seq != null ? r.seq : "", layout: j(r.layout || ""),
-           part: rk("part"), keep: rk("keep"), natural: rk("natural"),
+           part: rk("part"), keep: rk("keep"), natural: rk("natural"), swap: rk("swap"), text: rk("text"),
            ms: r.rt_ms != null ? String(r.rt_ms) : "",
            zooms: r.zooms != null ? r.zooms : "", revisit: r.revisit != null ? r.revisit : "",
            meta: r.kind === "start" ? `first=${r.first};lang=${r.lang};screen=${r.screen};assigned=${r.assigned}` : (r.kind === "finish" ? `total_ms=${r.total_ms}` : ""),
@@ -796,7 +816,7 @@ function renderZoom() {
   $("lb-closes").replaceChildren(...(c.closes || []).map((src) => { const x = el("img", "close"); x.src = src; x.alt = ""; return x; }));
   $("lb-refs").replaceChildren(...it.refs.map((r) => { const f = el("figure"); const x = el("img"); x.src = r.img; x.alt = ""; f.append(x, el("figcaption", null, T("cap")[r.role])); return f; }));
   $("lb-pos").textContent = `${zoomIdx + 1} / ${cur.layout.length}`;
-  const r = cur.ranks[CRITERIA[cur.stage]], at = r.indexOf(cid);
+  const r = cur.ranks[cur.crit], at = r.indexOf(cid);
   $("lb-state").textContent = at >= 0 ? `#${at + 1}` : "";
   $("lb-pick").textContent = at >= 0 ? T("unpick") : T("pickThis");
   $("lb-pick").disabled = cur.showFb;
