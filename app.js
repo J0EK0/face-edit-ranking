@@ -14,7 +14,7 @@ const BASE = {
   zh: {
       title: "人臉編輯結果排序",
       kicker: "中央研究院資訊創新研究中心",
-      fMin: "分鐘左右", fSets: "組照片", fQs: "次排序／每組",
+      fMin: "分鐘", fSets: "組照片", fQs: "次排序／每組",
       startHint: "研究說明與資料的處理方式在說明框內，可捲動閱讀，讀完再勾選同意。",
       docTitle: "研究說明", docScroll: "在框內捲動閱讀", recordedLabel: "記錄範圍",
       consent1: "我們是中央研究院資訊創新研究中心陳駿丞副研究員的研究團隊。部分照片是由 AI 修改過的。",
@@ -124,7 +124,7 @@ const BASE = {
 const STUDY = {
   zh: {
     lede: "每組有一張原圖，和好幾張用不同 AI 方法修改出來的結果。請依三個問題，各把這些結果從最好排到最差。",
-    fMinN: "30",
+    fMinN: "10–15",
     about1: "本研究透過這個網頁進行問卷調查，提供由模型預先生成的影像，請您對同一張照片的多張修改結果進行評分排序，答案經由 Google 表單收集。",
     howLink: "作答說明",
     introTitle: "每組結果分三輪排名",
@@ -192,7 +192,7 @@ const STUDY = {
   },
   en: {
     lede: "Each set shows one original photo and several results edited by different AI methods. Rank the results from best to worst, once for each of three questions.",
-    fMinN: "30",
+    fMinN: "10–15",
     about1: "This questionnaire runs on this web page. It shows images generated in advance by the models and asks you to rate and rank several edited results of the same photo; answers are collected through Google Forms.",
     howLink: "Instructions",
     introTitle: "Each set is ranked in three rounds",
