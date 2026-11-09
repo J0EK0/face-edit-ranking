@@ -336,7 +336,7 @@
      ]
     },
     {
-     "tid": "t6fb9c7e418",
+     "tid": "t1000587a50",
      "task": "text",
      "parts": [
       "hair"
@@ -344,37 +344,37 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/4491f27dd90d2295.jpg",
+       "img": "img/e41c16451bf72992.jpg",
        "closes": []
       }
      ],
-     "instr_en": "give this person light brown long straight hair",
-     "instr_zh": "把這個人的頭髮改成淺棕色、長（超過肩膀）、直髮",
+     "instr_en": "give this person light brown short wavy hair",
+     "instr_zh": "把這個人的頭髮改成淺棕色、短（約到下巴以上）、波浪捲髮",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "cdc120eb327",
-       "img": "img/8a9a92e7973499f1.jpg",
+       "id": "c9fb3323b74",
+       "img": "img/46564adc3692b7bd.jpg",
        "closes": []
       },
       {
-       "id": "c4bef4ba9de",
-       "img": "img/f16d5b06f5d56660.jpg",
+       "id": "c04597f30a6",
+       "img": "img/861f30a277f3084e.jpg",
        "closes": []
       },
       {
-       "id": "cd4f36e4ce3",
-       "img": "img/bbcc23f6801b7bfb.jpg",
+       "id": "c30596059c0",
+       "img": "img/976ee88cb7417a36.jpg",
        "closes": []
       },
       {
-       "id": "c147cbad941",
-       "img": "img/a289470d14b988c7.jpg",
+       "id": "ca3824eb526",
+       "img": "img/39f3dd99f99e6a68.jpg",
        "closes": []
       },
       {
-       "id": "cdf5c65d49c",
-       "img": "img/8b291ca0c02bade1.jpg",
+       "id": "c984453f7c9",
+       "img": "img/4f6425ca0ac28eb7.jpg",
        "closes": []
       }
      ]
@@ -3104,7 +3104,7 @@
      ]
     },
     {
-     "tid": "t9d9ad9ade2",
+     "tid": "t86efb9b5dc",
      "task": "text",
      "parts": [
       "hair"
@@ -3112,37 +3112,37 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/e75f6437868c9dbb.jpg",
+       "img": "img/f62452d91ae78863.jpg",
        "closes": []
       }
      ],
-     "instr_en": "give this person dark brown long straight hair",
-     "instr_zh": "把這個人的頭髮改成深棕色、長（超過肩膀）、直髮",
+     "instr_en": "give this person dirty blonde short wavy hair",
+     "instr_zh": "把這個人的頭髮改成深金色、短（約到下巴以上）、波浪捲髮",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c5842647365",
-       "img": "img/3c2e56bc7b9d6600.jpg",
+       "id": "ce310cb9018",
+       "img": "img/583b0160526ca9cc.jpg",
        "closes": []
       },
       {
-       "id": "c0c492c616e",
-       "img": "img/9b2a4cb6abaf7a5a.jpg",
+       "id": "cacaefc1887",
+       "img": "img/e5d0a27cd2539d9d.jpg",
        "closes": []
       },
       {
-       "id": "c752ea97987",
-       "img": "img/bf92de22ffa2829d.jpg",
+       "id": "c62fd48e593",
+       "img": "img/2f28d1249df11145.jpg",
        "closes": []
       },
       {
-       "id": "c1e225a5e3a",
-       "img": "img/8d6f0e72bed8dda9.jpg",
+       "id": "c77a354bcb0",
+       "img": "img/f169379c713e1251.jpg",
        "closes": []
       },
       {
-       "id": "ca81afcb23b",
-       "img": "img/eb709c18e1df25a7.jpg",
+       "id": "c66c111ed22",
+       "img": "img/2efabcb6f0c2595f.jpg",
        "closes": []
       }
      ]
@@ -4516,7 +4516,7 @@
       },
       {
        "id": "c27a5568709",
-       "img": "img/04229ac5c58e685c.jpg",
+       "img": "img/9f5084af8de5c29f.jpg",
        "closes": []
       },
       {
@@ -6587,7 +6587,7 @@
       },
       {
        "id": "ca42b751f1b",
-       "img": "img/b3730e7049f2ff28.jpg",
+       "img": "img/779dd8de88a2be2f.jpg",
        "closes": []
       },
       {
