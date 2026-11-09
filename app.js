@@ -6,7 +6,7 @@
 "use strict";
 
 const CFG = window.STUDY_CONFIG || { mode: "off" };
-const APP_VERSION = "v5.2";
+const APP_VERSION = "v5.3";
 
 // Consent and study information: v3/v4 wording (DESIGN_v3.md), with the storage lines rewritten to say what this
 // version does (answers are collected through Google Forms, as the consent form itself says).
@@ -129,10 +129,10 @@ const STUDY = {
     howLink: "作答說明",
     introTitle: "每組結果分三輪排名",
     introLede: "每組左邊是原圖 A，以及參考圖 B 或一句修改指令；右邊是同一張 A 用不同方法改出來的 5–7 張結果。每組結果會出現三次，每次只回答下面其中一個問題：先把所有組排完問題 ①，再回來排 ②，最後排 ③。每次出現時圖的位置都會重新打亂，從第 1 名點到最後一名。",
-    rule1: "部位改得對不對", rule1d: "只看要改的那個部位：換部位的題目看它像不像 B 的，依指令修改的題目看它有沒有照指令。其他地方先不管。",
+    rule1: "部位改得對不對", rule1d: "看 A 臉上那個部位：換部位的題目看它像不像 B 的，依指令修改的題目看它有沒有照指令。整張變成 B 或別人、等於沒有改在 A 身上，排最後。接縫、自不自然留給第 ③ 題。",
     rule2: "其他地方有沒有保持原樣", rule2d: "只看要改的部位以外：還是不是 A 這個人，臉型、膚色、背景、光線、姿勢、取景有沒有變。整張變成 B 或別人的排最後。",
     rule3: "整張自不自然", rule3d: "整張看起來像不像一張真的照片：有沒有接縫、色塊、扭曲、模糊或多出來的東西。這題不管有沒有照要求改。",
-    note1: "同一張結果在三個問題可以排在不同位置，例如部位改得最像但整張變成另一個人。很多張會很像，分不出時照你稍微偏好的順序點就好。",
+    note1: "同一張結果在三個問題可以排在不同位置，例如嘴巴換得最像 B，但背景或膚色變了很多，或看起來有接縫。很多張會很像，分不出時照你稍微偏好的順序點就好。",
     note2: "依序點第 1 名、第 2 名……，一直點到最後一名。點錯了：再點一次已經有名次的那張，就會取消它和之後的名次；也可以按「重來」。想改前面的答案，按「上一組」回去。",
     note3: "眼睛和嘴巴的題目，每張結果下面有放大的局部圖。點每張右上角的放大鏡可以看大圖，大圖裡也可以直接選。鍵盤：數字鍵選第幾張、Backspace 取消上一下、Enter 下一組。中途關掉網頁，用同一個瀏覽器再打開可以接續。",
     startPractice: "開始練習（1 題）", practiceSub: "練習不計分，只排一次，熟悉怎麼點名次", backToSets: "回到題目",
@@ -145,18 +145,18 @@ const STUDY = {
     secCritMulti: { swap: "：① 換的部位像不像 B", text: "：② 改的部位有沒有照指令", keep: "：③ 其他地方有沒有保持原樣", natural: "：④ 整張自不自然" },
     secBody: {
       swap: {
-        part: "每組都有參考圖 B 和 7 張結果。這一輪只看要換的部位像不像 B 的，其他地方先不管。",
+        part: "每組都有參考圖 B 和 7 張結果。這一輪看 A 臉上換過去的部位像不像 B 的；整張變成 B 或別人的排最後。其他地方和自不自然下兩輪再看。",
         keep: "同一批組再出現一次，圖的位置重新打亂。這一輪只看要換的部位以外：還是不是 A 這個人，臉型、膚色、背景、光線、姿勢有沒有變。",
         natural: "同一批組最後出現一次。這一輪只看整張像不像一張真的照片：接縫、色塊、扭曲、模糊排後面，不管有沒有換成功。",
       },
       text: {
-        part: "這一段沒有參考圖 B，改成一句修改指令，例如「讓這個人微笑，嘴巴張開」，每組 5 張結果。這一輪只看部位有沒有照指令改；指令有兩三項時每一項都要看。",
+        part: "這一段沒有參考圖 B，改成一句修改指令，例如「讓這個人微笑，嘴巴張開」，每組 5 張結果。這一輪看 A 臉上的部位有沒有照指令改；指令有兩三項時每一項都要看。整張變成別人的排最後。",
         keep: "同一批組再出現一次，圖的位置重新打亂。這一輪只看要改的部位以外有沒有保持原樣、還是不是 A 這個人。",
         natural: "同一批組最後出現一次。這一輪只看整張自不自然，不管有沒有照指令改。",
       },
       multi: {
-        swap: "最後一段每組同時改兩個部位：一個從參考圖 B 換過來，另一個照指令修改，每組 3 張結果，分四輪排。這一輪只看換過來的那個部位像不像 B 的。",
-        text: "同一批組再出現一次，圖的位置重新打亂。這一輪只看照指令改的那個部位有沒有改對。",
+        swap: "最後一段每組同時改兩個部位：一個從參考圖 B 換過來，另一個照指令修改，每組 3 張結果，分四輪排。這一輪看 A 臉上換過來的那個部位像不像 B 的；整張變成 B 或別人的排最後。",
+        text: "同一批組再出現一次，圖的位置重新打亂。這一輪看 A 臉上照指令改的那個部位有沒有改對；整張變成別人的排最後。",
         keep: "同一批組再出現一次。這一輪只看兩個被改的部位以外：還是不是 A 這個人，臉型、膚色、背景、光線、姿勢有沒有變。",
         natural: "同一批組最後出現一次。這一輪只看整張自不自然，不管有沒有改成功。",
       },
@@ -165,14 +165,14 @@ const STUDY = {
     cont: "繼續",
     cap: { A: "原圖 A", B: "參考圖 B", C: "參考圖 C" }, instr: "修改指令",
     crit: {
-      part: { swap: "哪張的{part}最像 B 的？", text: "哪張的{part}最符合指令？" },
+      part: { swap: "哪張把 B 的{part}換到 A 臉上換得最好？", text: "哪張在 A 臉上把{part}改得最符合指令？" },
       keep: "除了{part}以外，哪張最像原圖 A？",
       natural: "哪張整張看起來最自然？",
     },
-    critMulti: { swap: "哪張的{swap}最像 B 的？", text: "哪張的{text}最符合指令？", keep: "除了{swap}和{text}以外，哪張最像原圖 A？", natural: "哪張整張看起來最自然？" },
+    critMulti: { swap: "哪張把 B 的{swap}換到 A 臉上換得最好？", text: "哪張在 A 臉上把{text}改得最符合指令？", keep: "除了{swap}和{text}以外，哪張最像原圖 A？", natural: "哪張整張看起來最自然？" },
     critShort: { part: "部位", keep: "其他地方", natural: "自然", swap: "換的部位", text: "改的部位" },
     hint: {
-      part_swap: { mouth: "只看嘴巴本身像不像 B 的；壞掉、沒變的排後面", eyes: "只看眼珠顏色像不像 B 的", hair: "只看頭髮：髮色、長短、直捲" },
+      part_swap: { mouth: "嘴巴要像 B 的；沒換、壞掉、整張變成 B 或別人的排後面", eyes: "眼珠顏色要像 B 的；整張變成 B 或別人的排後面", hair: "髮色、長短、直捲要像 B 的；整張變成 B 或別人的排後面" },
       part_text: { mouth: "笑不笑、嘴巴張開或閉著，兩項都要看", eyes: "只看眼珠顏色；眼皮、眼影或眼白變色不算", hair: "髮色、長短、直捲，每一項都要看" },
       part_multi: "每個被點名的部位都要看",
       keep: "還是 A 這個人，臉型、膚色、背景、光線、姿勢、取景沒變的排前面；整張變成別人的排最後",
@@ -197,10 +197,10 @@ const STUDY = {
     howLink: "Instructions",
     introTitle: "Each set is ranked in three rounds",
     introLede: "Each set shows the original photo A on the left, with a reference photo B or an editing instruction. On the right are 5 to 7 results made from A by different methods. Each set comes up three times, and each time you answer only one of the questions below: first question 1 for all sets, then question 2, then question 3. The results are reshuffled every time; click from first place to last.",
-    rule1: "Is the part edited correctly?", rule1d: "Look only at the part being edited: for a part swap, does it look like B's; for a text edit, does it follow the instruction. Ignore everything else for now.",
+    rule1: "Is the part edited correctly?", rule1d: "Look at that part on A's face: for a part swap, does it look like B's; for a text edit, does it follow the instruction. A result that turned into B or someone else was not edited on A and goes last. Seams and naturalness belong to question (3).",
     rule2: "Is everything else kept as it was?", rule2d: "Look only outside the edited part: is it still the person in A, with the same face shape, skin tone, background, lighting, pose and framing? A result that turned into B or someone else goes last.",
     rule3: "Does the whole photo look natural?", rule3d: "Does it look like a real photo: no seams, colour patches, distortion, blur or added things. This question ignores whether the edit was done.",
-    note1: "One result can rank differently on the three questions, for example the best part but a different person. Many results will look similar; if you cannot tell them apart, click in the order you slightly prefer.",
+    note1: "One result can rank differently on the three questions, for example the mouth looks most like B's, but the background or skin tone changed a lot, or there is a visible seam. Many results will look similar; if you cannot tell them apart, click in the order you slightly prefer.",
     note2: "Click first place, then second, and so on, down to last place. Clicked the wrong one? Click a ranked result again to remove it and the ranks after it, or press Start over. To change an earlier answer, press Previous.",
     note3: "For eyes and mouths, a close-up sits below each result. The magnifier at the top right of a result opens a large view, where you can also choose it. Keyboard: number keys choose a result, Backspace undoes the last click, Enter goes to the next set. If you close the page, reopen it in the same browser to continue.",
     startPractice: "Start practice (1 question)", practiceSub: "Practice is not scored; rank once to learn the clicking", backToSets: "Back to the sets",
@@ -213,18 +213,18 @@ const STUDY = {
     secCritMulti: { swap: ": (1) does the swapped part look like B's", text: ": (2) does the edited part follow the instruction", keep: ": (3) is the rest unchanged", natural: ": (4) does it look natural" },
     secBody: {
       swap: {
-        part: "Every set has a reference photo B and 7 results. In this round look only at the swapped part: does it look like B's. Ignore the rest for now.",
+        part: "Every set has a reference photo B and 7 results. In this round look at the part swapped onto A's face: does it look like B's. A result that turned into B or someone else goes last. The rest and naturalness come in the next two rounds.",
         keep: "The same sets come back, reshuffled. In this round look only outside the swapped part: is it still the person in A, with the same face shape, skin, background, lighting and pose.",
         natural: "The same sets come back one last time. In this round look only at whether the whole photo looks real: seams, colour patches, distortion and blur rank low, whether or not the swap worked.",
       },
       text: {
-        part: "This part has no reference photo B. Instead there is an editing instruction, such as \"make this person smile with their mouth open\", and 5 results. In this round look only at whether the part follows the instruction; check every item when there are two or three.",
+        part: "This part has no reference photo B. Instead there is an editing instruction, such as \"make this person smile with their mouth open\", and 5 results. In this round look at whether the part on A's face follows the instruction; check every item when there are two or three. A result that turned into someone else goes last.",
         keep: "The same sets come back, reshuffled. In this round look only outside the edited part: is it unchanged and still the person in A.",
         natural: "The same sets come back one last time. In this round look only at whether the whole photo looks natural, whether or not the edit was done.",
       },
       multi: {
-        swap: "In this last part each set edits two parts at once: one is taken from reference photo B, the other follows an instruction. Each set has 3 results and is ranked in four rounds. In this round look only at the swapped part: does it look like B's.",
-        text: "The same sets come back, reshuffled. In this round look only at the part edited by the instruction: was it done right.",
+        swap: "In this last part each set edits two parts at once: one is taken from reference photo B, the other follows an instruction. Each set has 3 results and is ranked in four rounds. In this round look at the part swapped onto A's face: does it look like B's. A result that turned into B or someone else goes last.",
+        text: "The same sets come back, reshuffled. In this round look at the part edited by the instruction on A's face: was it done right. A result that turned into someone else goes last.",
         keep: "The same sets come back. In this round look only outside the two edited parts: is it still the person in A, with the same face shape, skin, background, lighting and pose.",
         natural: "The same sets come back one last time. In this round look only at whether the whole photo looks natural, whether or not the edits worked.",
       },
@@ -233,14 +233,14 @@ const STUDY = {
     cont: "Continue",
     cap: { A: "Original A", B: "Reference B", C: "Reference C" }, instr: "Instruction",
     crit: {
-      part: { swap: "Whose {part} looks most like B's?", text: "Whose {part} best follows the instruction?" },
+      part: { swap: "Which puts B's {part} onto A's face best?", text: "Which edits the {part} on A's face to best follow the instruction?" },
       keep: "Apart from the {part}, which looks most like original A?",
       natural: "Which looks most natural overall?",
     },
-    critMulti: { swap: "Whose {swap} looks most like B's?", text: "Whose {text} best follows the instruction?", keep: "Apart from the {swap} and the {text}, which looks most like original A?", natural: "Which looks most natural overall?" },
+    critMulti: { swap: "Which puts B's {swap} onto A's face best?", text: "Which edits the {text} on A's face to best follow the instruction?", keep: "Apart from the {swap} and the {text}, which looks most like original A?", natural: "Which looks most natural overall?" },
     critShort: { part: "Part", keep: "Rest kept", natural: "Natural", swap: "Swapped part", text: "Edited part" },
     hint: {
-      part_swap: { mouth: "Look only at the mouth: does it look like B's? Broken or unchanged goes low", eyes: "Look only at iris colour: does it match B's?", hair: "Look only at the hair: colour, length, straight or curly" },
+      part_swap: { mouth: "The mouth should look like B's; unchanged, broken, or turned into B or someone else goes low", eyes: "Iris colour should match B's; turned into B or someone else goes low", hair: "Colour, length, straight or curly should match B's; turned into B or someone else goes low" },
       part_text: { mouth: "Smiling or not, mouth open or closed: check both", eyes: "Look only at iris colour; colour on eyelids or the whites does not count", hair: "Colour, length, straight or wavy: check every part" },
       part_multi: "Check every part that is named",
       keep: "Still the person in A, with the same face shape, skin, background, lighting, pose and framing ranks high; turned into someone else ranks last",
