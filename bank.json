@@ -2032,7 +2032,7 @@
      ]
     },
     {
-     "tid": "t071e4a2c36",
+     "tid": "t9a90458fb4",
      "task": "multi",
      "parts": [
       "hair",
@@ -2043,40 +2043,40 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/dfd03f353d13e6ad.jpg",
+       "img": "img/613e7217f96d9fdb.jpg",
        "closes": [
-        "img/1cc62e534632e7f2.jpg"
+        "img/7aefcc3008c5bd19.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/4564634a84430c02.jpg",
+       "img": "img/3ca3043bc75404c1.jpg",
        "closes": []
       }
      ],
-     "instr_en": "make this person's eyes brown",
-     "instr_zh": "把這個人的眼睛改成棕色",
+     "instr_en": "make this person's eyes blue",
+     "instr_zh": "把這個人的眼睛改成藍色",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c42db1b764e",
-       "img": "img/1ce56ddc83c4e8b1.jpg",
+       "id": "c69c9801dde",
+       "img": "img/dccc3688867af16a.jpg",
        "closes": [
-        "img/797772b595d426d9.jpg"
+        "img/206aced84f7700f1.jpg"
        ]
       },
       {
-       "id": "c02fb293a45",
-       "img": "img/08373e8c3f0aec77.jpg",
+       "id": "c5136db5a21",
+       "img": "img/a796bf0bf47c812f.jpg",
        "closes": [
-        "img/88027070f742556d.jpg"
+        "img/ab0598076d6929dd.jpg"
        ]
       },
       {
-       "id": "ce4f893c4f1",
-       "img": "img/98ae88427d36f61b.jpg",
+       "id": "cf19f012e24",
+       "img": "img/4244fdded88f0ce7.jpg",
        "closes": [
-        "img/25521a251f774cb2.jpg"
+        "img/81563580f80feec4.jpg"
        ]
       }
      ]
