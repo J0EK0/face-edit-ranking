@@ -382,7 +382,7 @@
    ],
    "multi": [
     {
-     "tid": "t537fc68f9e",
+     "tid": "t013034f77f",
      "task": "multi",
      "parts": [
       "hair",
@@ -393,46 +393,46 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/5f11eb88cf9148f0.jpg",
+       "img": "img/9b9619d5aa943321.jpg",
        "closes": [
-        "img/086e47008f4aed6c.jpg"
+        "img/81daf9d5c1ec475d.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/9d65162388b199c0.jpg",
+       "img": "img/fd86e25d3f4e71b7.jpg",
        "closes": []
       }
      ],
-     "instr_en": "make this person smile with their mouth closed",
-     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_en": "make this person smile with their mouth open",
+     "instr_zh": "讓這個人微笑，嘴巴張開",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "cc8bd8f0558",
-       "img": "img/29506bf6b50f74aa.jpg",
+       "id": "ca0e9d4c2ae",
+       "img": "img/49ef6d6a771a08ad.jpg",
        "closes": [
-        "img/e9d150caa5d05a09.jpg"
+        "img/15aa11fcfb470fa0.jpg"
        ]
       },
       {
-       "id": "cc9c402a84b",
-       "img": "img/b1d34c1977ece753.jpg",
+       "id": "c82406fab93",
+       "img": "img/314f03930e6ee9c9.jpg",
        "closes": [
-        "img/e2b98857246e3582.jpg"
+        "img/f275366d8e1a3bd3.jpg"
        ]
       },
       {
-       "id": "c9741edbd09",
-       "img": "img/85d29af0c162534a.jpg",
+       "id": "c86614f120b",
+       "img": "img/af73b0547a82edad.jpg",
        "closes": [
-        "img/2f324c690c209ab5.jpg"
+        "img/0cb3b4c9642cb90b.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "te201521183",
+     "tid": "t97a6f8070c",
      "task": "multi",
      "parts": [
       "mouth",
@@ -443,48 +443,48 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/4f7abf60c27e86d0.jpg",
+       "img": "img/981269553ff34705.jpg",
        "closes": [
-        "img/5eeb7f7f8c780eb8.jpg"
+        "img/4683c0f0cf4ec11a.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/f712cc4f99fa6917.jpg",
+       "img": "img/20dc79f3c76062a0.jpg",
        "closes": [
-        "img/0392d138dadb1efa.jpg"
+        "img/5cef145745893297.jpg"
        ]
       }
      ],
-     "instr_en": "give this person golden blonde short wavy",
-     "instr_zh": "把這個人的頭髮改成金色、短（約到下巴以上）、波浪捲髮",
+     "instr_en": "give this person golden blonde long wavy",
+     "instr_zh": "把這個人的頭髮改成金色、長（超過肩膀）、波浪捲髮",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "cc3bdd3d66a",
-       "img": "img/a2b2278f840259d9.jpg",
+       "id": "c851b423c8f",
+       "img": "img/44c1c39726343fb0.jpg",
        "closes": [
-        "img/20ab3e7c4b752cd9.jpg"
+        "img/a4527402864aa545.jpg"
        ]
       },
       {
-       "id": "ce18a41c5dd",
-       "img": "img/19c8169885a235b9.jpg",
+       "id": "c85fe333038",
+       "img": "img/b7a0536db98609ee.jpg",
        "closes": [
-        "img/f27eede8962b9a92.jpg"
+        "img/d981044161c408ea.jpg"
        ]
       },
       {
-       "id": "cf22d87d644",
-       "img": "img/e0eb5f97d51c27db.jpg",
+       "id": "c8ad30fb3be",
+       "img": "img/a8eb3a05805f3cdb.jpg",
        "closes": [
-        "img/94d46abace9be37e.jpg"
+        "img/71d2ce30b9b483c6.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "t8005408a4d",
+     "tid": "tf2c677b6ca",
      "task": "multi",
      "parts": [
       "eyes",
@@ -495,48 +495,48 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/df809b42b4460755.jpg",
+       "img": "img/3f1c60969770aa43.jpg",
        "closes": [
-        "img/667bbeeb7bf2f643.jpg"
+        "img/4c1d5ec4d08eb0f2.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/9e03705de8e431fb.jpg",
+       "img": "img/431e24e291220773.jpg",
        "closes": [
-        "img/d6a673684c4df11b.jpg"
+        "img/7b177c7741a2b23f.jpg"
        ]
       }
      ],
-     "instr_en": "give this person light brown long straight",
-     "instr_zh": "把這個人的頭髮改成淺棕色、長（超過肩膀）、直髮",
+     "instr_en": "give this person dirty blonde short straight",
+     "instr_zh": "把這個人的頭髮改成深金色、短（約到下巴以上）、直髮",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "cd628785e7f",
-       "img": "img/70312d83aaaa4140.jpg",
+       "id": "cfe55bf8dc0",
+       "img": "img/3b8d7d679ce79c9e.jpg",
        "closes": [
-        "img/061089a91f1fb4e1.jpg"
+        "img/6e297c8d2d28bb23.jpg"
        ]
       },
       {
-       "id": "cb0eae0d6cb",
-       "img": "img/7fb15950782df460.jpg",
+       "id": "ccad11e827a",
+       "img": "img/fde260a7f781bb70.jpg",
        "closes": [
-        "img/86efdf14d7147240.jpg"
+        "img/cfea77ad5d76110b.jpg"
        ]
       },
       {
-       "id": "c9df92c0a23",
-       "img": "img/cab8d32461694d92.jpg",
+       "id": "ca3cde382d6",
+       "img": "img/61a197e22b5c0ac0.jpg",
        "closes": [
-        "img/b6f5b7f76b1f0cb7.jpg"
+        "img/d53614ea254d2e60.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "ta31459c729",
+     "tid": "tb99918a424",
      "task": "multi",
      "parts": [
       "eyes",
@@ -547,52 +547,52 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/e986bdfaf6973a94.jpg",
+       "img": "img/5c778d162b3e1595.jpg",
        "closes": [
-        "img/3330cea163d60567.jpg",
-        "img/27785efc1af12d03.jpg"
+        "img/551439eeff5985a9.jpg",
+        "img/2209622cbfa30448.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/0d8523e92cf95c0c.jpg",
+       "img": "img/6085861b71e4bccb.jpg",
        "closes": [
-        "img/2d5376358404bb31.jpg"
+        "img/bac5a52e09fce150.jpg"
        ]
       }
      ],
-     "instr_en": "make this person make a neutral expression with their mouth open",
-     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_en": "make this person make a neutral expression with their mouth closed",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴閉著",
      "instr_note_en": "(a calm face, not smiling)",
      "cands": [
       {
-       "id": "cdcfbbd7dd5",
-       "img": "img/1228c8a7f32b07f5.jpg",
+       "id": "c921f3114a5",
+       "img": "img/178b01c77071f492.jpg",
        "closes": [
-        "img/21440ffbdd069467.jpg",
-        "img/e5d65dd36d1fe7e6.jpg"
+        "img/0a606f1c63a878ef.jpg",
+        "img/f410612ad1175442.jpg"
        ]
       },
       {
-       "id": "cb36e4f434c",
-       "img": "img/5d4c9a0d6d6159b4.jpg",
+       "id": "c61cd6effae",
+       "img": "img/320734a5d79ce832.jpg",
        "closes": [
-        "img/3a2b0658ced8cbb0.jpg",
-        "img/d0c8b11276a5b016.jpg"
+        "img/c41cc3ffa6a7f723.jpg",
+        "img/3097ee3c53aad8dd.jpg"
        ]
       },
       {
-       "id": "cea9151a4fb",
-       "img": "img/33aa98b6f2f8a88e.jpg",
+       "id": "c8c51e89a48",
+       "img": "img/4cec2a460ea6b184.jpg",
        "closes": [
-        "img/cb4e684ef755cb6c.jpg",
-        "img/f3d1395d5d49967f.jpg"
+        "img/2af772c12d08013e.jpg",
+        "img/7465ad0f706a4f25.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "ta82788d1b5",
+     "tid": "t66f592b960",
      "task": "multi",
      "parts": [
       "mouth",
@@ -603,17 +603,17 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/6cfc7c9e2696201c.jpg",
+       "img": "img/1a07ce81e415ecbb.jpg",
        "closes": [
-        "img/9fb21bede3a7e8c5.jpg",
-        "img/45198ef21fa3f5c0.jpg"
+        "img/6f5d93f4f0aaf654.jpg",
+        "img/0821eee5810cf8de.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/d10b8304225ff498.jpg",
+       "img": "img/e07ffd918d7e19bf.jpg",
        "closes": [
-        "img/2f90e9f8c2c03b1d.jpg"
+        "img/af10e9886236a192.jpg"
        ]
       }
      ],
@@ -622,33 +622,33 @@
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c56de0d1119",
-       "img": "img/5db07dc1e9644059.jpg",
+       "id": "c6d48ad4327",
+       "img": "img/f640e80328073fb7.jpg",
        "closes": [
-        "img/da03612b168477e6.jpg",
-        "img/b4b0389b255cb1cb.jpg"
+        "img/ac450f2d0b729685.jpg",
+        "img/5884841552b94669.jpg"
        ]
       },
       {
-       "id": "cd82b5b68a2",
-       "img": "img/a94b33c43bcafd47.jpg",
+       "id": "ca49ebe12ef",
+       "img": "img/2db10db80859cf50.jpg",
        "closes": [
-        "img/86f2e4965f67cb80.jpg",
-        "img/442fcb0bddae9e2b.jpg"
+        "img/a44c8ab06fd32303.jpg",
+        "img/42a26bd0354e2da1.jpg"
        ]
       },
       {
-       "id": "c74482fe055",
-       "img": "img/960061cab4a0a4b5.jpg",
+       "id": "c2c450b29ce",
+       "img": "img/8bd1259e69f69041.jpg",
        "closes": [
-        "img/ab5913668edb5dfb.jpg",
-        "img/75f14ca61456ee22.jpg"
+        "img/7a6c128d07f8af65.jpg",
+        "img/05c6f722b5519a80.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "t6f7f33f7e0",
+     "tid": "t5179b24a82",
      "task": "multi",
      "parts": [
       "hair",
@@ -659,40 +659,40 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/217967f92df850d0.jpg",
+       "img": "img/69eb7815bf892220.jpg",
        "closes": [
-        "img/0d35c9a619ea578b.jpg"
+        "img/99d4cd9a6e23d421.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/87afee54456f7966.jpg",
+       "img": "img/c73c04a94ca16a63.jpg",
        "closes": []
       }
      ],
-     "instr_en": "make this person's eyes brown",
-     "instr_zh": "把這個人的眼睛改成棕色",
+     "instr_en": "make this person's eyes blue",
+     "instr_zh": "把這個人的眼睛改成藍色",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c75a10218fd",
-       "img": "img/e0021a972aa814e8.jpg",
+       "id": "c699c6e8ce6",
+       "img": "img/3a37236360c72f0f.jpg",
        "closes": [
-        "img/808874c2cca305dc.jpg"
+        "img/40d57a0cbe3502f1.jpg"
        ]
       },
       {
-       "id": "c3825564731",
-       "img": "img/b3e2c00d0ac51671.jpg",
+       "id": "c630197a06b",
+       "img": "img/451997035a8d5106.jpg",
        "closes": [
-        "img/65b044d1956f7f83.jpg"
+        "img/0fc39204d2f7ab0a.jpg"
        ]
       },
       {
-       "id": "c1809a9b5cc",
-       "img": "img/72952603cd1180f7.jpg",
+       "id": "c8a1db19238",
+       "img": "img/3858e4901b31b761.jpg",
        "closes": [
-        "img/71158bc2947eb424.jpg"
+        "img/a478ecfec621d539.jpg"
        ]
       }
      ]
@@ -1074,7 +1074,7 @@
    ],
    "multi": [
     {
-     "tid": "tcbbcf95626",
+     "tid": "ta3cc89bd9d",
      "task": "multi",
      "parts": [
       "hair",
@@ -1085,46 +1085,46 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/b04eceb98ba15be0.jpg",
+       "img": "img/ee47dab86ae278b3.jpg",
        "closes": [
-        "img/728701f0da73e1ee.jpg"
+        "img/be6eb41dbf94cfba.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/7cee60005d34047b.jpg",
+       "img": "img/e0606df88dda488b.jpg",
        "closes": []
       }
      ],
-     "instr_en": "make this person smile with their mouth closed",
-     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
-     "instr_note_en": null,
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
      "cands": [
       {
-       "id": "c7d9aaed4a5",
-       "img": "img/bd0d688b80fe53b0.jpg",
+       "id": "ce109dcb0bd",
+       "img": "img/f8ee9c8f23625da5.jpg",
        "closes": [
-        "img/7be72deb753df258.jpg"
+        "img/513c5cd069684bc6.jpg"
        ]
       },
       {
-       "id": "ce8c31e656d",
-       "img": "img/f968f34960f38724.jpg",
+       "id": "c662073f4cd",
+       "img": "img/4c5f3dfe988a81d3.jpg",
        "closes": [
-        "img/bcf982766b0a8b80.jpg"
+        "img/39bce1f5ab2ffd07.jpg"
        ]
       },
       {
-       "id": "c29a1b47888",
-       "img": "img/9bc32e7b52f8f262.jpg",
+       "id": "c8bfabbde05",
+       "img": "img/b77d6c6c5d75f843.jpg",
        "closes": [
-        "img/92009fe8fe11b9bd.jpg"
+        "img/051c31f8c2cdcff4.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "ta734046c45",
+     "tid": "t487c2b0d0b",
      "task": "multi",
      "parts": [
       "mouth",
@@ -1135,48 +1135,48 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/63d9bbb5f8bd18e2.jpg",
+       "img": "img/a0de0336db1d8ebd.jpg",
        "closes": [
-        "img/2b975f6dd7ebf291.jpg"
+        "img/3618ee37f1f2d505.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/1fa1bc47c3bb6ef0.jpg",
+       "img": "img/b25325fdf1ac4ddc.jpg",
        "closes": [
-        "img/314b3e620881b3a8.jpg"
+        "img/b428845ecdbad597.jpg"
        ]
       }
      ],
-     "instr_en": "give this person dark brown long wavy",
-     "instr_zh": "把這個人的頭髮改成深棕色、長（超過肩膀）、波浪捲髮",
+     "instr_en": "give this person light brown long straight",
+     "instr_zh": "把這個人的頭髮改成淺棕色、長（超過肩膀）、直髮",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c44212478e0",
-       "img": "img/12c52342244362af.jpg",
+       "id": "cb835c69193",
+       "img": "img/d1620efe024d6242.jpg",
        "closes": [
-        "img/7bccf20fb6fa6480.jpg"
+        "img/33322f89b73d92cc.jpg"
        ]
       },
       {
-       "id": "c8a62720883",
-       "img": "img/09a15e6ccd1a0068.jpg",
+       "id": "c6b83aab17b",
+       "img": "img/6006840ec1851d09.jpg",
        "closes": [
-        "img/8e552e4d1ec9c869.jpg"
+        "img/3381f6fd8b71301f.jpg"
        ]
       },
       {
-       "id": "c6b4c3e7b56",
-       "img": "img/5583875b3905ed42.jpg",
+       "id": "c9422b32a68",
+       "img": "img/c4688c2419467803.jpg",
        "closes": [
-        "img/956ca30b37eaee1f.jpg"
+        "img/a225d2e3a2922130.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "t5d17f02adc",
+     "tid": "t15856977b7",
      "task": "multi",
      "parts": [
       "eyes",
@@ -1187,48 +1187,48 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/3f1c60969770aa43.jpg",
+       "img": "img/55d13709cb3b3be3.jpg",
        "closes": [
-        "img/4c1d5ec4d08eb0f2.jpg"
+        "img/de26d2deb9057ec3.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/431e24e291220773.jpg",
+       "img": "img/60c353052d40ebe9.jpg",
        "closes": [
-        "img/7b177c7741a2b23f.jpg"
+        "img/01142aa15f126bb8.jpg"
        ]
       }
      ],
-     "instr_en": "give this person dirty blonde short straight",
-     "instr_zh": "把這個人的頭髮改成深金色、短（約到下巴以上）、直髮",
+     "instr_en": "give this person light brown long straight",
+     "instr_zh": "把這個人的頭髮改成淺棕色、長（超過肩膀）、直髮",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c999f0f54d8",
-       "img": "img/3b8d7d679ce79c9e.jpg",
+       "id": "cd52178d46b",
+       "img": "img/af3ae40601ca3abf.jpg",
        "closes": [
-        "img/6e297c8d2d28bb23.jpg"
+        "img/f74c889ceb5313d3.jpg"
        ]
       },
       {
-       "id": "cfe36c7a414",
-       "img": "img/61a197e22b5c0ac0.jpg",
+       "id": "c0e4a64cefd",
+       "img": "img/913b3e3107c5d68d.jpg",
        "closes": [
-        "img/d53614ea254d2e60.jpg"
+        "img/66baee7f50e7f5b2.jpg"
        ]
       },
       {
-       "id": "cf9204cf801",
-       "img": "img/fde260a7f781bb70.jpg",
+       "id": "c363e538175",
+       "img": "img/3ed30f4d65bef639.jpg",
        "closes": [
-        "img/cfea77ad5d76110b.jpg"
+        "img/159bc786abb50088.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "t9f67ea2457",
+     "tid": "td6b5206802",
      "task": "multi",
      "parts": [
       "eyes",
@@ -1239,52 +1239,52 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/877599b52060c9dd.jpg",
+       "img": "img/dcbca612fe7ebacd.jpg",
        "closes": [
-        "img/3c6cbcd72be1ef6b.jpg",
-        "img/0ede4510798d7c74.jpg"
+        "img/44ea293a41b6132b.jpg",
+        "img/75f0497b6831e745.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/cd036da4f4667117.jpg",
+       "img": "img/00b3991b2476ee21.jpg",
        "closes": [
-        "img/2351fe8a865baa2a.jpg"
+        "img/695c6d11d2d0d5ff.jpg"
        ]
       }
      ],
-     "instr_en": "make this person smile with their mouth closed",
-     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
-     "instr_note_en": null,
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
      "cands": [
       {
-       "id": "cac5ea72fdb",
-       "img": "img/92e7bf2c1e196412.jpg",
+       "id": "c79f43e6a66",
+       "img": "img/aea477b707232ab5.jpg",
        "closes": [
-        "img/9d1de8d1b7bc428a.jpg",
-        "img/707d46d7fbaedc5c.jpg"
+        "img/bc9fcc90be2ada1f.jpg",
+        "img/b967e4ce43d2b863.jpg"
        ]
       },
       {
-       "id": "c3c1909ba16",
-       "img": "img/fcc047333d3bab9a.jpg",
+       "id": "c960ef21128",
+       "img": "img/1d63451397d8d814.jpg",
        "closes": [
-        "img/f1f8e7b971140af0.jpg",
-        "img/bb82d98763e48054.jpg"
+        "img/c95c4b1fd0ad89cf.jpg",
+        "img/31ae59b72856cca6.jpg"
        ]
       },
       {
-       "id": "ca2d8110035",
-       "img": "img/865e3d6f2e7b945f.jpg",
+       "id": "c09c2595624",
+       "img": "img/254c4ef94d797335.jpg",
        "closes": [
-        "img/2e9cb596c590401a.jpg",
-        "img/01aa8b01f8528c61.jpg"
+        "img/c4c8ef0c3113a0b8.jpg",
+        "img/d9671b0aedcdb0dc.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "td0f5a9da0b",
+     "tid": "tfdeb7e458f",
      "task": "multi",
      "parts": [
       "mouth",
@@ -1295,46 +1295,46 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/0ec82c18b34ca2dd.jpg",
+       "img": "img/280b60d7590b7437.jpg",
        "closes": [
-        "img/c542a189363adfac.jpg",
-        "img/9c93465d771197b2.jpg"
+        "img/9dff956572d84048.jpg",
+        "img/f0cffcf5272b63c9.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/f3389331a2c4fd19.jpg",
+       "img": "img/94b3e7db255f465b.jpg",
        "closes": [
-        "img/469f8b0849c32226.jpg"
+        "img/a75817964a3fbd29.jpg"
        ]
       }
      ],
-     "instr_en": "make this person's eyes brown",
-     "instr_zh": "把這個人的眼睛改成棕色",
+     "instr_en": "make this person's eyes blue",
+     "instr_zh": "把這個人的眼睛改成藍色",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c32065c74fc",
-       "img": "img/75bd1d9f06dc778b.jpg",
+       "id": "cf2870de778",
+       "img": "img/ccb25d8889b32055.jpg",
        "closes": [
-        "img/d6baaa16655abd5e.jpg",
-        "img/f74e38c8e38fd051.jpg"
+        "img/c3d04412547b3a98.jpg",
+        "img/db99802bc32143c7.jpg"
        ]
       },
       {
-       "id": "c2b77f44b46",
-       "img": "img/9fdddb0c64736133.jpg",
+       "id": "c797ba03083",
+       "img": "img/59e1e9527e0d82aa.jpg",
        "closes": [
-        "img/f46fb55e510b3e1d.jpg",
-        "img/a3096dda245a8c53.jpg"
+        "img/8c24a7f838412c48.jpg",
+        "img/713ef1e7ebba499e.jpg"
        ]
       },
       {
-       "id": "c015f42858c",
-       "img": "img/9d4d200ccf63cdce.jpg",
+       "id": "c4f2c300266",
+       "img": "img/ed4419baf9f78cc7.jpg",
        "closes": [
-        "img/7d5a546bb4dba2aa.jpg",
-        "img/3d4ec8e5ef2284ef.jpg"
+        "img/7667d0982fd7f753.jpg",
+        "img/0bd94b56b3cd6fa0.jpg"
        ]
       }
      ]
@@ -1367,13 +1367,6 @@
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c2d7928e661",
-       "img": "img/ef7db8172922f4d3.jpg",
-       "closes": [
-        "img/3fef5ebb2b6938bc.jpg"
-       ]
-      },
-      {
        "id": "c33387fd741",
        "img": "img/0ed5e4092a9e85a6.jpg",
        "closes": [
@@ -1385,6 +1378,13 @@
        "img": "img/b66779c2dbd38470.jpg",
        "closes": [
         "img/c5b3f627c0c12f16.jpg"
+       ]
+      },
+      {
+       "id": "c2d7928e661",
+       "img": "img/ef7db8172922f4d3.jpg",
+       "closes": [
+        "img/3fef5ebb2b6938bc.jpg"
        ]
       }
      ]
@@ -1766,7 +1766,7 @@
    ],
    "multi": [
     {
-     "tid": "t92190dc4b2",
+     "tid": "t39f7971919",
      "task": "multi",
      "parts": [
       "hair",
@@ -1777,172 +1777,15 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/0c94c98f420f9acd.jpg",
+       "img": "img/28a3b28881bc0f55.jpg",
        "closes": [
-        "img/08e0fd05f0686a58.jpg"
+        "img/344d2ae80acba4ef.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/2a492d0435788e13.jpg",
+       "img": "img/e3bd2993ee1c006f.jpg",
        "closes": []
-      }
-     ],
-     "instr_en": "make this person smile with their mouth closed",
-     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
-     "instr_note_en": null,
-     "cands": [
-      {
-       "id": "cfb4dcc6e5b",
-       "img": "img/437abc7a8e443e76.jpg",
-       "closes": [
-        "img/1439e88a8beaee79.jpg"
-       ]
-      },
-      {
-       "id": "c4fe6133547",
-       "img": "img/d0517b9d4ce6db34.jpg",
-       "closes": [
-        "img/b8c6aeffbe7a9d01.jpg"
-       ]
-      },
-      {
-       "id": "c3789a38d48",
-       "img": "img/5389a51e64c08a8e.jpg",
-       "closes": [
-        "img/0130dad6ecea6f49.jpg"
-       ]
-      }
-     ]
-    },
-    {
-     "tid": "tdfaa74ac0a",
-     "task": "multi",
-     "parts": [
-      "mouth",
-      "hair"
-     ],
-     "swap_part": "mouth",
-     "text_part": "hair",
-     "refs": [
-      {
-       "role": "A",
-       "img": "img/fcf40fff64109afb.jpg",
-       "closes": [
-        "img/4df1cf8b23a0c69a.jpg"
-       ]
-      },
-      {
-       "role": "B",
-       "img": "img/31495d990e3420fd.jpg",
-       "closes": [
-        "img/01ab61d0c4123c02.jpg"
-       ]
-      }
-     ],
-     "instr_en": "give this person dirty blonde short straight",
-     "instr_zh": "把這個人的頭髮改成深金色、短（約到下巴以上）、直髮",
-     "instr_note_en": null,
-     "cands": [
-      {
-       "id": "c6acf7a2cf0",
-       "img": "img/3dc1f3ed867a2047.jpg",
-       "closes": [
-        "img/e9ec755545932b83.jpg"
-       ]
-      },
-      {
-       "id": "cd01d2be394",
-       "img": "img/20a7982cb1a9227a.jpg",
-       "closes": [
-        "img/0d20c80960f09e72.jpg"
-       ]
-      },
-      {
-       "id": "c3f3cc7923b",
-       "img": "img/9071b4fdcdcacce1.jpg",
-       "closes": [
-        "img/a13b87d4458211e9.jpg"
-       ]
-      }
-     ]
-    },
-    {
-     "tid": "td5d2b7d326",
-     "task": "multi",
-     "parts": [
-      "eyes",
-      "hair"
-     ],
-     "swap_part": "eyes",
-     "text_part": "hair",
-     "refs": [
-      {
-       "role": "A",
-       "img": "img/4b9b5c95f961f8cf.jpg",
-       "closes": [
-        "img/16de6a0fdf20ecc3.jpg"
-       ]
-      },
-      {
-       "role": "B",
-       "img": "img/0102a038f44d3320.jpg",
-       "closes": [
-        "img/242259ff003305e2.jpg"
-       ]
-      }
-     ],
-     "instr_en": "give this person light blonde medium straight",
-     "instr_zh": "把這個人的頭髮改成淺金色、中長（約到肩膀）、直髮",
-     "instr_note_en": "(medium = about shoulder length)",
-     "cands": [
-      {
-       "id": "c956626c135",
-       "img": "img/a5280d1ca5730e16.jpg",
-       "closes": [
-        "img/b2ec93bc469af6fc.jpg"
-       ]
-      },
-      {
-       "id": "c7cede720ae",
-       "img": "img/74da8bf1b7c046ec.jpg",
-       "closes": [
-        "img/48e0118a422d9948.jpg"
-       ]
-      },
-      {
-       "id": "c9ba267ae04",
-       "img": "img/db8907de6b71148f.jpg",
-       "closes": [
-        "img/8439ba67140796d9.jpg"
-       ]
-      }
-     ]
-    },
-    {
-     "tid": "tabf806fe8b",
-     "task": "multi",
-     "parts": [
-      "eyes",
-      "mouth"
-     ],
-     "swap_part": "eyes",
-     "text_part": "mouth",
-     "refs": [
-      {
-       "role": "A",
-       "img": "img/c3434dcdc360aba8.jpg",
-       "closes": [
-        "img/a3f2f7aeb624df64.jpg",
-        "img/0e39896b2842386d.jpg"
-       ]
-      },
-      {
-       "role": "B",
-       "img": "img/6673f45398694699.jpg",
-       "closes": [
-        "img/a649d586421c168d.jpg"
-       ]
       }
      ],
      "instr_en": "make this person make a neutral expression with their mouth open",
@@ -1950,33 +1793,190 @@
      "instr_note_en": "(a calm face, not smiling)",
      "cands": [
       {
-       "id": "c5379f01253",
-       "img": "img/043980ac409beee3.jpg",
+       "id": "cebcc05de85",
+       "img": "img/be4e36e22baf5128.jpg",
        "closes": [
-        "img/b016a530723e6d65.jpg",
-        "img/dc19d8ada8978d25.jpg"
+        "img/95ae2e6f73fe2a8f.jpg"
        ]
       },
       {
-       "id": "cf9bb99db10",
-       "img": "img/fa5483a61aa30030.jpg",
+       "id": "caf4a1e8263",
+       "img": "img/9572d9526a18d2ce.jpg",
        "closes": [
-        "img/7328a4f835276b9b.jpg",
-        "img/e30e4eec121aebb2.jpg"
+        "img/467a33d04296c5b6.jpg"
        ]
       },
       {
-       "id": "cee2e7b20ca",
-       "img": "img/0098c14e025814ea.jpg",
+       "id": "c6aa2985d1f",
+       "img": "img/e7953550e769a7c2.jpg",
        "closes": [
-        "img/6ca2fd52899c7a5e.jpg",
-        "img/bb75032c3a11f337.jpg"
+        "img/318124616fa6b0d2.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "tc4fead11b3",
+     "tid": "t80ed1fa9e0",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/fadd378e71b37855.jpg",
+       "closes": [
+        "img/da7a17d772e52a7e.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/93d5ca84c9db2293.jpg",
+       "closes": [
+        "img/646c4a9c514ffd14.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person dark brown short wavy",
+     "instr_zh": "把這個人的頭髮改成深棕色、短（約到下巴以上）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c87595b8afb",
+       "img": "img/c4a2489ddaaba65e.jpg",
+       "closes": [
+        "img/0ba16c7dd7ab15a6.jpg"
+       ]
+      },
+      {
+       "id": "caa2012ea5c",
+       "img": "img/804249a559f62ee3.jpg",
+       "closes": [
+        "img/5bc2465504814185.jpg"
+       ]
+      },
+      {
+       "id": "c0228b20b6f",
+       "img": "img/9cf3b492a59ca213.jpg",
+       "closes": [
+        "img/eed07edf764d2c0a.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t2a4d308603",
+     "task": "multi",
+     "parts": [
+      "eyes",
+      "hair"
+     ],
+     "swap_part": "eyes",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/e14179beca323207.jpg",
+       "closes": [
+        "img/6e620616e96c4855.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/eccfa000a4903b63.jpg",
+       "closes": [
+        "img/2a0afdfc6de5111a.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person golden blonde short straight",
+     "instr_zh": "把這個人的頭髮改成金色、短（約到下巴以上）、直髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c59414bcf83",
+       "img": "img/47ecd7883492c01c.jpg",
+       "closes": [
+        "img/9299dbf636d25d10.jpg"
+       ]
+      },
+      {
+       "id": "c3d530b5f66",
+       "img": "img/e87eee852639c300.jpg",
+       "closes": [
+        "img/e00d40d5813b2cf0.jpg"
+       ]
+      },
+      {
+       "id": "cb5d5599d7f",
+       "img": "img/77783f358c42b57a.jpg",
+       "closes": [
+        "img/516fd0220e4abf4b.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tef3bd3b080",
+     "task": "multi",
+     "parts": [
+      "eyes",
+      "mouth"
+     ],
+     "swap_part": "eyes",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/f9e87e7944610765.jpg",
+       "closes": [
+        "img/019d958aa9d4c953.jpg",
+        "img/5f8f1a85b5df93e1.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/eb5c3121a5d359a6.jpg",
+       "closes": [
+        "img/bccf4c7202a18677.jpg"
+       ]
+      }
+     ],
+     "instr_en": "make this person make a neutral expression with their mouth closed",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴閉著",
+     "instr_note_en": "(a calm face, not smiling)",
+     "cands": [
+      {
+       "id": "c933d141582",
+       "img": "img/9071b04d9953456a.jpg",
+       "closes": [
+        "img/ba779dda837895a9.jpg",
+        "img/beca0670de722828.jpg"
+       ]
+      },
+      {
+       "id": "c25b0cf5f0e",
+       "img": "img/65ce0ba4d8c1894d.jpg",
+       "closes": [
+        "img/8337e494047fed16.jpg",
+        "img/3f4bade428039489.jpg"
+       ]
+      },
+      {
+       "id": "cb015d58057",
+       "img": "img/c8190b8ee6035437.jpg",
+       "closes": [
+        "img/cc2259024320728f.jpg",
+        "img/3c9734d78eb027fb.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t633ebe8f6c",
      "task": "multi",
      "parts": [
       "mouth",
@@ -1987,17 +1987,17 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/1a07ce81e415ecbb.jpg",
+       "img": "img/9588f93cda69edcd.jpg",
        "closes": [
-        "img/6f5d93f4f0aaf654.jpg",
-        "img/0821eee5810cf8de.jpg"
+        "img/568a3f9e0cca4480.jpg",
+        "img/55e2e9fbb589935a.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/e07ffd918d7e19bf.jpg",
+       "img": "img/7b8ef49dbd9266a1.jpg",
        "closes": [
-        "img/af10e9886236a192.jpg"
+        "img/631643e2756e0e90.jpg"
        ]
       }
      ],
@@ -2006,33 +2006,33 @@
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c6c95df208f",
-       "img": "img/f640e80328073fb7.jpg",
+       "id": "c5b74b332f5",
+       "img": "img/58eba3317def7107.jpg",
        "closes": [
-        "img/ac450f2d0b729685.jpg",
-        "img/5884841552b94669.jpg"
+        "img/99804ccc3bd3a2bf.jpg",
+        "img/04ed0bec79684a22.jpg"
        ]
       },
       {
-       "id": "cf2cb310c16",
-       "img": "img/8bd1259e69f69041.jpg",
+       "id": "c08b7eccf4b",
+       "img": "img/f7058f9dd459ee7f.jpg",
        "closes": [
-        "img/7a6c128d07f8af65.jpg",
-        "img/05c6f722b5519a80.jpg"
+        "img/ab0aa4e34cd99242.jpg",
+        "img/94d54d653f6ee27d.jpg"
        ]
       },
       {
-       "id": "c475fc83c9e",
-       "img": "img/2db10db80859cf50.jpg",
+       "id": "c08ae39c639",
+       "img": "img/6b5ff6dcd69b98c1.jpg",
        "closes": [
-        "img/a44c8ab06fd32303.jpg",
-        "img/42a26bd0354e2da1.jpg"
+        "img/8ee3193a6a41947a.jpg",
+        "img/a2f78a66e3e24492.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "tb0076567af",
+     "tid": "t071e4a2c36",
      "task": "multi",
      "parts": [
       "hair",
@@ -2043,40 +2043,40 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/56bb3cd452803fab.jpg",
+       "img": "img/dfd03f353d13e6ad.jpg",
        "closes": [
-        "img/99388791afd3feb4.jpg"
+        "img/1cc62e534632e7f2.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/7f1d23dca9a2f7e9.jpg",
+       "img": "img/4564634a84430c02.jpg",
        "closes": []
       }
      ],
-     "instr_en": "make this person's eyes blue",
-     "instr_zh": "把這個人的眼睛改成藍色",
+     "instr_en": "make this person's eyes brown",
+     "instr_zh": "把這個人的眼睛改成棕色",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c6144c8aca6",
-       "img": "img/d7f794eeff2fcfad.jpg",
+       "id": "c42db1b764e",
+       "img": "img/1ce56ddc83c4e8b1.jpg",
        "closes": [
-        "img/3550d64a247d43ab.jpg"
+        "img/797772b595d426d9.jpg"
        ]
       },
       {
-       "id": "c14e903051e",
-       "img": "img/397e9a639215acbb.jpg",
+       "id": "c02fb293a45",
+       "img": "img/08373e8c3f0aec77.jpg",
        "closes": [
-        "img/d5dc01559eb92baa.jpg"
+        "img/88027070f742556d.jpg"
        ]
       },
       {
-       "id": "ca344d61334",
-       "img": "img/3c6f6767eec8b17b.jpg",
+       "id": "ce4f893c4f1",
+       "img": "img/98ae88427d36f61b.jpg",
        "closes": [
-        "img/1e110e53c8d0ac36.jpg"
+        "img/25521a251f774cb2.jpg"
        ]
       }
      ]
@@ -2458,7 +2458,7 @@
    ],
    "multi": [
     {
-     "tid": "t6edc2b4387",
+     "tid": "t8dd7f45d77",
      "task": "multi",
      "parts": [
       "hair",
@@ -2469,14 +2469,14 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/3342c832d07eb625.jpg",
+       "img": "img/36ea8a58116379df.jpg",
        "closes": [
-        "img/a1d71ee4ad76a434.jpg"
+        "img/7786249fa206a680.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/82716d2870b5d68d.jpg",
+       "img": "img/079e28b78ce0f9c5.jpg",
        "closes": []
       }
      ],
@@ -2485,30 +2485,30 @@
      "instr_note_en": "(a calm face, not smiling)",
      "cands": [
       {
-       "id": "cfeeb03fac7",
-       "img": "img/f2aa6515e34871a0.jpg",
+       "id": "cb479859565",
+       "img": "img/39c1005deb496791.jpg",
        "closes": [
-        "img/db0dc8351e280123.jpg"
+        "img/d2f38d9b355a0d56.jpg"
        ]
       },
       {
-       "id": "c698f87e743",
-       "img": "img/d84654289c6f238a.jpg",
+       "id": "cdf84163c9d",
+       "img": "img/e10d20f6c77e46e6.jpg",
        "closes": [
-        "img/ccbba6c89b05e4df.jpg"
+        "img/27976d6ed94a041e.jpg"
        ]
       },
       {
-       "id": "c6553fbb43c",
-       "img": "img/ce74e489abf7b890.jpg",
+       "id": "c2fdad08327",
+       "img": "img/5156000042fe1076.jpg",
        "closes": [
-        "img/bc5c3b64c949c4d8.jpg"
+        "img/cb6d11c8a1446da4.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "tc54d268928",
+     "tid": "tc1eb5f1278",
      "task": "multi",
      "parts": [
       "mouth",
@@ -2519,16 +2519,16 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/1d3742a089707fa8.jpg",
+       "img": "img/63d9bbb5f8bd18e2.jpg",
        "closes": [
-        "img/bc4e745185cfaade.jpg"
+        "img/2b975f6dd7ebf291.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/2f87e1bb8823415a.jpg",
+       "img": "img/1fa1bc47c3bb6ef0.jpg",
        "closes": [
-        "img/e7924cedf64eaa9b.jpg"
+        "img/314b3e620881b3a8.jpg"
        ]
       }
      ],
@@ -2537,30 +2537,30 @@
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c2a1f104cf2",
-       "img": "img/0e15cf7110c2bd5b.jpg",
+       "id": "c1211d2a934",
+       "img": "img/5583875b3905ed42.jpg",
        "closes": [
-        "img/b73f9e36b24246eb.jpg"
+        "img/956ca30b37eaee1f.jpg"
        ]
       },
       {
-       "id": "ca2fa7a9087",
-       "img": "img/8161deccc9474d2c.jpg",
+       "id": "c76193c5ff9",
+       "img": "img/12c52342244362af.jpg",
        "closes": [
-        "img/b27c918a896a8bf1.jpg"
+        "img/7bccf20fb6fa6480.jpg"
        ]
       },
       {
-       "id": "c6640ada1b4",
-       "img": "img/6861071117ba3098.jpg",
+       "id": "c0616e4f823",
+       "img": "img/09a15e6ccd1a0068.jpg",
        "closes": [
-        "img/f1d997cfd45136bb.jpg"
+        "img/8e552e4d1ec9c869.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "t48d619c59a",
+     "tid": "t0cdcb9f288",
      "task": "multi",
      "parts": [
       "eyes",
@@ -2571,48 +2571,48 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/1b0078396e803a66.jpg",
+       "img": "img/cf69dc8c8dd95a96.jpg",
        "closes": [
-        "img/525a6f0604e2f215.jpg"
+        "img/4cb8583ca68ee98e.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/d4bf6a562cb616c0.jpg",
+       "img": "img/4aca437832029c9b.jpg",
        "closes": [
-        "img/e2f42a56da3ac204.jpg"
+        "img/6753357b4df52c67.jpg"
        ]
       }
      ],
-     "instr_en": "give this person light brown medium wavy",
-     "instr_zh": "把這個人的頭髮改成淺棕色、中長（約到肩膀）、波浪捲髮",
+     "instr_en": "give this person light brown medium straight",
+     "instr_zh": "把這個人的頭髮改成淺棕色、中長（約到肩膀）、直髮",
      "instr_note_en": "(medium = about shoulder length)",
      "cands": [
       {
-       "id": "cad16c87f3d",
-       "img": "img/6debee00e5c1661a.jpg",
+       "id": "ce2236f894a",
+       "img": "img/17228aa2fc9aa1ee.jpg",
        "closes": [
-        "img/9edc113bc8881fa4.jpg"
+        "img/a7df7fa11c121d56.jpg"
        ]
       },
       {
-       "id": "c10a76d0350",
-       "img": "img/aabcd218d6d8fe1d.jpg",
+       "id": "cf2486bcb15",
+       "img": "img/d2b6d4d2b3e4ed8d.jpg",
        "closes": [
-        "img/43d83e2472434e25.jpg"
+        "img/68f8cdda4070e6bc.jpg"
        ]
       },
       {
-       "id": "cf3ad7a25ba",
-       "img": "img/04ff9b1b1b3421f2.jpg",
+       "id": "c5f532a15c4",
+       "img": "img/bd34285cf0fc8c0b.jpg",
        "closes": [
-        "img/df1a4e76a50f0975.jpg"
+        "img/faa0988dd96b6f06.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "t72016b8c79",
+     "tid": "t467f3e3dcf",
      "task": "multi",
      "parts": [
       "eyes",
@@ -2623,17 +2623,17 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/edc9d3e1134aac7f.jpg",
+       "img": "img/df2a669a426b7daa.jpg",
        "closes": [
-        "img/a788e21d1698431f.jpg",
-        "img/8525a5f4b389ca25.jpg"
+        "img/576d687e86989e72.jpg",
+        "img/1535c859f2b2a9a6.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/86036b85008eaf8f.jpg",
+       "img": "img/a400132dc03d5b40.jpg",
        "closes": [
-        "img/486e11b65bc9d857.jpg"
+        "img/e0e552feb85885dd.jpg"
        ]
       }
      ],
@@ -2642,27 +2642,27 @@
      "instr_note_en": "(a calm face, not smiling)",
      "cands": [
       {
-       "id": "c717a4f23c2",
-       "img": "img/72ad20e3b14b9fb8.jpg",
+       "id": "c1747057a67",
+       "img": "img/cd942a89ff3cd321.jpg",
        "closes": [
-        "img/0b78653f87a16096.jpg",
-        "img/7a85da5bc039272c.jpg"
+        "img/6caeec91f70136bd.jpg",
+        "img/94c63251812ee393.jpg"
        ]
       },
       {
-       "id": "ce9816c8ed4",
-       "img": "img/4d9b5f8c078ad3fd.jpg",
+       "id": "cc1cab367bb",
+       "img": "img/7255ed934f78765d.jpg",
        "closes": [
-        "img/8fb2cd3b237d1aa6.jpg",
-        "img/a0176e4a28f0c822.jpg"
+        "img/2154a9201ffb119c.jpg",
+        "img/e27208b39d230cd1.jpg"
        ]
       },
       {
-       "id": "cf084a21b01",
-       "img": "img/b3be058ef7c0c91c.jpg",
+       "id": "cee4d43a939",
+       "img": "img/6b5e728fe25a4654.jpg",
        "closes": [
-        "img/7a3c6d629c8d54be.jpg",
-        "img/627f92585fac8aee.jpg"
+        "img/61194dbccc1806e4.jpg",
+        "img/c334c16a0f0d6703.jpg"
        ]
       }
      ]
@@ -2698,14 +2698,6 @@
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c418cda7208",
-       "img": "img/04bee25b92291d4b.jpg",
-       "closes": [
-        "img/643a0446f5edd1c1.jpg",
-        "img/611097039cfeca07.jpg"
-       ]
-      },
-      {
        "id": "c0f2945fc7d",
        "img": "img/a6c01492a0f75108.jpg",
        "closes": [
@@ -2720,11 +2712,19 @@
         "img/eeb68d6d66359876.jpg",
         "img/226ac252dde5ec00.jpg"
        ]
+      },
+      {
+       "id": "c418cda7208",
+       "img": "img/04bee25b92291d4b.jpg",
+       "closes": [
+        "img/643a0446f5edd1c1.jpg",
+        "img/611097039cfeca07.jpg"
+       ]
       }
      ]
     },
     {
-     "tid": "t726d68c453",
+     "tid": "t8eb6881cd5",
      "task": "multi",
      "parts": [
       "hair",
@@ -2735,40 +2735,40 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/413f73edf1def372.jpg",
+       "img": "img/6c8d80465ea8227d.jpg",
        "closes": [
-        "img/6d01f550d8e7bfc3.jpg"
+        "img/af82034045a4496a.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/99b8207d3a288e08.jpg",
+       "img": "img/483fdb320da7b444.jpg",
        "closes": []
       }
      ],
-     "instr_en": "make this person's eyes blue",
-     "instr_zh": "把這個人的眼睛改成藍色",
+     "instr_en": "make this person's eyes brown",
+     "instr_zh": "把這個人的眼睛改成棕色",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "caeaab3fbc2",
-       "img": "img/dc1f72be04c0b050.jpg",
+       "id": "c1a4c21f6fd",
+       "img": "img/3a05f2cdbc4bdc7f.jpg",
        "closes": [
-        "img/3ffe0b915939367d.jpg"
+        "img/4fea88716847b175.jpg"
        ]
       },
       {
-       "id": "ceb1b6ddb74",
-       "img": "img/351601f72f29f7cf.jpg",
+       "id": "c3ab4703140",
+       "img": "img/071a6b2f76755783.jpg",
        "closes": [
-        "img/7022f12af686dd45.jpg"
+        "img/de4e35bd1e2a2151.jpg"
        ]
       },
       {
-       "id": "cbd137866c7",
-       "img": "img/e64e4044e7f60c53.jpg",
+       "id": "cd0cf7ede63",
+       "img": "img/7195d36ca4f36754.jpg",
        "closes": [
-        "img/35d421304a39b8e2.jpg"
+        "img/ffac813c40a2fe9d.jpg"
        ]
       }
      ]
@@ -3150,7 +3150,7 @@
    ],
    "multi": [
     {
-     "tid": "t66496e547b",
+     "tid": "t578b49562a",
      "task": "multi",
      "parts": [
       "hair",
@@ -3161,46 +3161,46 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/36ea8a58116379df.jpg",
+       "img": "img/b04eceb98ba15be0.jpg",
        "closes": [
-        "img/7786249fa206a680.jpg"
+        "img/728701f0da73e1ee.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/079e28b78ce0f9c5.jpg",
+       "img": "img/7cee60005d34047b.jpg",
        "closes": []
       }
      ],
-     "instr_en": "make this person make a neutral expression with their mouth open",
-     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
-     "instr_note_en": "(a calm face, not smiling)",
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
      "cands": [
       {
-       "id": "cf050df948b",
-       "img": "img/39c1005deb496791.jpg",
+       "id": "cc47db22d11",
+       "img": "img/bd0d688b80fe53b0.jpg",
        "closes": [
-        "img/d2f38d9b355a0d56.jpg"
+        "img/7be72deb753df258.jpg"
        ]
       },
       {
-       "id": "ca0703b595e",
-       "img": "img/5156000042fe1076.jpg",
+       "id": "c3a46fb5c68",
+       "img": "img/9bc32e7b52f8f262.jpg",
        "closes": [
-        "img/cb6d11c8a1446da4.jpg"
+        "img/92009fe8fe11b9bd.jpg"
        ]
       },
       {
-       "id": "c60857daaa4",
-       "img": "img/e10d20f6c77e46e6.jpg",
+       "id": "c6b9a97b3ab",
+       "img": "img/f968f34960f38724.jpg",
        "closes": [
-        "img/27976d6ed94a041e.jpg"
+        "img/bcf982766b0a8b80.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "td51725d16e",
+     "tid": "tb4e060c9cd",
      "task": "multi",
      "parts": [
       "mouth",
@@ -3211,48 +3211,48 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/981269553ff34705.jpg",
+       "img": "img/fcf40fff64109afb.jpg",
        "closes": [
-        "img/4683c0f0cf4ec11a.jpg"
+        "img/4df1cf8b23a0c69a.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/20dc79f3c76062a0.jpg",
+       "img": "img/31495d990e3420fd.jpg",
        "closes": [
-        "img/5cef145745893297.jpg"
+        "img/01ab61d0c4123c02.jpg"
        ]
       }
      ],
-     "instr_en": "give this person golden blonde long wavy",
-     "instr_zh": "把這個人的頭髮改成金色、長（超過肩膀）、波浪捲髮",
+     "instr_en": "give this person dirty blonde short straight",
+     "instr_zh": "把這個人的頭髮改成深金色、短（約到下巴以上）、直髮",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c1afdc5d0ae",
-       "img": "img/a8eb3a05805f3cdb.jpg",
+       "id": "c1bdc3d4a48",
+       "img": "img/9071b4fdcdcacce1.jpg",
        "closes": [
-        "img/71d2ce30b9b483c6.jpg"
+        "img/a13b87d4458211e9.jpg"
        ]
       },
       {
-       "id": "c9115aca2b2",
-       "img": "img/44c1c39726343fb0.jpg",
+       "id": "c0e4a2afa6c",
+       "img": "img/20a7982cb1a9227a.jpg",
        "closes": [
-        "img/a4527402864aa545.jpg"
+        "img/0d20c80960f09e72.jpg"
        ]
       },
       {
-       "id": "cfdd106a736",
-       "img": "img/b7a0536db98609ee.jpg",
+       "id": "c1f4ae6b48d",
+       "img": "img/3dc1f3ed867a2047.jpg",
        "closes": [
-        "img/d981044161c408ea.jpg"
+        "img/e9ec755545932b83.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "t37cf81d306",
+     "tid": "tcd1d1a11c3",
      "task": "multi",
      "parts": [
       "eyes",
@@ -3263,48 +3263,48 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/d176276d92967f54.jpg",
+       "img": "img/ca53112e5f91cfe3.jpg",
        "closes": [
-        "img/57c4659e1fff702e.jpg"
+        "img/d57d074e9417f0c1.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/2e7bcb92571d60b5.jpg",
+       "img": "img/51133e7153a269e4.jpg",
        "closes": [
-        "img/9590987dcc8832f7.jpg"
+        "img/0f3262c4f24b38d5.jpg"
        ]
       }
      ],
-     "instr_en": "give this person jet black short curly",
-     "instr_zh": "把這個人的頭髮改成黑色、短（約到下巴以上）、捲髮",
+     "instr_en": "give this person dirty blonde short wavy",
+     "instr_zh": "把這個人的頭髮改成深金色、短（約到下巴以上）、波浪捲髮",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c0eec3bac4b",
-       "img": "img/9f8a2576be353bb4.jpg",
+       "id": "cbbcfa85ec6",
+       "img": "img/bc72ebf413f418e1.jpg",
        "closes": [
-        "img/801a173b52f28c50.jpg"
+        "img/604a6a51f8f94d72.jpg"
        ]
       },
       {
-       "id": "c341b8ad9bf",
-       "img": "img/570ff1fd5b38f146.jpg",
+       "id": "c28516b031d",
+       "img": "img/0cca066ef4ce9ca0.jpg",
        "closes": [
-        "img/4d426facf86e3c0e.jpg"
+        "img/ca2caa191bba4d40.jpg"
        ]
       },
       {
-       "id": "c60b0cd58e1",
-       "img": "img/b95cc5cf2e8e4d3e.jpg",
+       "id": "c8a7225b122",
+       "img": "img/8724c13c58449082.jpg",
        "closes": [
-        "img/483b1440678ef026.jpg"
+        "img/911d1d8526f1e98b.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "t2f46908500",
+     "tid": "t916da54cd4",
      "task": "multi",
      "parts": [
       "eyes",
@@ -3315,52 +3315,52 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/ab16b6432e73e677.jpg",
+       "img": "img/71b1be0ba8feef94.jpg",
        "closes": [
-        "img/31a8d484bb75510b.jpg",
-        "img/5a6f3030e2a6897a.jpg"
+        "img/dbeb781eda88ae07.jpg",
+        "img/3f519ba1d331cfae.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/72e264670a03407e.jpg",
+       "img": "img/98dcea8cc77fda04.jpg",
        "closes": [
-        "img/fb3c486e4ee0d800.jpg"
+        "img/80fb5a40e77aa999.jpg"
        ]
       }
      ],
-     "instr_en": "make this person make a neutral expression with their mouth open",
-     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_en": "make this person make a neutral expression with their mouth closed",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴閉著",
      "instr_note_en": "(a calm face, not smiling)",
      "cands": [
       {
-       "id": "c659afc1fcb",
-       "img": "img/6ea71c5a9d24c887.jpg",
+       "id": "ce472dcf371",
+       "img": "img/76cb4f4ffb5c9d28.jpg",
        "closes": [
-        "img/903a1bd880f6bdcf.jpg",
-        "img/c1489dbeb4c5430d.jpg"
+        "img/293713cca548bf2d.jpg",
+        "img/7d6559884c9ca5d7.jpg"
        ]
       },
       {
-       "id": "cf517afa0fc",
-       "img": "img/46032743546ed2ef.jpg",
+       "id": "cd6725fdc97",
+       "img": "img/6c1690521b33ab6d.jpg",
        "closes": [
-        "img/bf347fa19c63b936.jpg",
-        "img/1b370fdbf75ace9c.jpg"
+        "img/87763154eb807d40.jpg",
+        "img/1ac4f5058d0c161c.jpg"
        ]
       },
       {
-       "id": "c9268696952",
-       "img": "img/e2eb6d746100d867.jpg",
+       "id": "c9fda11263a",
+       "img": "img/e556159ec4c7212e.jpg",
        "closes": [
-        "img/ac5a55383c9db52a.jpg",
-        "img/65ac680b42a69491.jpg"
+        "img/6e9550e304168181.jpg",
+        "img/599158338135eae6.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "tc04322e0dd",
+     "tid": "td3eeb3a215",
      "task": "multi",
      "parts": [
       "mouth",
@@ -3371,71 +3371,18 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/42b97545bddf3ad2.jpg",
+       "img": "img/0ec82c18b34ca2dd.jpg",
        "closes": [
-        "img/9d7d40351d73ae8b.jpg",
-        "img/0646a4d8aab3931f.jpg"
+        "img/c542a189363adfac.jpg",
+        "img/9c93465d771197b2.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/c389f2c006b1d6a9.jpg",
+       "img": "img/f3389331a2c4fd19.jpg",
        "closes": [
-        "img/3e19684e5cf2d1bc.jpg"
+        "img/469f8b0849c32226.jpg"
        ]
-      }
-     ],
-     "instr_en": "make this person's eyes blue",
-     "instr_zh": "把這個人的眼睛改成藍色",
-     "instr_note_en": null,
-     "cands": [
-      {
-       "id": "c0f9a8c7d4f",
-       "img": "img/871f329bc1fb8c1a.jpg",
-       "closes": [
-        "img/95750eae2c71a320.jpg",
-        "img/130bbc23a9dd27bd.jpg"
-       ]
-      },
-      {
-       "id": "c10f78a5d31",
-       "img": "img/752f2fa163f00a80.jpg",
-       "closes": [
-        "img/d8607899132499a1.jpg",
-        "img/2ea10aa462f732df.jpg"
-       ]
-      },
-      {
-       "id": "c3f5fa48008",
-       "img": "img/284959206e48cb5d.jpg",
-       "closes": [
-        "img/d0dad0169ad95fc7.jpg",
-        "img/f09a71df176ff7d6.jpg"
-       ]
-      }
-     ]
-    },
-    {
-     "tid": "tcf0ba3d06a",
-     "task": "multi",
-     "parts": [
-      "hair",
-      "eyes"
-     ],
-     "swap_part": "hair",
-     "text_part": "eyes",
-     "refs": [
-      {
-       "role": "A",
-       "img": "img/875b1ed3ddb17c70.jpg",
-       "closes": [
-        "img/65e563fcd6a229bd.jpg"
-       ]
-      },
-      {
-       "role": "B",
-       "img": "img/2570dc01bba8272d.jpg",
-       "closes": []
       }
      ],
      "instr_en": "make this person's eyes brown",
@@ -3443,24 +3390,77 @@
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c6f613197a7",
-       "img": "img/42a1ed33e060636e.jpg",
+       "id": "c1999f1067e",
+       "img": "img/9fdddb0c64736133.jpg",
        "closes": [
-        "img/cb3929162790b38e.jpg"
+        "img/f46fb55e510b3e1d.jpg",
+        "img/a3096dda245a8c53.jpg"
        ]
       },
       {
-       "id": "c12957327a0",
-       "img": "img/3bc7d90f5c0f42eb.jpg",
+       "id": "cefa8991863",
+       "img": "img/9d4d200ccf63cdce.jpg",
        "closes": [
-        "img/750935ee1d711db0.jpg"
+        "img/7d5a546bb4dba2aa.jpg",
+        "img/3d4ec8e5ef2284ef.jpg"
        ]
       },
       {
-       "id": "c49e3967ef8",
-       "img": "img/21487c155bed49ae.jpg",
+       "id": "cf8dc1247c3",
+       "img": "img/75bd1d9f06dc778b.jpg",
        "closes": [
-        "img/c8bd7190b585c980.jpg"
+        "img/d6baaa16655abd5e.jpg",
+        "img/f74e38c8e38fd051.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tba964fc468",
+     "task": "multi",
+     "parts": [
+      "hair",
+      "eyes"
+     ],
+     "swap_part": "hair",
+     "text_part": "eyes",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/f1098ca2797e52db.jpg",
+       "closes": [
+        "img/30513e2d17e6646b.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/8eb132676f8e64d0.jpg",
+       "closes": []
+      }
+     ],
+     "instr_en": "make this person's eyes blue",
+     "instr_zh": "把這個人的眼睛改成藍色",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "c0852d8f197",
+       "img": "img/a8c3903f15c55be6.jpg",
+       "closes": [
+        "img/29b646bbd5fe57a1.jpg"
+       ]
+      },
+      {
+       "id": "cf9d69fca51",
+       "img": "img/eb1611e1b5078581.jpg",
+       "closes": [
+        "img/50ac707dca7da644.jpg"
+       ]
+      },
+      {
+       "id": "cf975490396",
+       "img": "img/1d13c4c80f97002f.jpg",
+       "closes": [
+        "img/d0c60d51bee6531e.jpg"
        ]
       }
      ]
@@ -3842,7 +3842,7 @@
    ],
    "multi": [
     {
-     "tid": "t385a913e83",
+     "tid": "ta2965d59d6",
      "task": "multi",
      "parts": [
       "hair",
@@ -3853,46 +3853,46 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/9b9619d5aa943321.jpg",
+       "img": "img/3342c832d07eb625.jpg",
        "closes": [
-        "img/81daf9d5c1ec475d.jpg"
+        "img/a1d71ee4ad76a434.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/fd86e25d3f4e71b7.jpg",
+       "img": "img/82716d2870b5d68d.jpg",
        "closes": []
       }
      ],
-     "instr_en": "make this person smile with their mouth open",
-     "instr_zh": "讓這個人微笑，嘴巴張開",
-     "instr_note_en": null,
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
+     "instr_note_en": "(a calm face, not smiling)",
      "cands": [
       {
-       "id": "c0a4ff8bbd5",
-       "img": "img/af73b0547a82edad.jpg",
+       "id": "c451e6592ec",
+       "img": "img/d84654289c6f238a.jpg",
        "closes": [
-        "img/0cb3b4c9642cb90b.jpg"
+        "img/ccbba6c89b05e4df.jpg"
        ]
       },
       {
-       "id": "cb45e458edc",
-       "img": "img/49ef6d6a771a08ad.jpg",
+       "id": "c51dd2b167f",
+       "img": "img/ce74e489abf7b890.jpg",
        "closes": [
-        "img/15aa11fcfb470fa0.jpg"
+        "img/bc5c3b64c949c4d8.jpg"
        ]
       },
       {
-       "id": "c21371f8d99",
-       "img": "img/314f03930e6ee9c9.jpg",
+       "id": "ceae8e2116e",
+       "img": "img/f2aa6515e34871a0.jpg",
        "closes": [
-        "img/f275366d8e1a3bd3.jpg"
+        "img/db0dc8351e280123.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "td33f54b7eb",
+     "tid": "t93086264af",
      "task": "multi",
      "parts": [
       "mouth",
@@ -3903,42 +3903,42 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/a0de0336db1d8ebd.jpg",
+       "img": "img/282c7b1175222d58.jpg",
        "closes": [
-        "img/3618ee37f1f2d505.jpg"
+        "img/14a83535abf9afb0.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/b25325fdf1ac4ddc.jpg",
+       "img": "img/72f48c3727fb7f73.jpg",
        "closes": [
-        "img/b428845ecdbad597.jpg"
+        "img/be27b3442f8d82cb.jpg"
        ]
       }
      ],
-     "instr_en": "give this person light brown long straight",
-     "instr_zh": "把這個人的頭髮改成淺棕色、長（超過肩膀）、直髮",
-     "instr_note_en": null,
+     "instr_en": "give this person dirty blonde medium straight",
+     "instr_zh": "把這個人的頭髮改成深金色、中長（約到肩膀）、直髮",
+     "instr_note_en": "(medium = about shoulder length)",
      "cands": [
       {
-       "id": "c6926b04516",
-       "img": "img/6006840ec1851d09.jpg",
+       "id": "c63d2863767",
+       "img": "img/848224d7cb3d4773.jpg",
        "closes": [
-        "img/3381f6fd8b71301f.jpg"
+        "img/703679e9166c8cda.jpg"
        ]
       },
       {
-       "id": "cded8779f0b",
-       "img": "img/c4688c2419467803.jpg",
+       "id": "c0c5f433fdd",
+       "img": "img/bf04b708a536046f.jpg",
        "closes": [
-        "img/a225d2e3a2922130.jpg"
+        "img/6ad9e4825bbc256d.jpg"
        ]
       },
       {
-       "id": "c4b9f5fedf5",
-       "img": "img/d1620efe024d6242.jpg",
+       "id": "c96042b636f",
+       "img": "img/8ad3c613ac5c1b38.jpg",
        "closes": [
-        "img/33322f89b73d92cc.jpg"
+        "img/998a3b0cd032f205.jpg"
        ]
       }
      ]
@@ -3973,17 +3973,17 @@
      "instr_note_en": "(medium = about shoulder length)",
      "cands": [
       {
-       "id": "c438768fc37",
-       "img": "img/3f12947fbfec7c30.jpg",
-       "closes": [
-        "img/41338ffe04eaa0fd.jpg"
-       ]
-      },
-      {
        "id": "c8db23b4cde",
        "img": "img/faadfdbf7683f0ea.jpg",
        "closes": [
         "img/e5d169c9277a95af.jpg"
+       ]
+      },
+      {
+       "id": "c438768fc37",
+       "img": "img/3f12947fbfec7c30.jpg",
+       "closes": [
+        "img/41338ffe04eaa0fd.jpg"
        ]
       },
       {
@@ -3996,7 +3996,7 @@
      ]
     },
     {
-     "tid": "tec9a7363cc",
+     "tid": "t92e6ef2407",
      "task": "multi",
      "parts": [
       "eyes",
@@ -4007,17 +4007,17 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/df2a669a426b7daa.jpg",
+       "img": "img/e986bdfaf6973a94.jpg",
        "closes": [
-        "img/576d687e86989e72.jpg",
-        "img/1535c859f2b2a9a6.jpg"
+        "img/3330cea163d60567.jpg",
+        "img/27785efc1af12d03.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/a400132dc03d5b40.jpg",
+       "img": "img/0d8523e92cf95c0c.jpg",
        "closes": [
-        "img/e0e552feb85885dd.jpg"
+        "img/2d5376358404bb31.jpg"
        ]
       }
      ],
@@ -4026,33 +4026,33 @@
      "instr_note_en": "(a calm face, not smiling)",
      "cands": [
       {
-       "id": "c0b457ff2ef",
-       "img": "img/6b5e728fe25a4654.jpg",
+       "id": "cc662de3915",
+       "img": "img/1228c8a7f32b07f5.jpg",
        "closes": [
-        "img/61194dbccc1806e4.jpg",
-        "img/c334c16a0f0d6703.jpg"
+        "img/21440ffbdd069467.jpg",
+        "img/e5d65dd36d1fe7e6.jpg"
        ]
       },
       {
-       "id": "c3602865d1b",
-       "img": "img/7255ed934f78765d.jpg",
+       "id": "cc2457b0b26",
+       "img": "img/5d4c9a0d6d6159b4.jpg",
        "closes": [
-        "img/2154a9201ffb119c.jpg",
-        "img/e27208b39d230cd1.jpg"
+        "img/3a2b0658ced8cbb0.jpg",
+        "img/d0c8b11276a5b016.jpg"
        ]
       },
       {
-       "id": "c76ea5d9795",
-       "img": "img/cd942a89ff3cd321.jpg",
+       "id": "c940f03389e",
+       "img": "img/33aa98b6f2f8a88e.jpg",
        "closes": [
-        "img/6caeec91f70136bd.jpg",
-        "img/94c63251812ee393.jpg"
+        "img/cb4e684ef755cb6c.jpg",
+        "img/f3d1395d5d49967f.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "t324e5b759a",
+     "tid": "t321b2e2617",
      "task": "multi",
      "parts": [
       "mouth",
@@ -4063,17 +4063,17 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/280b60d7590b7437.jpg",
+       "img": "img/2e7469b30ebddf49.jpg",
        "closes": [
-        "img/9dff956572d84048.jpg",
-        "img/f0cffcf5272b63c9.jpg"
+        "img/e545f52dec8d6452.jpg",
+        "img/793caf42d953eeb1.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/94b3e7db255f465b.jpg",
+       "img": "img/800bad1442571047.jpg",
        "closes": [
-        "img/a75817964a3fbd29.jpg"
+        "img/cb9fdba23af2095e.jpg"
        ]
       }
      ],
@@ -4082,33 +4082,33 @@
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c346d11023c",
-       "img": "img/59e1e9527e0d82aa.jpg",
+       "id": "c1cfd1f8f2b",
+       "img": "img/ae8b0265430b8364.jpg",
        "closes": [
-        "img/8c24a7f838412c48.jpg",
-        "img/713ef1e7ebba499e.jpg"
+        "img/e373632b2e8adb39.jpg",
+        "img/38195aebc8a19692.jpg"
        ]
       },
       {
-       "id": "cd767f31f39",
-       "img": "img/ccb25d8889b32055.jpg",
+       "id": "c2af57ad0d4",
+       "img": "img/ab569c3f2182448c.jpg",
        "closes": [
-        "img/c3d04412547b3a98.jpg",
-        "img/db99802bc32143c7.jpg"
+        "img/7552cd7966da6ba9.jpg",
+        "img/24213397d7a17314.jpg"
        ]
       },
       {
-       "id": "ca4807b13e6",
-       "img": "img/ed4419baf9f78cc7.jpg",
+       "id": "c0ac765c5b2",
+       "img": "img/3658b62830bd731d.jpg",
        "closes": [
-        "img/7667d0982fd7f753.jpg",
-        "img/0bd94b56b3cd6fa0.jpg"
+        "img/928b644f064c7424.jpg",
+        "img/18137d1b2e90e1a8.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "t150e436835",
+     "tid": "t45181467db",
      "task": "multi",
      "parts": [
       "hair",
@@ -4119,40 +4119,40 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/985d1e1acfc8d386.jpg",
+       "img": "img/413f73edf1def372.jpg",
        "closes": [
-        "img/211d38992167aee2.jpg"
+        "img/6d01f550d8e7bfc3.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/da96611e163f2207.jpg",
+       "img": "img/99b8207d3a288e08.jpg",
        "closes": []
       }
      ],
-     "instr_en": "make this person's eyes brown",
-     "instr_zh": "把這個人的眼睛改成棕色",
+     "instr_en": "make this person's eyes blue",
+     "instr_zh": "把這個人的眼睛改成藍色",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "cf4f746e957",
-       "img": "img/bd1aa7c665faa743.jpg",
+       "id": "c574fb00edd",
+       "img": "img/351601f72f29f7cf.jpg",
        "closes": [
-        "img/321d30160cb3d44b.jpg"
+        "img/7022f12af686dd45.jpg"
        ]
       },
       {
-       "id": "c3d3b02e60c",
-       "img": "img/777b51feb369a027.jpg",
+       "id": "cf99789bc4b",
+       "img": "img/dc1f72be04c0b050.jpg",
        "closes": [
-        "img/02a61c7645fe7337.jpg"
+        "img/3ffe0b915939367d.jpg"
        ]
       },
       {
-       "id": "c70f3019457",
-       "img": "img/1480b15c2bf983dd.jpg",
+       "id": "c5b8865184e",
+       "img": "img/e64e4044e7f60c53.jpg",
        "closes": [
-        "img/3d0d22547424b7f5.jpg"
+        "img/35d421304a39b8e2.jpg"
        ]
       }
      ]
@@ -4534,7 +4534,7 @@
    ],
    "multi": [
     {
-     "tid": "t0b06d1587c",
+     "tid": "t1b07f7eb5f",
      "task": "multi",
      "parts": [
       "hair",
@@ -4545,15 +4545,172 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/ee47dab86ae278b3.jpg",
+       "img": "img/5f11eb88cf9148f0.jpg",
        "closes": [
-        "img/be6eb41dbf94cfba.jpg"
+        "img/086e47008f4aed6c.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/e0606df88dda488b.jpg",
+       "img": "img/9d65162388b199c0.jpg",
        "closes": []
+      }
+     ],
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cc34350743f",
+       "img": "img/29506bf6b50f74aa.jpg",
+       "closes": [
+        "img/e9d150caa5d05a09.jpg"
+       ]
+      },
+      {
+       "id": "cb5da44e76d",
+       "img": "img/b1d34c1977ece753.jpg",
+       "closes": [
+        "img/e2b98857246e3582.jpg"
+       ]
+      },
+      {
+       "id": "c50a61651e6",
+       "img": "img/85d29af0c162534a.jpg",
+       "closes": [
+        "img/2f324c690c209ab5.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "t72373c75f3",
+     "task": "multi",
+     "parts": [
+      "mouth",
+      "hair"
+     ],
+     "swap_part": "mouth",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/72e369213eb06ed6.jpg",
+       "closes": [
+        "img/7b268ff7b76db280.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/469737bc11e16e64.jpg",
+       "closes": [
+        "img/d6a231bfcbabe139.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person jet black long wavy",
+     "instr_zh": "把這個人的頭髮改成黑色、長（超過肩膀）、波浪捲髮",
+     "instr_note_en": null,
+     "cands": [
+      {
+       "id": "cb7108a1a37",
+       "img": "img/ec538c6c01bee248.jpg",
+       "closes": [
+        "img/665ceb958fe8ccfb.jpg"
+       ]
+      },
+      {
+       "id": "c098c8bc647",
+       "img": "img/5336b940e122f54b.jpg",
+       "closes": [
+        "img/54956c8c4d7d3379.jpg"
+       ]
+      },
+      {
+       "id": "c0398bfbd3e",
+       "img": "img/c8fbcd330921a045.jpg",
+       "closes": [
+        "img/ed7cecb2fd329b76.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "tb77ce62829",
+     "task": "multi",
+     "parts": [
+      "eyes",
+      "hair"
+     ],
+     "swap_part": "eyes",
+     "text_part": "hair",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/4b9b5c95f961f8cf.jpg",
+       "closes": [
+        "img/16de6a0fdf20ecc3.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/0102a038f44d3320.jpg",
+       "closes": [
+        "img/242259ff003305e2.jpg"
+       ]
+      }
+     ],
+     "instr_en": "give this person light blonde medium straight",
+     "instr_zh": "把這個人的頭髮改成淺金色、中長（約到肩膀）、直髮",
+     "instr_note_en": "(medium = about shoulder length)",
+     "cands": [
+      {
+       "id": "c9e111408a8",
+       "img": "img/db8907de6b71148f.jpg",
+       "closes": [
+        "img/8439ba67140796d9.jpg"
+       ]
+      },
+      {
+       "id": "cf6d8bd0b69",
+       "img": "img/a5280d1ca5730e16.jpg",
+       "closes": [
+        "img/b2ec93bc469af6fc.jpg"
+       ]
+      },
+      {
+       "id": "c7e06844718",
+       "img": "img/74da8bf1b7c046ec.jpg",
+       "closes": [
+        "img/48e0118a422d9948.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "tid": "ta3a38af8b2",
+     "task": "multi",
+     "parts": [
+      "eyes",
+      "mouth"
+     ],
+     "swap_part": "eyes",
+     "text_part": "mouth",
+     "refs": [
+      {
+       "role": "A",
+       "img": "img/edc9d3e1134aac7f.jpg",
+       "closes": [
+        "img/a788e21d1698431f.jpg",
+        "img/8525a5f4b389ca25.jpg"
+       ]
+      },
+      {
+       "role": "B",
+       "img": "img/86036b85008eaf8f.jpg",
+       "closes": [
+        "img/486e11b65bc9d857.jpg"
+       ]
       }
      ],
      "instr_en": "make this person make a neutral expression with their mouth open",
@@ -4561,190 +4718,33 @@
      "instr_note_en": "(a calm face, not smiling)",
      "cands": [
       {
-       "id": "c639e947dc8",
-       "img": "img/f8ee9c8f23625da5.jpg",
+       "id": "c3c8af9616a",
+       "img": "img/b3be058ef7c0c91c.jpg",
        "closes": [
-        "img/513c5cd069684bc6.jpg"
+        "img/7a3c6d629c8d54be.jpg",
+        "img/627f92585fac8aee.jpg"
        ]
       },
       {
-       "id": "c19daa0f5ba",
-       "img": "img/b77d6c6c5d75f843.jpg",
+       "id": "c07fc5d4278",
+       "img": "img/4d9b5f8c078ad3fd.jpg",
        "closes": [
-        "img/051c31f8c2cdcff4.jpg"
+        "img/8fb2cd3b237d1aa6.jpg",
+        "img/a0176e4a28f0c822.jpg"
        ]
       },
       {
-       "id": "cd8518f2ede",
-       "img": "img/4c5f3dfe988a81d3.jpg",
+       "id": "c74cd9f3922",
+       "img": "img/72ad20e3b14b9fb8.jpg",
        "closes": [
-        "img/39bce1f5ab2ffd07.jpg"
+        "img/0b78653f87a16096.jpg",
+        "img/7a85da5bc039272c.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "tda1000532d",
-     "task": "multi",
-     "parts": [
-      "mouth",
-      "hair"
-     ],
-     "swap_part": "mouth",
-     "text_part": "hair",
-     "refs": [
-      {
-       "role": "A",
-       "img": "img/282c7b1175222d58.jpg",
-       "closes": [
-        "img/14a83535abf9afb0.jpg"
-       ]
-      },
-      {
-       "role": "B",
-       "img": "img/72f48c3727fb7f73.jpg",
-       "closes": [
-        "img/be27b3442f8d82cb.jpg"
-       ]
-      }
-     ],
-     "instr_en": "give this person dirty blonde medium straight",
-     "instr_zh": "把這個人的頭髮改成深金色、中長（約到肩膀）、直髮",
-     "instr_note_en": "(medium = about shoulder length)",
-     "cands": [
-      {
-       "id": "c6313c55466",
-       "img": "img/bf04b708a536046f.jpg",
-       "closes": [
-        "img/6ad9e4825bbc256d.jpg"
-       ]
-      },
-      {
-       "id": "c8744a87fd5",
-       "img": "img/8ad3c613ac5c1b38.jpg",
-       "closes": [
-        "img/998a3b0cd032f205.jpg"
-       ]
-      },
-      {
-       "id": "c51ba889ffa",
-       "img": "img/848224d7cb3d4773.jpg",
-       "closes": [
-        "img/703679e9166c8cda.jpg"
-       ]
-      }
-     ]
-    },
-    {
-     "tid": "t2ec09f7a87",
-     "task": "multi",
-     "parts": [
-      "eyes",
-      "hair"
-     ],
-     "swap_part": "eyes",
-     "text_part": "hair",
-     "refs": [
-      {
-       "role": "A",
-       "img": "img/cf69dc8c8dd95a96.jpg",
-       "closes": [
-        "img/4cb8583ca68ee98e.jpg"
-       ]
-      },
-      {
-       "role": "B",
-       "img": "img/4aca437832029c9b.jpg",
-       "closes": [
-        "img/6753357b4df52c67.jpg"
-       ]
-      }
-     ],
-     "instr_en": "give this person light brown medium straight",
-     "instr_zh": "把這個人的頭髮改成淺棕色、中長（約到肩膀）、直髮",
-     "instr_note_en": "(medium = about shoulder length)",
-     "cands": [
-      {
-       "id": "c7ae7c00e84",
-       "img": "img/17228aa2fc9aa1ee.jpg",
-       "closes": [
-        "img/a7df7fa11c121d56.jpg"
-       ]
-      },
-      {
-       "id": "cc08beb7ccd",
-       "img": "img/bd34285cf0fc8c0b.jpg",
-       "closes": [
-        "img/faa0988dd96b6f06.jpg"
-       ]
-      },
-      {
-       "id": "c2ab032e432",
-       "img": "img/d2b6d4d2b3e4ed8d.jpg",
-       "closes": [
-        "img/68f8cdda4070e6bc.jpg"
-       ]
-      }
-     ]
-    },
-    {
-     "tid": "t37932ea2fb",
-     "task": "multi",
-     "parts": [
-      "eyes",
-      "mouth"
-     ],
-     "swap_part": "eyes",
-     "text_part": "mouth",
-     "refs": [
-      {
-       "role": "A",
-       "img": "img/71b1be0ba8feef94.jpg",
-       "closes": [
-        "img/dbeb781eda88ae07.jpg",
-        "img/3f519ba1d331cfae.jpg"
-       ]
-      },
-      {
-       "role": "B",
-       "img": "img/98dcea8cc77fda04.jpg",
-       "closes": [
-        "img/80fb5a40e77aa999.jpg"
-       ]
-      }
-     ],
-     "instr_en": "make this person make a neutral expression with their mouth closed",
-     "instr_zh": "讓這個人不笑（面無表情），嘴巴閉著",
-     "instr_note_en": "(a calm face, not smiling)",
-     "cands": [
-      {
-       "id": "c9a7cd435bb",
-       "img": "img/76cb4f4ffb5c9d28.jpg",
-       "closes": [
-        "img/293713cca548bf2d.jpg",
-        "img/7d6559884c9ca5d7.jpg"
-       ]
-      },
-      {
-       "id": "cf8b0fe61c7",
-       "img": "img/e556159ec4c7212e.jpg",
-       "closes": [
-        "img/6e9550e304168181.jpg",
-        "img/599158338135eae6.jpg"
-       ]
-      },
-      {
-       "id": "c1358d9e34c",
-       "img": "img/6c1690521b33ab6d.jpg",
-       "closes": [
-        "img/87763154eb807d40.jpg",
-        "img/1ac4f5058d0c161c.jpg"
-       ]
-      }
-     ]
-    },
-    {
-     "tid": "t029700496b",
+     "tid": "t0aeeebeb8f",
      "task": "multi",
      "parts": [
       "mouth",
@@ -4755,52 +4755,52 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/f9e079234b9121b0.jpg",
+       "img": "img/2db133e8acaf6808.jpg",
        "closes": [
-        "img/d37480981273d3c1.jpg",
-        "img/36e048767c147405.jpg"
+        "img/c2c092b3863fefbd.jpg",
+        "img/dbb134966dcb3410.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/eb01352af5682d08.jpg",
+       "img": "img/0c4b4645d297d108.jpg",
        "closes": [
-        "img/a338d5c23bf92942.jpg"
+        "img/0b53393f9625c4a1.jpg"
        ]
       }
      ],
-     "instr_en": "make this person's eyes brown",
-     "instr_zh": "把這個人的眼睛改成棕色",
+     "instr_en": "make this person's eyes blue",
+     "instr_zh": "把這個人的眼睛改成藍色",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "cf20b4c6287",
-       "img": "img/df66d708380a1ef7.jpg",
+       "id": "c9230e94596",
+       "img": "img/3a986d9699f5d7a6.jpg",
        "closes": [
-        "img/41699cb6494292d3.jpg",
-        "img/68a8fd8f36a4c7bf.jpg"
+        "img/d36d1530cd526c21.jpg",
+        "img/2f005024717b4155.jpg"
        ]
       },
       {
-       "id": "c3482c68136",
-       "img": "img/3d0b0535576a5a92.jpg",
+       "id": "cc112322677",
+       "img": "img/6bfbe651235fece3.jpg",
        "closes": [
-        "img/443e93e2ff539b93.jpg",
-        "img/f3b523e97b15e01e.jpg"
+        "img/69666b9d7101a1fb.jpg",
+        "img/0980a6e26907b054.jpg"
        ]
       },
       {
-       "id": "c6941cc5ae6",
-       "img": "img/87fb227fc658c174.jpg",
+       "id": "cd7c2da78f9",
+       "img": "img/43296ace54cd7fea.jpg",
        "closes": [
-        "img/bfd8ed1fcff160ea.jpg",
-        "img/6aa99e612dafdf8b.jpg"
+        "img/1f3301508c0cac03.jpg",
+        "img/581d45b08c240779.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "tdf61504626",
+     "tid": "ta693416aa5",
      "task": "multi",
      "parts": [
       "hair",
@@ -4811,14 +4811,14 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/4e877cfec66c97e3.jpg",
+       "img": "img/9137b31555bae74a.jpg",
        "closes": [
-        "img/ee44e20356ff87af.jpg"
+        "img/b43a889d64993ae1.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/5fa4c0bef639f248.jpg",
+       "img": "img/802808bac781040f.jpg",
        "closes": []
       }
      ],
@@ -4827,24 +4827,24 @@
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c70c92becdb",
-       "img": "img/d06b049db13b0726.jpg",
+       "id": "c241923a079",
+       "img": "img/2dbd89dabde20ed7.jpg",
        "closes": [
-        "img/35a1e1de1fd309e0.jpg"
+        "img/53eae8b2bd47912c.jpg"
        ]
       },
       {
-       "id": "cdca6abc352",
-       "img": "img/af1c174602a063df.jpg",
+       "id": "c00ca22b272",
+       "img": "img/5edb4b8659cebc50.jpg",
        "closes": [
-        "img/f19616593ec502ea.jpg"
+        "img/94b6d98c0f6913b9.jpg"
        ]
       },
       {
-       "id": "c4a17d5f7f5",
-       "img": "img/3247ab726acf36aa.jpg",
+       "id": "c9f44541f2f",
+       "img": "img/13f94553ccdd7fcc.jpg",
        "closes": [
-        "img/3c6a4cd007248c9d.jpg"
+        "img/5ef4c4dcef7fb606.jpg"
        ]
       }
      ]
@@ -5226,7 +5226,7 @@
    ],
    "multi": [
     {
-     "tid": "t18eb8062b0",
+     "tid": "t77bf8fc642",
      "task": "multi",
      "parts": [
       "hair",
@@ -5237,46 +5237,46 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/a006b24c28e6fa76.jpg",
+       "img": "img/0c94c98f420f9acd.jpg",
        "closes": [
-        "img/fa7915f1cc7eb9b5.jpg"
+        "img/08e0fd05f0686a58.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/818cb077b3be7a20.jpg",
+       "img": "img/2a492d0435788e13.jpg",
        "closes": []
       }
      ],
-     "instr_en": "make this person make a neutral expression with their mouth open",
-     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
-     "instr_note_en": "(a calm face, not smiling)",
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
      "cands": [
       {
-       "id": "cc30d25bae0",
-       "img": "img/a5a1a2a7f3511902.jpg",
+       "id": "ceffcf25b67",
+       "img": "img/5389a51e64c08a8e.jpg",
        "closes": [
-        "img/004ba8cd350a37cf.jpg"
+        "img/0130dad6ecea6f49.jpg"
        ]
       },
       {
-       "id": "c90e6794ac6",
-       "img": "img/64456a22e16f2f49.jpg",
+       "id": "c615391491e",
+       "img": "img/d0517b9d4ce6db34.jpg",
        "closes": [
-        "img/f58abb1f7c239c0b.jpg"
+        "img/b8c6aeffbe7a9d01.jpg"
        ]
       },
       {
-       "id": "ca3c856834e",
-       "img": "img/f97e01db0f6d2d5d.jpg",
+       "id": "c2b4b1250c5",
+       "img": "img/437abc7a8e443e76.jpg",
        "closes": [
-        "img/b888a19d06ed6fb0.jpg"
+        "img/1439e88a8beaee79.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "t6e261b7d1b",
+     "tid": "t5305a9a3b0",
      "task": "multi",
      "parts": [
       "mouth",
@@ -5287,48 +5287,48 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/28510877e2b02fe1.jpg",
+       "img": "img/4f7abf60c27e86d0.jpg",
        "closes": [
-        "img/2c52fe183912996e.jpg"
+        "img/5eeb7f7f8c780eb8.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/c02365c37737fe70.jpg",
+       "img": "img/f712cc4f99fa6917.jpg",
        "closes": [
-        "img/1ee9d2a5cd941801.jpg"
+        "img/0392d138dadb1efa.jpg"
        ]
       }
      ],
-     "instr_en": "give this person jet black long straight",
-     "instr_zh": "把這個人的頭髮改成黑色、長（超過肩膀）、直髮",
+     "instr_en": "give this person golden blonde short wavy",
+     "instr_zh": "把這個人的頭髮改成金色、短（約到下巴以上）、波浪捲髮",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c6f2f17c907",
-       "img": "img/ac47b4642decd481.jpg",
+       "id": "c2e0e98a63d",
+       "img": "img/19c8169885a235b9.jpg",
        "closes": [
-        "img/2199462325d6d070.jpg"
+        "img/f27eede8962b9a92.jpg"
        ]
       },
       {
-       "id": "c9f050bfc2d",
-       "img": "img/c95e37b7b7c61123.jpg",
+       "id": "cabfd86513c",
+       "img": "img/a2b2278f840259d9.jpg",
        "closes": [
-        "img/10bd867ef7967e26.jpg"
+        "img/20ab3e7c4b752cd9.jpg"
        ]
       },
       {
-       "id": "caa47c0a3ec",
-       "img": "img/79facc0e0a6592c3.jpg",
+       "id": "c62aff28eb3",
+       "img": "img/e0eb5f97d51c27db.jpg",
        "closes": [
-        "img/0081f9d4b20b033f.jpg"
+        "img/94d46abace9be37e.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "t6013fef099",
+     "tid": "tb1cc7bc91a",
      "task": "multi",
      "parts": [
       "eyes",
@@ -5339,48 +5339,48 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/ca53112e5f91cfe3.jpg",
+       "img": "img/1b0078396e803a66.jpg",
        "closes": [
-        "img/d57d074e9417f0c1.jpg"
+        "img/525a6f0604e2f215.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/51133e7153a269e4.jpg",
+       "img": "img/d4bf6a562cb616c0.jpg",
        "closes": [
-        "img/0f3262c4f24b38d5.jpg"
+        "img/e2f42a56da3ac204.jpg"
        ]
       }
      ],
-     "instr_en": "give this person dirty blonde short wavy",
-     "instr_zh": "把這個人的頭髮改成深金色、短（約到下巴以上）、波浪捲髮",
-     "instr_note_en": null,
+     "instr_en": "give this person light brown medium wavy",
+     "instr_zh": "把這個人的頭髮改成淺棕色、中長（約到肩膀）、波浪捲髮",
+     "instr_note_en": "(medium = about shoulder length)",
      "cands": [
       {
-       "id": "ccd3af58a93",
-       "img": "img/0cca066ef4ce9ca0.jpg",
+       "id": "cd65fa015df",
+       "img": "img/aabcd218d6d8fe1d.jpg",
        "closes": [
-        "img/ca2caa191bba4d40.jpg"
+        "img/43d83e2472434e25.jpg"
        ]
       },
       {
-       "id": "cdf0a309c6b",
-       "img": "img/bc72ebf413f418e1.jpg",
+       "id": "c9c7dd2cf1b",
+       "img": "img/6debee00e5c1661a.jpg",
        "closes": [
-        "img/604a6a51f8f94d72.jpg"
+        "img/9edc113bc8881fa4.jpg"
        ]
       },
       {
-       "id": "cb52408b060",
-       "img": "img/8724c13c58449082.jpg",
+       "id": "c88a1bc84ca",
+       "img": "img/04ff9b1b1b3421f2.jpg",
        "closes": [
-        "img/911d1d8526f1e98b.jpg"
+        "img/df1a4e76a50f0975.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "tdafdd6c5c3",
+     "tid": "tf4b81c0ebc",
      "task": "multi",
      "parts": [
       "eyes",
@@ -5391,52 +5391,52 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/5c778d162b3e1595.jpg",
+       "img": "img/877599b52060c9dd.jpg",
        "closes": [
-        "img/551439eeff5985a9.jpg",
-        "img/2209622cbfa30448.jpg"
+        "img/3c6cbcd72be1ef6b.jpg",
+        "img/0ede4510798d7c74.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/6085861b71e4bccb.jpg",
+       "img": "img/cd036da4f4667117.jpg",
        "closes": [
-        "img/bac5a52e09fce150.jpg"
+        "img/2351fe8a865baa2a.jpg"
        ]
       }
      ],
-     "instr_en": "make this person make a neutral expression with their mouth closed",
-     "instr_zh": "讓這個人不笑（面無表情），嘴巴閉著",
-     "instr_note_en": "(a calm face, not smiling)",
+     "instr_en": "make this person smile with their mouth closed",
+     "instr_zh": "讓這個人微笑，但嘴巴閉著（不露牙）",
+     "instr_note_en": null,
      "cands": [
       {
-       "id": "c25200e8f5b",
-       "img": "img/178b01c77071f492.jpg",
+       "id": "ca37fe2dc1c",
+       "img": "img/fcc047333d3bab9a.jpg",
        "closes": [
-        "img/0a606f1c63a878ef.jpg",
-        "img/f410612ad1175442.jpg"
+        "img/f1f8e7b971140af0.jpg",
+        "img/bb82d98763e48054.jpg"
        ]
       },
       {
-       "id": "c7c19f99a7f",
-       "img": "img/4cec2a460ea6b184.jpg",
+       "id": "cabe250ef98",
+       "img": "img/92e7bf2c1e196412.jpg",
        "closes": [
-        "img/2af772c12d08013e.jpg",
-        "img/7465ad0f706a4f25.jpg"
+        "img/9d1de8d1b7bc428a.jpg",
+        "img/707d46d7fbaedc5c.jpg"
        ]
       },
       {
-       "id": "c0e6e03591a",
-       "img": "img/320734a5d79ce832.jpg",
+       "id": "cdbeff345f2",
+       "img": "img/865e3d6f2e7b945f.jpg",
        "closes": [
-        "img/c41cc3ffa6a7f723.jpg",
-        "img/3097ee3c53aad8dd.jpg"
+        "img/2e9cb596c590401a.jpg",
+        "img/01aa8b01f8528c61.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "tbeb84b96e3",
+     "tid": "t0e528c39da",
      "task": "multi",
      "parts": [
       "mouth",
@@ -5447,52 +5447,52 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/2db133e8acaf6808.jpg",
+       "img": "img/f9e079234b9121b0.jpg",
        "closes": [
-        "img/c2c092b3863fefbd.jpg",
-        "img/dbb134966dcb3410.jpg"
+        "img/d37480981273d3c1.jpg",
+        "img/36e048767c147405.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/0c4b4645d297d108.jpg",
+       "img": "img/eb01352af5682d08.jpg",
        "closes": [
-        "img/0b53393f9625c4a1.jpg"
+        "img/a338d5c23bf92942.jpg"
        ]
       }
      ],
-     "instr_en": "make this person's eyes blue",
-     "instr_zh": "把這個人的眼睛改成藍色",
+     "instr_en": "make this person's eyes brown",
+     "instr_zh": "把這個人的眼睛改成棕色",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c1e625c16d3",
-       "img": "img/3a986d9699f5d7a6.jpg",
+       "id": "c535823f445",
+       "img": "img/3d0b0535576a5a92.jpg",
        "closes": [
-        "img/d36d1530cd526c21.jpg",
-        "img/2f005024717b4155.jpg"
+        "img/443e93e2ff539b93.jpg",
+        "img/f3b523e97b15e01e.jpg"
        ]
       },
       {
-       "id": "c304c554583",
-       "img": "img/6bfbe651235fece3.jpg",
+       "id": "cb73224572f",
+       "img": "img/df66d708380a1ef7.jpg",
        "closes": [
-        "img/69666b9d7101a1fb.jpg",
-        "img/0980a6e26907b054.jpg"
+        "img/41699cb6494292d3.jpg",
+        "img/68a8fd8f36a4c7bf.jpg"
        ]
       },
       {
-       "id": "cd3ee7f9da6",
-       "img": "img/43296ace54cd7fea.jpg",
+       "id": "c73af5e18c2",
+       "img": "img/87fb227fc658c174.jpg",
        "closes": [
-        "img/1f3301508c0cac03.jpg",
-        "img/581d45b08c240779.jpg"
+        "img/bfd8ed1fcff160ea.jpg",
+        "img/6aa99e612dafdf8b.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "tde61902d4a",
+     "tid": "t3f2359617c",
      "task": "multi",
      "parts": [
       "hair",
@@ -5503,40 +5503,40 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/f1098ca2797e52db.jpg",
+       "img": "img/4e877cfec66c97e3.jpg",
        "closes": [
-        "img/30513e2d17e6646b.jpg"
+        "img/ee44e20356ff87af.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/8eb132676f8e64d0.jpg",
+       "img": "img/5fa4c0bef639f248.jpg",
        "closes": []
       }
      ],
-     "instr_en": "make this person's eyes blue",
-     "instr_zh": "把這個人的眼睛改成藍色",
+     "instr_en": "make this person's eyes brown",
+     "instr_zh": "把這個人的眼睛改成棕色",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c41a9eefe8a",
-       "img": "img/eb1611e1b5078581.jpg",
+       "id": "cb690da2c03",
+       "img": "img/3247ab726acf36aa.jpg",
        "closes": [
-        "img/50ac707dca7da644.jpg"
+        "img/3c6a4cd007248c9d.jpg"
        ]
       },
       {
-       "id": "cb262f78624",
-       "img": "img/1d13c4c80f97002f.jpg",
+       "id": "c68dcf3fd06",
+       "img": "img/af1c174602a063df.jpg",
        "closes": [
-        "img/d0c60d51bee6531e.jpg"
+        "img/f19616593ec502ea.jpg"
        ]
       },
       {
-       "id": "cb50daf6f7e",
-       "img": "img/a8c3903f15c55be6.jpg",
+       "id": "c8b95807d71",
+       "img": "img/d06b049db13b0726.jpg",
        "closes": [
-        "img/29b646bbd5fe57a1.jpg"
+        "img/35a1e1de1fd309e0.jpg"
        ]
       }
      ]
@@ -5918,7 +5918,7 @@
    ],
    "multi": [
     {
-     "tid": "tc9c0f11057",
+     "tid": "tdfc541c37f",
      "task": "multi",
      "parts": [
       "hair",
@@ -5929,14 +5929,14 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/28a3b28881bc0f55.jpg",
+       "img": "img/a006b24c28e6fa76.jpg",
        "closes": [
-        "img/344d2ae80acba4ef.jpg"
+        "img/fa7915f1cc7eb9b5.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/e3bd2993ee1c006f.jpg",
+       "img": "img/818cb077b3be7a20.jpg",
        "closes": []
       }
      ],
@@ -5945,30 +5945,30 @@
      "instr_note_en": "(a calm face, not smiling)",
      "cands": [
       {
-       "id": "ce748ecc6ef",
-       "img": "img/be4e36e22baf5128.jpg",
+       "id": "c6819f6b50a",
+       "img": "img/64456a22e16f2f49.jpg",
        "closes": [
-        "img/95ae2e6f73fe2a8f.jpg"
+        "img/f58abb1f7c239c0b.jpg"
        ]
       },
       {
-       "id": "c5be055395d",
-       "img": "img/9572d9526a18d2ce.jpg",
+       "id": "c517d612644",
+       "img": "img/a5a1a2a7f3511902.jpg",
        "closes": [
-        "img/467a33d04296c5b6.jpg"
+        "img/004ba8cd350a37cf.jpg"
        ]
       },
       {
-       "id": "c2d1af3129d",
-       "img": "img/e7953550e769a7c2.jpg",
+       "id": "c105cfa923a",
+       "img": "img/f97e01db0f6d2d5d.jpg",
        "closes": [
-        "img/318124616fa6b0d2.jpg"
+        "img/b888a19d06ed6fb0.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "tea78ca16cd",
+     "tid": "te783ff68b7",
      "task": "multi",
      "parts": [
       "mouth",
@@ -5979,48 +5979,48 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/fadd378e71b37855.jpg",
+       "img": "img/28510877e2b02fe1.jpg",
        "closes": [
-        "img/da7a17d772e52a7e.jpg"
+        "img/2c52fe183912996e.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/93d5ca84c9db2293.jpg",
+       "img": "img/c02365c37737fe70.jpg",
        "closes": [
-        "img/646c4a9c514ffd14.jpg"
+        "img/1ee9d2a5cd941801.jpg"
        ]
       }
      ],
-     "instr_en": "give this person dark brown short wavy",
-     "instr_zh": "把這個人的頭髮改成深棕色、短（約到下巴以上）、波浪捲髮",
+     "instr_en": "give this person jet black long straight",
+     "instr_zh": "把這個人的頭髮改成黑色、長（超過肩膀）、直髮",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c9eeea2fc09",
-       "img": "img/9cf3b492a59ca213.jpg",
+       "id": "cd062992bce",
+       "img": "img/ac47b4642decd481.jpg",
        "closes": [
-        "img/eed07edf764d2c0a.jpg"
+        "img/2199462325d6d070.jpg"
        ]
       },
       {
-       "id": "c5b6acbbdfd",
-       "img": "img/804249a559f62ee3.jpg",
+       "id": "ce0719068ca",
+       "img": "img/79facc0e0a6592c3.jpg",
        "closes": [
-        "img/5bc2465504814185.jpg"
+        "img/0081f9d4b20b033f.jpg"
        ]
       },
       {
-       "id": "c6ef962edb0",
-       "img": "img/c4a2489ddaaba65e.jpg",
+       "id": "c6fd54c2130",
+       "img": "img/c95e37b7b7c61123.jpg",
        "closes": [
-        "img/0ba16c7dd7ab15a6.jpg"
+        "img/10bd867ef7967e26.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "t887252f239",
+     "tid": "t3f404ab7c7",
      "task": "multi",
      "parts": [
       "eyes",
@@ -6031,48 +6031,48 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/e14179beca323207.jpg",
+       "img": "img/d176276d92967f54.jpg",
        "closes": [
-        "img/6e620616e96c4855.jpg"
+        "img/57c4659e1fff702e.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/eccfa000a4903b63.jpg",
+       "img": "img/2e7bcb92571d60b5.jpg",
        "closes": [
-        "img/2a0afdfc6de5111a.jpg"
+        "img/9590987dcc8832f7.jpg"
        ]
       }
      ],
-     "instr_en": "give this person golden blonde short straight",
-     "instr_zh": "把這個人的頭髮改成金色、短（約到下巴以上）、直髮",
+     "instr_en": "give this person jet black short curly",
+     "instr_zh": "把這個人的頭髮改成黑色、短（約到下巴以上）、捲髮",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c398576e280",
-       "img": "img/47ecd7883492c01c.jpg",
+       "id": "c1fc393246d",
+       "img": "img/570ff1fd5b38f146.jpg",
        "closes": [
-        "img/9299dbf636d25d10.jpg"
+        "img/4d426facf86e3c0e.jpg"
        ]
       },
       {
-       "id": "c428a525b4d",
-       "img": "img/77783f358c42b57a.jpg",
+       "id": "cd40b4938c4",
+       "img": "img/9f8a2576be353bb4.jpg",
        "closes": [
-        "img/516fd0220e4abf4b.jpg"
+        "img/801a173b52f28c50.jpg"
        ]
       },
       {
-       "id": "c147e1ba165",
-       "img": "img/e87eee852639c300.jpg",
+       "id": "c9aaa5df9c8",
+       "img": "img/b95cc5cf2e8e4d3e.jpg",
        "closes": [
-        "img/e00d40d5813b2cf0.jpg"
+        "img/483b1440678ef026.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "tc449c5e4cc",
+     "tid": "t69072a3b17",
      "task": "multi",
      "parts": [
       "eyes",
@@ -6083,52 +6083,52 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/f9e87e7944610765.jpg",
+       "img": "img/ab16b6432e73e677.jpg",
        "closes": [
-        "img/019d958aa9d4c953.jpg",
-        "img/5f8f1a85b5df93e1.jpg"
+        "img/31a8d484bb75510b.jpg",
+        "img/5a6f3030e2a6897a.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/eb5c3121a5d359a6.jpg",
+       "img": "img/72e264670a03407e.jpg",
        "closes": [
-        "img/bccf4c7202a18677.jpg"
+        "img/fb3c486e4ee0d800.jpg"
        ]
       }
      ],
-     "instr_en": "make this person make a neutral expression with their mouth closed",
-     "instr_zh": "讓這個人不笑（面無表情），嘴巴閉著",
+     "instr_en": "make this person make a neutral expression with their mouth open",
+     "instr_zh": "讓這個人不笑（面無表情），嘴巴張開",
      "instr_note_en": "(a calm face, not smiling)",
      "cands": [
       {
-       "id": "c662bd2dbf8",
-       "img": "img/c8190b8ee6035437.jpg",
+       "id": "cfb2a8eff18",
+       "img": "img/e2eb6d746100d867.jpg",
        "closes": [
-        "img/cc2259024320728f.jpg",
-        "img/3c9734d78eb027fb.jpg"
+        "img/ac5a55383c9db52a.jpg",
+        "img/65ac680b42a69491.jpg"
        ]
       },
       {
-       "id": "c9ba5dc2145",
-       "img": "img/65ce0ba4d8c1894d.jpg",
+       "id": "c5a807d6a26",
+       "img": "img/6ea71c5a9d24c887.jpg",
        "closes": [
-        "img/8337e494047fed16.jpg",
-        "img/3f4bade428039489.jpg"
+        "img/903a1bd880f6bdcf.jpg",
+        "img/c1489dbeb4c5430d.jpg"
        ]
       },
       {
-       "id": "c73b35d9a8c",
-       "img": "img/9071b04d9953456a.jpg",
+       "id": "c509380685d",
+       "img": "img/46032743546ed2ef.jpg",
        "closes": [
-        "img/ba779dda837895a9.jpg",
-        "img/beca0670de722828.jpg"
+        "img/bf347fa19c63b936.jpg",
+        "img/1b370fdbf75ace9c.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "t9208f3bbb1",
+     "tid": "tfa3a250ce3",
      "task": "multi",
      "parts": [
       "mouth",
@@ -6139,17 +6139,17 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/2e7469b30ebddf49.jpg",
+       "img": "img/6cfc7c9e2696201c.jpg",
        "closes": [
-        "img/e545f52dec8d6452.jpg",
-        "img/793caf42d953eeb1.jpg"
+        "img/9fb21bede3a7e8c5.jpg",
+        "img/45198ef21fa3f5c0.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/800bad1442571047.jpg",
+       "img": "img/d10b8304225ff498.jpg",
        "closes": [
-        "img/cb9fdba23af2095e.jpg"
+        "img/2f90e9f8c2c03b1d.jpg"
        ]
       }
      ],
@@ -6158,33 +6158,33 @@
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c1ebe6443b9",
-       "img": "img/3658b62830bd731d.jpg",
+       "id": "c6d516ff717",
+       "img": "img/960061cab4a0a4b5.jpg",
        "closes": [
-        "img/928b644f064c7424.jpg",
-        "img/18137d1b2e90e1a8.jpg"
+        "img/ab5913668edb5dfb.jpg",
+        "img/75f14ca61456ee22.jpg"
        ]
       },
       {
-       "id": "cb463111c74",
-       "img": "img/ab569c3f2182448c.jpg",
+       "id": "c38d79b3744",
+       "img": "img/5db07dc1e9644059.jpg",
        "closes": [
-        "img/7552cd7966da6ba9.jpg",
-        "img/24213397d7a17314.jpg"
+        "img/da03612b168477e6.jpg",
+        "img/b4b0389b255cb1cb.jpg"
        ]
       },
       {
-       "id": "c61474c4fc7",
-       "img": "img/ae8b0265430b8364.jpg",
+       "id": "c40760c5bef",
+       "img": "img/a94b33c43bcafd47.jpg",
        "closes": [
-        "img/e373632b2e8adb39.jpg",
-        "img/38195aebc8a19692.jpg"
+        "img/86f2e4965f67cb80.jpg",
+        "img/442fcb0bddae9e2b.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "ta1c042d7f9",
+     "tid": "tfd2836bfa4",
      "task": "multi",
      "parts": [
       "hair",
@@ -6195,14 +6195,14 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/9137b31555bae74a.jpg",
+       "img": "img/875b1ed3ddb17c70.jpg",
        "closes": [
-        "img/b43a889d64993ae1.jpg"
+        "img/65e563fcd6a229bd.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/802808bac781040f.jpg",
+       "img": "img/2570dc01bba8272d.jpg",
        "closes": []
       }
      ],
@@ -6211,24 +6211,24 @@
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c4526eff543",
-       "img": "img/2dbd89dabde20ed7.jpg",
+       "id": "c3be771d121",
+       "img": "img/3bc7d90f5c0f42eb.jpg",
        "closes": [
-        "img/53eae8b2bd47912c.jpg"
+        "img/750935ee1d711db0.jpg"
        ]
       },
       {
-       "id": "cb7a3a904fa",
-       "img": "img/5edb4b8659cebc50.jpg",
+       "id": "c4e4fa0e0fd",
+       "img": "img/42a1ed33e060636e.jpg",
        "closes": [
-        "img/94b6d98c0f6913b9.jpg"
+        "img/cb3929162790b38e.jpg"
        ]
       },
       {
-       "id": "c410ccea8cb",
-       "img": "img/13f94553ccdd7fcc.jpg",
+       "id": "cb658efd32d",
+       "img": "img/21487c155bed49ae.jpg",
        "closes": [
-        "img/5ef4c4dcef7fb606.jpg"
+        "img/c8bd7190b585c980.jpg"
        ]
       }
      ]
@@ -6637,17 +6637,17 @@
      "instr_note_en": "(a calm face, not smiling)",
      "cands": [
       {
-       "id": "cacf362942e",
-       "img": "img/cdd6301379297dd5.jpg",
-       "closes": [
-        "img/91fb409f1b86c7be.jpg"
-       ]
-      },
-      {
        "id": "c5e6d4804e2",
        "img": "img/ae96315c2d53043c.jpg",
        "closes": [
         "img/5ace0eb3258f4ff7.jpg"
+       ]
+      },
+      {
+       "id": "cacf362942e",
+       "img": "img/cdd6301379297dd5.jpg",
+       "closes": [
+        "img/91fb409f1b86c7be.jpg"
        ]
       },
       {
@@ -6660,7 +6660,7 @@
      ]
     },
     {
-     "tid": "tbaa9b3ea25",
+     "tid": "t8e896323b9",
      "task": "multi",
      "parts": [
       "mouth",
@@ -6671,48 +6671,48 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/72e369213eb06ed6.jpg",
+       "img": "img/1d3742a089707fa8.jpg",
        "closes": [
-        "img/7b268ff7b76db280.jpg"
+        "img/bc4e745185cfaade.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/469737bc11e16e64.jpg",
+       "img": "img/2f87e1bb8823415a.jpg",
        "closes": [
-        "img/d6a231bfcbabe139.jpg"
+        "img/e7924cedf64eaa9b.jpg"
        ]
       }
      ],
-     "instr_en": "give this person jet black long wavy",
-     "instr_zh": "把這個人的頭髮改成黑色、長（超過肩膀）、波浪捲髮",
+     "instr_en": "give this person dark brown long wavy",
+     "instr_zh": "把這個人的頭髮改成深棕色、長（超過肩膀）、波浪捲髮",
      "instr_note_en": null,
      "cands": [
       {
-       "id": "caef4a6d1cf",
-       "img": "img/c8fbcd330921a045.jpg",
+       "id": "ca55ed1aba0",
+       "img": "img/0e15cf7110c2bd5b.jpg",
        "closes": [
-        "img/ed7cecb2fd329b76.jpg"
+        "img/b73f9e36b24246eb.jpg"
        ]
       },
       {
-       "id": "cf768160099",
-       "img": "img/ec538c6c01bee248.jpg",
+       "id": "c8a60114be5",
+       "img": "img/8161deccc9474d2c.jpg",
        "closes": [
-        "img/665ceb958fe8ccfb.jpg"
+        "img/b27c918a896a8bf1.jpg"
        ]
       },
       {
-       "id": "cbc8b89d126",
-       "img": "img/5336b940e122f54b.jpg",
+       "id": "c89b7a126ae",
+       "img": "img/6861071117ba3098.jpg",
        "closes": [
-        "img/54956c8c4d7d3379.jpg"
+        "img/f1d997cfd45136bb.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "td3502ec1c0",
+     "tid": "tcce324ad97",
      "task": "multi",
      "parts": [
       "eyes",
@@ -6723,16 +6723,16 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/55d13709cb3b3be3.jpg",
+       "img": "img/df809b42b4460755.jpg",
        "closes": [
-        "img/de26d2deb9057ec3.jpg"
+        "img/667bbeeb7bf2f643.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/60c353052d40ebe9.jpg",
+       "img": "img/9e03705de8e431fb.jpg",
        "closes": [
-        "img/01142aa15f126bb8.jpg"
+        "img/d6a673684c4df11b.jpg"
        ]
       }
      ],
@@ -6741,30 +6741,30 @@
      "instr_note_en": null,
      "cands": [
       {
-       "id": "cd822e84ab6",
-       "img": "img/af3ae40601ca3abf.jpg",
+       "id": "cdb1731896a",
+       "img": "img/cab8d32461694d92.jpg",
        "closes": [
-        "img/f74c889ceb5313d3.jpg"
+        "img/b6f5b7f76b1f0cb7.jpg"
        ]
       },
       {
-       "id": "c9a37a3d5ab",
-       "img": "img/913b3e3107c5d68d.jpg",
+       "id": "c929cfd9e0b",
+       "img": "img/70312d83aaaa4140.jpg",
        "closes": [
-        "img/66baee7f50e7f5b2.jpg"
+        "img/061089a91f1fb4e1.jpg"
        ]
       },
       {
-       "id": "c8d9efa1c21",
-       "img": "img/3ed30f4d65bef639.jpg",
+       "id": "cd0f7f62a04",
+       "img": "img/7fb15950782df460.jpg",
        "closes": [
-        "img/159bc786abb50088.jpg"
+        "img/86efdf14d7147240.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "tf9e0884aa5",
+     "tid": "t011e059d9a",
      "task": "multi",
      "parts": [
       "eyes",
@@ -6775,17 +6775,17 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/dcbca612fe7ebacd.jpg",
+       "img": "img/c3434dcdc360aba8.jpg",
        "closes": [
-        "img/44ea293a41b6132b.jpg",
-        "img/75f0497b6831e745.jpg"
+        "img/a3f2f7aeb624df64.jpg",
+        "img/0e39896b2842386d.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/00b3991b2476ee21.jpg",
+       "img": "img/6673f45398694699.jpg",
        "closes": [
-        "img/695c6d11d2d0d5ff.jpg"
+        "img/a649d586421c168d.jpg"
        ]
       }
      ],
@@ -6794,33 +6794,33 @@
      "instr_note_en": "(a calm face, not smiling)",
      "cands": [
       {
-       "id": "c073a97c463",
-       "img": "img/aea477b707232ab5.jpg",
+       "id": "ce064def1d9",
+       "img": "img/043980ac409beee3.jpg",
        "closes": [
-        "img/bc9fcc90be2ada1f.jpg",
-        "img/b967e4ce43d2b863.jpg"
+        "img/b016a530723e6d65.jpg",
+        "img/dc19d8ada8978d25.jpg"
        ]
       },
       {
-       "id": "c35b80ca9de",
-       "img": "img/1d63451397d8d814.jpg",
+       "id": "cfb8249defe",
+       "img": "img/0098c14e025814ea.jpg",
        "closes": [
-        "img/c95c4b1fd0ad89cf.jpg",
-        "img/31ae59b72856cca6.jpg"
+        "img/6ca2fd52899c7a5e.jpg",
+        "img/bb75032c3a11f337.jpg"
        ]
       },
       {
-       "id": "c4b9fba69b0",
-       "img": "img/254c4ef94d797335.jpg",
+       "id": "c54feb598bb",
+       "img": "img/fa5483a61aa30030.jpg",
        "closes": [
-        "img/c4c8ef0c3113a0b8.jpg",
-        "img/d9671b0aedcdb0dc.jpg"
+        "img/7328a4f835276b9b.jpg",
+        "img/e30e4eec121aebb2.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "tea0676544f",
+     "tid": "t1aa41b9132",
      "task": "multi",
      "parts": [
       "mouth",
@@ -6831,17 +6831,17 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/9588f93cda69edcd.jpg",
+       "img": "img/42b97545bddf3ad2.jpg",
        "closes": [
-        "img/568a3f9e0cca4480.jpg",
-        "img/55e2e9fbb589935a.jpg"
+        "img/9d7d40351d73ae8b.jpg",
+        "img/0646a4d8aab3931f.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/7b8ef49dbd9266a1.jpg",
+       "img": "img/c389f2c006b1d6a9.jpg",
        "closes": [
-        "img/631643e2756e0e90.jpg"
+        "img/3e19684e5cf2d1bc.jpg"
        ]
       }
      ],
@@ -6850,33 +6850,33 @@
      "instr_note_en": null,
      "cands": [
       {
-       "id": "ca9afb0eb8d",
-       "img": "img/f7058f9dd459ee7f.jpg",
+       "id": "c6fb82245c7",
+       "img": "img/752f2fa163f00a80.jpg",
        "closes": [
-        "img/ab0aa4e34cd99242.jpg",
-        "img/94d54d653f6ee27d.jpg"
+        "img/d8607899132499a1.jpg",
+        "img/2ea10aa462f732df.jpg"
        ]
       },
       {
-       "id": "c0c73f21275",
-       "img": "img/58eba3317def7107.jpg",
+       "id": "ca6eaa503b0",
+       "img": "img/284959206e48cb5d.jpg",
        "closes": [
-        "img/99804ccc3bd3a2bf.jpg",
-        "img/04ed0bec79684a22.jpg"
+        "img/d0dad0169ad95fc7.jpg",
+        "img/f09a71df176ff7d6.jpg"
        ]
       },
       {
-       "id": "c9458d675fe",
-       "img": "img/6b5ff6dcd69b98c1.jpg",
+       "id": "cf3f20df6c5",
+       "img": "img/871f329bc1fb8c1a.jpg",
        "closes": [
-        "img/8ee3193a6a41947a.jpg",
-        "img/a2f78a66e3e24492.jpg"
+        "img/95750eae2c71a320.jpg",
+        "img/130bbc23a9dd27bd.jpg"
        ]
       }
      ]
     },
     {
-     "tid": "t10a19c7cc4",
+     "tid": "td0fb1afc9c",
      "task": "multi",
      "parts": [
       "hair",
@@ -6887,14 +6887,14 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/6c8d80465ea8227d.jpg",
+       "img": "img/985d1e1acfc8d386.jpg",
        "closes": [
-        "img/af82034045a4496a.jpg"
+        "img/211d38992167aee2.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/483fdb320da7b444.jpg",
+       "img": "img/da96611e163f2207.jpg",
        "closes": []
       }
      ],
@@ -6903,24 +6903,24 @@
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c64d10d8628",
-       "img": "img/3a05f2cdbc4bdc7f.jpg",
+       "id": "c44d830232a",
+       "img": "img/1480b15c2bf983dd.jpg",
        "closes": [
-        "img/4fea88716847b175.jpg"
+        "img/3d0d22547424b7f5.jpg"
        ]
       },
       {
-       "id": "c60a2b48b59",
-       "img": "img/7195d36ca4f36754.jpg",
+       "id": "c5690b21e2e",
+       "img": "img/777b51feb369a027.jpg",
        "closes": [
-        "img/ffac813c40a2fe9d.jpg"
+        "img/02a61c7645fe7337.jpg"
        ]
       },
       {
-       "id": "caf95a9cd0a",
-       "img": "img/071a6b2f76755783.jpg",
+       "id": "ccb88702476",
+       "img": "img/bd1aa7c665faa743.jpg",
        "closes": [
-        "img/de4e35bd1e2a2151.jpg"
+        "img/321d30160cb3d44b.jpg"
        ]
       }
      ]
