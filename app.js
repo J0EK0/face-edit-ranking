@@ -543,9 +543,8 @@ function renderRefs() {
     const f = el("figure");
     const img = el("img"); img.src = r.img; img.alt = ""; img.onclick = () => zoomRef(r.img);
     f.append(img);
-    // multi-part sets: B's mouth close-up only when the mouth is the part taken from B
-    const showClose = !(it.task === "multi" && r.role === "B" && it.swap_part !== "mouth");
-    (showClose ? r.closes || [] : []).forEach((src) => { const c = el("img", "close"); c.src = src; c.alt = ""; c.onclick = () => zoomRef(src); f.append(c); });
+    // which close-ups a reference gets is decided when the bank is built (multi-part: B only for the part taken from B)
+    (r.closes || []).forEach((src) => { const c = el("img", "close"); c.src = src; c.alt = ""; c.onclick = () => zoomRef(src); f.append(c); });
     f.append(el("figcaption", null, T("cap")[r.role]));
     return f;
   });
