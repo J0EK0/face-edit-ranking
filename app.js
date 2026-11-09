@@ -60,7 +60,7 @@ const BASE = {
       lotteryBody: "有效填寫問卷者可留下 email 參加抽獎，抽出有效問卷的 1/20 贏取 7-11 百元禮券。留空就是不參加，不影響任何權益。",
       lotteryDone: "你已登記抽獎，完成的有效問卷才會列入抽獎。",
       lotteryBad: "這個 email 格式不正確，請再檢查一次，或留空不參加抽獎。",
-      pending: (n) => `還有 ${n} 筆沒有送出，可能是網路問題。請按「重新送出」，若一直失敗請按「下載答案」，把檔案交給實驗人員。`,
+      pending: (n) => `還有 ${n} 筆沒有送出，可能是網路問題。請按「重新送出」，若一直失敗請按「下載答案」，把檔案寄到 nickchiu@citi.sinica.edu.tw 或 pullpull@citi.sinica.edu.tw。`,
       retry: "重新送出", saveFile: "下載答案",
       errLoad: "目前無法載入題目，請稍後再試。",
       gateTitle: "請使用邀請連結", gateBody: "這個問卷只開放受邀的參與者。請用實驗人員給你的完整連結開啟。",
@@ -114,7 +114,7 @@ const BASE = {
       lotteryBody: "If you complete a valid response you may leave an email to enter a draw: 1 in 20 valid responses wins an NT$100 7-11 gift voucher. Leave it empty to skip; this does not affect your rights.",
       lotteryDone: "You entered the draw. Only completed, valid responses take part.",
       lotteryBad: "This email address does not look right. Check it, or leave it empty to skip the draw.",
-      pending: (n) => `${n} answer(s) have not been sent, possibly because of the network. Press Resend. If it keeps failing, press Download answers and give the file to the experimenter.`,
+      pending: (n) => `${n} answer(s) have not been sent, possibly because of the network. Press Resend. If it keeps failing, press Download answers and email the file to nickchiu@citi.sinica.edu.tw or pullpull@citi.sinica.edu.tw.`,
       retry: "Resend", saveFile: "Download answers",
       errLoad: "The questions cannot be loaded right now. Please try again later.",
       gateTitle: "Please use your invitation link", gateBody: "This survey is open to invited participants only. Open it with the full link the experimenter gave you.",
@@ -123,12 +123,12 @@ const BASE = {
 
 const STUDY = {
   zh: {
-    lede: "每組有一張原圖，和好幾張用不同 AI 方法修改出來的結果。請依三個問題，各把這些結果從最好排到最差。",
+    lede: "每組有一張原圖，和好幾張用不同 AI 方法修改出來的結果。請依每個問題，各把這些結果從最好排到最差。",
     fMinN: "10–15",
     about1: "本研究透過這個網頁進行問卷調查，提供由模型預先生成的影像，請您對同一張照片的多張修改結果進行評分排序，答案經由 Google 表單收集。",
     howLink: "作答說明",
-    introTitle: "每組結果分三輪排名",
-    introLede: "每組左邊是原圖 A，以及參考圖 B 或一句修改指令；右邊是同一張 A 用不同方法改出來的 5–7 張結果。每組結果會出現三次，每次只回答下面其中一個問題：先把所有組排完問題 ①，再回來排 ②，最後排 ③。每次出現時圖的位置都會重新打亂，從第 1 名點到最後一名。",
+    introTitle: "每組結果分幾輪排名",
+    introLede: "每組左邊是原圖 A，以及參考圖 B 或一句修改指令；右邊是同一張 A 用不同方法改出來的 3–7 張結果。每組結果會出現三次，每次只回答下面其中一個問題：先把所有組排完問題 ①，再回來排 ②，最後排 ③。最後的多部位題一次改兩個部位，會多一輪「照指令改的部位有沒有改對」，共四輪。每次出現時圖的位置都會重新打亂，從第 1 名點到最後一名。",
     rule1: "部位改得對不對", rule1d: "看 A 臉上那個部位：換部位的題目看它像不像 B 的，依指令修改的題目看它有沒有照指令。整張變成 B 或別人、等於沒有改在 A 身上，排最後。接縫、自不自然留給第 ③ 題。",
     rule2: "其他地方有沒有保持原樣", rule2d: "只看要改的部位以外：還是不是 A 這個人，臉型、膚色、背景、光線、姿勢、取景有沒有變。整張變成 B 或別人的排最後。",
     rule3: "整張自不自然", rule3d: "整張看起來像不像一張真的照片：有沒有接縫、色塊、扭曲、模糊或多出來的東西。這題不管有沒有照要求改。",
@@ -162,6 +162,7 @@ const STUDY = {
       },
     },
     secPart: (part, n) => `${part} ${n} 組`,
+    multiPart: (sw, tx) => `換${sw}＋改${tx}`,
     cont: "繼續",
     cap: { A: "原圖 A", B: "參考圖 B", C: "參考圖 C" }, instr: "修改指令",
     crit: {
@@ -191,12 +192,12 @@ const STUDY = {
     part: { mouth: "嘴巴", eyes: "眼睛", hair: "頭髮" }, partJoin: "、",
   },
   en: {
-    lede: "Each set shows one original photo and several results edited by different AI methods. Rank the results from best to worst, once for each of three questions.",
+    lede: "Each set shows one original photo and several results edited by different AI methods. Rank the results from best to worst, once for each question.",
     fMinN: "10–15",
     about1: "This questionnaire runs on this web page. It shows images generated in advance by the models and asks you to rate and rank several edited results of the same photo; answers are collected through Google Forms.",
     howLink: "Instructions",
-    introTitle: "Each set is ranked in three rounds",
-    introLede: "Each set shows the original photo A on the left, with a reference photo B or an editing instruction. On the right are 5 to 7 results made from A by different methods. Each set comes up three times, and each time you answer only one of the questions below: first question 1 for all sets, then question 2, then question 3. The results are reshuffled every time; click from first place to last.",
+    introTitle: "Each set is ranked in several rounds",
+    introLede: "Each set shows the original photo A on the left, with a reference photo B or an editing instruction. On the right are 3 to 7 results made from A by different methods. Each set comes up three times, and each time you answer only one of the questions below: first question 1 for all sets, then question 2, then question 3. The final several-part sets edit two parts at once and get one extra round, whether the part edited by the instruction was done right, so four rounds. The results are reshuffled every time; click from first place to last.",
     rule1: "Is the part edited correctly?", rule1d: "Look at that part on A's face: for a part swap, does it look like B's; for a text edit, does it follow the instruction. A result that turned into B or someone else was not edited on A and goes last. Seams and naturalness belong to question (3).",
     rule2: "Is everything else kept as it was?", rule2d: "Look only outside the edited part: is it still the person in A, with the same face shape, skin tone, background, lighting, pose and framing? A result that turned into B or someone else goes last.",
     rule3: "Does the whole photo look natural?", rule3d: "Does it look like a real photo: no seams, colour patches, distortion, blur or added things. This question ignores whether the edit was done.",
@@ -230,6 +231,7 @@ const STUDY = {
       },
     },
     secPart: (part, n) => `${part}: ${n} sets`,
+    multiPart: (sw, tx) => `${sw} swapped + ${tx} edited`,
     cont: "Continue",
     cap: { A: "Original A", B: "Reference B", C: "Reference C" }, instr: "Instruction",
     crit: {
@@ -278,7 +280,10 @@ function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return n
 function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* private window: resume is unavailable */ } }
 function T(k) { return I18N[lang][k]; }
 function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
-function partName(it) { return it.parts.map((p) => T("part")[p]).join(T("partJoin")); }
+function partName(it) {
+  if (it.task === "multi") return T("multiPart")(T("part")[it.swap_part], T("part")[it.text_part]);
+  return it.parts.map((p) => T("part")[p]).join(T("partJoin"));
+}
 
 function applyLang() {
   document.documentElement.lang = lang === "zh" ? "zh-Hant" : "en";
