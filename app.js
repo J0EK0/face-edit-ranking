@@ -6,7 +6,7 @@
 "use strict";
 
 const CFG = window.STUDY_CONFIG || { mode: "off" };
-const APP_VERSION = "v5.4";
+const APP_VERSION = "v5.6";
 
 // Consent and study information: v3/v4 wording (DESIGN_v3.md), with the storage lines rewritten to say what this
 // version does (answers are collected through Google Forms, as the consent form itself says).
@@ -128,7 +128,7 @@ const STUDY = {
     about1: "本研究透過這個網頁進行問卷調查，提供由模型預先生成的影像，請您對同一張照片的多張修改結果進行評分排序，答案經由 Google 表單收集。",
     howLink: "作答說明",
     introTitle: "每組結果分幾輪排名",
-    introLede: "每組左邊是原圖 A，以及參考圖 B 或一句修改指令；右邊是同一張 A 用不同方法改出來的 3–7 張結果。每組結果會出現三次，每次只回答下面其中一個問題：先把所有組排完問題 ①，再回來排 ②，最後排 ③。最後的多部位題一次改兩個部位，會多一輪「照指令改的部位有沒有改對」，共四輪。每次出現時圖的位置都會重新打亂，從第 1 名點到最後一名。",
+    introLede: "每組左邊是原圖 A，以及參考圖 B 或一句修改指令；右邊是同一張 A 用不同方法改出來的 3–6 張結果。每組結果會出現三次，每次只回答下面其中一個問題：先把所有組排完問題 ①，再回來排 ②，最後排 ③。最後的多部位題一次改兩個部位，會多一輪「照指令改的部位有沒有改對」，共四輪。每次出現時圖的位置都會重新打亂，從第 1 名點到最後一名。",
     rule1: "部位改得對不對", rule1d: "看 A 臉上那個部位：換部位的題目看它像不像 B 的，依指令修改的題目看它有沒有照指令。整張變成 B 或別人、等於沒有改在 A 身上，排最後。接縫、自不自然留給第 ③ 題。",
     rule2: "其他地方有沒有保持原樣", rule2d: "只看要改的部位以外：還是不是 A 這個人，臉型、膚色、背景、光線、姿勢、取景有沒有變。整張變成 B 或別人的排最後。",
     rule3: "整張自不自然", rule3d: "整張看起來像不像一張真的照片：有沒有接縫、色塊、扭曲、模糊或多出來的東西。這題不管有沒有照要求改。",
@@ -145,7 +145,7 @@ const STUDY = {
     secCritMulti: { swap: "：① 換的部位像不像 B", text: "：② 改的部位有沒有照指令", keep: "：③ 其他地方有沒有保持原樣", natural: "：④ 整張自不自然" },
     secBody: {
       swap: {
-        part: "每組都有參考圖 B 和 7 張結果。這一輪看 A 臉上換過去的部位像不像 B 的；整張變成 B 或別人的排最後。其他地方和自不自然下兩輪再看。",
+        part: "每組都有參考圖 B 和 5 張結果。這一輪看 A 臉上換過去的部位像不像 B 的；整張變成 B 或別人的排最後。其他地方和自不自然下兩輪再看。",
         keep: "同一批組再出現一次，圖的位置重新打亂。這一輪只看要換的部位以外：還是不是 A 這個人，臉型、膚色、背景、光線、姿勢有沒有變。",
         natural: "同一批組最後出現一次。這一輪只看整張像不像一張真的照片：接縫、色塊、扭曲、模糊排後面，不管有沒有換成功。",
       },
@@ -197,7 +197,7 @@ const STUDY = {
     about1: "This questionnaire runs on this web page. It shows images generated in advance by the models and asks you to rate and rank several edited results of the same photo; answers are collected through Google Forms.",
     howLink: "Instructions",
     introTitle: "Each set is ranked in several rounds",
-    introLede: "Each set shows the original photo A on the left, with a reference photo B or an editing instruction. On the right are 3 to 7 results made from A by different methods. Each set comes up three times, and each time you answer only one of the questions below: first question 1 for all sets, then question 2, then question 3. The final several-part sets edit two parts at once and get one extra round, whether the part edited by the instruction was done right, so four rounds. The results are reshuffled every time; click from first place to last.",
+    introLede: "Each set shows the original photo A on the left, with a reference photo B or an editing instruction. On the right are 3 to 6 results made from A by different methods. Each set comes up three times, and each time you answer only one of the questions below: first question 1 for all sets, then question 2, then question 3. The final several-part sets edit two parts at once and get one extra round, whether the part edited by the instruction was done right, so four rounds. The results are reshuffled every time; click from first place to last.",
     rule1: "Is the part edited correctly?", rule1d: "Look at that part on A's face: for a part swap, does it look like B's; for a text edit, does it follow the instruction. A result that turned into B or someone else was not edited on A and goes last. Seams and naturalness belong to question (3).",
     rule2: "Is everything else kept as it was?", rule2d: "Look only outside the edited part: is it still the person in A, with the same face shape, skin tone, background, lighting, pose and framing? A result that turned into B or someone else goes last.",
     rule3: "Does the whole photo look natural?", rule3d: "Does it look like a real photo: no seams, colour patches, distortion, blur or added things. This question ignores whether the edit was done.",
@@ -214,7 +214,7 @@ const STUDY = {
     secCritMulti: { swap: ": (1) does the swapped part look like B's", text: ": (2) does the edited part follow the instruction", keep: ": (3) is the rest unchanged", natural: ": (4) does it look natural" },
     secBody: {
       swap: {
-        part: "Every set has a reference photo B and 7 results. In this round look at the part swapped onto A's face: does it look like B's. A result that turned into B or someone else goes last. The rest and naturalness come in the next two rounds.",
+        part: "Every set has a reference photo B and 5 results. In this round look at the part swapped onto A's face: does it look like B's. A result that turned into B or someone else goes last. The rest and naturalness come in the next two rounds.",
         keep: "The same sets come back, reshuffled. In this round look only outside the swapped part: is it still the person in A, with the same face shape, skin, background, lighting and pose.",
         natural: "The same sets come back one last time. In this round look only at whether the whole photo looks real: seams, colour patches, distortion and blur rank low, whether or not the swap worked.",
       },
@@ -366,7 +366,10 @@ function ordered(L, pid) {
   return { order, cuts, swapFirst: true };
 }
 function stepOf(key) { const i = key.lastIndexOf("|"); return { tid: key.slice(0, i), crit: key.slice(i + 1) }; }
-function layoutFor(it, crit) { return shuffled(it.cands.map((c) => c.id), rng(`${S.pid}|${it.tid}|${crit}`)); }
+// Swap sets show FaceLex + 4 of 6 baselines (2026-11-10): which 5 comes from the counter (S.show), else the bank's
+// fallback "def"; other sets show all their candidates. The same 5 in every round of a set.
+function shownIds(it) { return (S && S.show && S.show[it.tid]) || it.def || it.cands.map((c) => c.id); }
+function layoutFor(it, crit) { return shuffled(shownIds(it), rng(`${S.pid}|${it.tid}|${crit}`)); }
 function itemById(tid) { return screensOf(S.list).find((it) => it.tid === tid); }
 function sectionStep(k) { return stepOf(S.order[k === 0 ? 0 : S.cuts[k - 1]]); }
 function sectionTask(k) {
@@ -380,6 +383,30 @@ function newPid() {
   return Array.from(a, (x) => abc[x % abc.length]).join("");
 }
 function randomList(n) { const a = new Uint32Array(1); crypto.getRandomValues(a); return a[0] % n; }
+// The assignment counter (Apps Script, counter/Code.gs.template): the next slot of a private permuted-block sequence,
+// i.e. a list and, for each of its swap sets, the bank positions of the 5 results to show. null on any failure or
+// after 6 s; the page then falls back to a random list and the bank's "def" subsets.
+async function getSlot(n) {
+  if (!CFG.counterUrl) return null;
+  try {
+    const ctl = new AbortController(), timer = setTimeout(() => ctl.abort(), 6000);
+    const res = await fetch(CFG.counterUrl, { signal: ctl.signal, cache: "no-store" });
+    const d = await res.json();
+    clearTimeout(timer);
+    if (d.study !== bank.study_id || !Number.isInteger(d.slot) || !Number.isInteger(d.list) || d.list < 0 || d.list >= n) return null;
+    const swaps = bank.groups[d.list].items.filter((it) => it.task === "swap");
+    if (!Array.isArray(d.show) || d.show.length !== swaps.length) return null;
+    const show = {};
+    for (let i = 0; i < swaps.length; i++) {
+      const code = String(d.show[i]);
+      if (!/^[0-9]{2,9}$/.test(code)) return null;
+      const ids = [...code].map((ch) => swaps[i].cands[+ch] && swaps[i].cands[+ch].id);
+      if (ids.some((x) => !x) || new Set(ids).size !== ids.length) return null;
+      show[swaps[i].tid] = ids;
+    }
+    return { slot: d.slot, list: d.list, show };
+  } catch (e) { return null; }
+}
 
 async function sha256hex(s) {
   const d = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s));
@@ -440,20 +467,27 @@ function resume() {
 
 function syncConsent() { $("btn-start").disabled = !$("consent-check").checked || !bank; }
 
+let starting = false;
 async function begin() {
   if (!$("consent-check").checked || !bank) return;
   $("start-err").textContent = "";
   const email = $("lottery-email").value.trim();
   if (email && (email.length > 254 || !EMAIL_RE.test(email))) { $("start-err").textContent = T("lotteryBad"); return; }
   const n = bank.groups.length, asked = params.get("list");
-  const list = asked !== null && /^\d+$/.test(asked) && +asked < n ? +asked : randomList(n);
+  const forced = asked !== null && /^\d+$/.test(asked) && +asked < n;
+  if (starting) return;
+  starting = true; $("btn-start").disabled = true;
+  const got = PREVIEW || forced ? null : await getSlot(n);
+  starting = false; syncConsent();
+  const list = forced ? +asked : got ? got.list : randomList(n);
   const pid = PREVIEW ? "preview" : newPid();
-  S = { app: APP_VERSION, pid, list, assigned: asked !== null, lang, phase: "intro", idx: 0, section: 0,
+  S = { app: APP_VERSION, pid, list, assigned: forced, slot: got ? got.slot : null, show: got ? got.show : null,
+        lang, phase: "intro", idx: 0, section: 0,
         answers: {}, unsent: [], finished: false, finishSent: false, lottery: !!email, t0: Date.now() };
   Object.assign(S, ordered(list, pid));
   if (!PREVIEW) {
     queue({ kind: "start", list, first: S.swapFirst ? "swap" : "text", lang, screen: `${screen.width}x${screen.height}`,
-            assigned: S.assigned ? 1 : 0 });
+            assigned: S.assigned ? 1 : 0, slot: S.slot === null ? "none" : S.slot });
     // the address goes to its own form, apart from the answers, and is never kept in the browser
     if (email) sendLottery(pid, email);
   }
@@ -509,7 +543,7 @@ function setItem(it, practice, prev, crit) {
   crit = crit || critsOf(it)[0];
   const layout = practice ? it.cands.map((c) => c.id) : layoutFor(it, crit);
   const ranks = { [crit]: prev ? prev.rank.slice() : [] };
-  cur = { it, practice, layout, n: it.cands.length, byId: Object.fromEntries(it.cands.map((c) => [c.id, c])),
+  cur = { it, practice, layout, n: layout.length, byId: Object.fromEntries(it.cands.map((c) => [c.id, c])),
           ranks, crit, ms: {}, prevRt: prev ? prev.rt_ms : 0,
           revisit: !!prev, zooms: prev ? prev.zooms : 0, showFb: false, t0: performance.now() };
   renderRefs();
@@ -710,7 +744,7 @@ function renderMain() {
   const key = S.order[S.idx], st = stepOf(key);
   setItem(itemById(st.tid), false, S.answers[key], st.crit);
   const nx = S.order[S.idx + 1] && itemById(stepOf(S.order[S.idx + 1]).tid);
-  if (nx) [...nx.refs.flatMap((r) => [r.img, ...(r.closes || [])]), ...nx.cands.flatMap((c) => [c.img, ...(c.closes || [])])]
+  if (nx) [...nx.refs.flatMap((r) => [r.img, ...(r.closes || [])]), ...nx.cands.filter((c) => shownIds(nx).includes(c.id)).flatMap((c) => [c.img, ...(c.closes || [])])]
     .forEach((src) => { new Image().src = src; });
 }
 
@@ -761,7 +795,7 @@ function row(r) {
            part: rk("part"), keep: rk("keep"), natural: rk("natural"), swap: rk("swap"), text: rk("text"),
            ms: r.rt_ms != null ? String(r.rt_ms) : "",
            zooms: r.zooms != null ? r.zooms : "", revisit: r.revisit != null ? r.revisit : "",
-           meta: r.kind === "start" ? `first=${r.first};lang=${r.lang};screen=${r.screen};assigned=${r.assigned}` : (r.kind === "finish" ? `total_ms=${r.total_ms}` : ""),
+           meta: r.kind === "start" ? `first=${r.first};lang=${r.lang};screen=${r.screen};assigned=${r.assigned};slot=${r.slot}` : (r.kind === "finish" ? `total_ms=${r.total_ms}` : ""),
            cts: new Date().toISOString() };
 }
 function queue(r) {

@@ -5,4 +5,5 @@ window.STUDY_CONFIG = {
   lottery: { url: "https://docs.google.com/forms/d/e/1FAIpQLSeaYPanT6vVBQsXo08JlpucOYAvusXcLNsiAmY5Z8VYhUy8cQ/formResponse", entry: "entry.1792540426" },
   consentUrl: "https://drive.google.com/file/d/1B3iZ2qKKpcfQexR-aIo1ZNPC1SNIT4Mm/view",
   accessHash: null,
+  counterUrl: "https://script.google.com/macros/s/AKfycbzFEXt5z8Tcpv5o8gi72X8rB9agEWsLjEVqdqR6VKJvcRQpD7Y0_WdwPtjEientsusd/exec",                               // Apps Script /exec URL of the assignment counter, or null = random list
 };
