@@ -21,9 +21,11 @@ header { position: sticky; top: 0; z-index: 5; height: 52px; padding: 0 40px; di
   background: var(--bg); border-bottom: 1px solid var(--line); }
 #prog-text { font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
 #prog { flex: 1; max-width: 640px; height: 16px; display: flex; align-items: center; gap: 3px; }
-#prog i { flex: 1; height: 8px; background: var(--tick); }
-#prog i.done { background: var(--muted); }
-#prog i.now { height: 16px; background: var(--mark); }
+#prog i { flex: 1; height: 16px; border-block: 4px solid transparent; background: var(--tick); background-clip: padding-box; }
+#prog i.done { background-color: var(--muted); }
+#prog i.now { border-width: 0; background-color: var(--mark); }
+#prog i.can { cursor: pointer; }
+#prog i.can:hover { border-width: 1px; }
 .tag { font-size: 14px; font-weight: 600; color: var(--mark); }
 .lang { margin-left: auto; display: flex; gap: 4px; flex: none; }
 .lang button { min-height: 36px; padding: 0 8px; border: 0; border-radius: 0; background: none; font-size: 14px; color: var(--muted); }

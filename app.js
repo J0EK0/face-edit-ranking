@@ -6,7 +6,7 @@
 "use strict";
 
 const CFG = window.STUDY_CONFIG || { mode: "off" };
-const APP_VERSION = "v5.3";
+const APP_VERSION = "v5.4";
 
 // Consent and study information: v3/v4 wording (DESIGN_v3.md), with the storage lines rewritten to say what this
 // version does (answers are collected through Google Forms, as the consent form itself says).
@@ -667,13 +667,38 @@ function renderTrial() {
   if (zoomIdx != null) renderZoom();
 }
 
+// The bar's cells jump to any step (user 2026-11-10). Landing on an unanswered step of a round nobody has started
+// shows that round's intro page first (not in preview). The study only finishes once every step is answered.
+function sectionOfStep(i) { return S.cuts.findIndex((c) => i < c); }
+function firstUnanswered() { return S.order.findIndex((x) => !S.answers[x]); }
+function goStep(k) {
+  S.idx = k; S.section = 0;
+  const sec = sectionOfStep(k), lo = sec === 0 ? 0 : S.cuts[sec - 1];
+  if (!PREVIEW && !S.answers[S.order[k]] && !S.order.slice(lo, S.cuts[sec]).some((x) => S.answers[x])) S.section = sec + 1;
+  save();
+  if (S.section) { cur = null; showSection(); } else { show("v-trial"); renderMain(); }
+}
+function jumpTo(k) {
+  if (k === S.idx || k < 0 || k >= S.order.length) return;
+  closeZoom();
+  goStep(k);
+}
 function renderProgress() {
-  const i = S.idx + 1, n = S.order.length;
+  const i = S.idx + 1, n = S.order.length, reach = n - 1;
   $("prog-text").textContent = `${i} / ${n}`;
   const bar = $("prog");
   bar.hidden = false;
-  while (bar.children.length < n) bar.append(document.createElement("i"));
-  Array.from(bar.children).forEach((t, k) => { t.classList.toggle("done", k < i - 1); t.classList.toggle("now", k === i - 1); });
+  while (bar.children.length < n) {
+    const t = document.createElement("i"), k = bar.children.length;
+    t.onclick = () => jumpTo(k);
+    bar.append(t);
+  }
+  Array.from(bar.children).forEach((t, k) => {
+    t.classList.toggle("done", !!S.answers[S.order[k]] && k !== i - 1);
+    t.classList.toggle("now", k === i - 1);
+    t.classList.toggle("can", k <= reach && k !== i - 1);
+    t.title = `${k + 1} / ${n}`;
+  });
 }
 function renderPractice() {
   $("prog").hidden = true; $("prog-text").textContent = "";
@@ -704,10 +729,12 @@ function next() {
   S.answers[key] = rec;
   if (changed) queue({ kind: "answer", ...rec });
   S.idx += 1;
+  closeZoom();
+  // past the last step with steps still unanswered (the bar allows skipping): go to the first one instead of finishing
+  if (S.idx >= S.order.length && !PREVIEW && firstUnanswered() >= 0) { goStep(firstUnanswered()); return; }
   const k = S.cuts.indexOf(S.idx);
   if (k >= 0 && S.idx < S.order.length && !S.answers[S.order[S.idx]]) S.section = k + 2;
   save();
-  closeZoom();
   if (S.section) { cur = null; showSection(); }
   else if (S.idx >= S.order.length) finish();
   else renderMain();
@@ -778,6 +805,7 @@ function sendLottery(pid, email) {
 }
 
 async function finish() {
+  if (!PREVIEW && firstUnanswered() >= 0) { goStep(firstUnanswered()); return; }
   $("prog-text").textContent = ""; $("prog").hidden = true; cur = null;
   if (!S.finished) { S.finished = true; queue({ kind: "finish", total_ms: Date.now() - S.t0 }); }
   save();
