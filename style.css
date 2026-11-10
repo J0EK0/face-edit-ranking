@@ -82,13 +82,23 @@ main { max-width: 1280px; margin: 0 auto; padding: 24px 40px 48px; }
 .info { margin: 0 0 20px; font-size: 15px; line-height: 1.6; }
 .info dt { padding-top: 10px; border-top: 1px solid var(--line); font-weight: 700; }
 .info dd { margin: 0 0 10px; color: var(--soft); }
-#end-code { color: var(--fg); font-size: 16px; user-select: all; overflow-wrap: anywhere; }
+.end-pid { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line); display: flex; flex-direction: column; gap: 10px; }
+.end-pid[hidden] { display: none; }
+.end-pid-label { font-size: 13px; color: var(--muted); }
+.end-pid-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+#end-code { font-family: ui-monospace, Menlo, monospace; font-size: 17px; letter-spacing: .08em; color: var(--fg); background: var(--raise);
+  border: 1px solid var(--line); border-radius: 6px; padding: 6px 12px; user-select: all; overflow-wrap: anywhere; }
+.copy-btn { display: inline-flex; align-items: center; gap: 6px; min-height: 34px; padding: 0 14px; border-color: var(--tick); font-size: 14px; }
+.copy-state { font-size: 13px; color: var(--mark); }
+.end-pid-why { margin: 0; font-size: 13px; line-height: 1.7; color: var(--muted); }
+.tips-title { margin: 0 0 6px; font-size: 17px; }
+.tips { margin: 0 0 8px; font-size: 14px; display: flex; flex-direction: column; gap: 3px; }
 .steps { list-style: none; counter-reset: step; padding: 0; margin: 0 0 24px; }
 .steps li { counter-increment: step; display: grid; grid-template-columns: 44px minmax(0, 1fr); padding: 16px 0; border-top: 1px solid var(--line); line-height: 1.65; }
 .steps li::before { content: counter(step); font-size: 24px; line-height: 1.2; font-weight: 700; color: var(--muted); }
 .tick { display: block; width: 72px; height: 60px; margin-bottom: 16px; fill: none; stroke: var(--mark); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
 .tick path { stroke-dasharray: 1; stroke-dashoffset: 0; animation: draw .5s .15s ease-out both; }
-.end-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.end-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
 @keyframes draw { 0% { stroke-dashoffset: 1; opacity: 0; } 1% { opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
 
 /* instructions, shown once before practice and again from the header */

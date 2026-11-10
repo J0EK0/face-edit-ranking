@@ -6,7 +6,7 @@
 "use strict";
 
 const CFG = window.STUDY_CONFIG || { mode: "off" };
-const APP_VERSION = "v5.8";
+const APP_VERSION = "v5.9";
 
 // Consent and study information: v3/v4 wording (DESIGN_v3.md), with the storage lines rewritten to say what this
 // version does (answers are collected through Google Forms, as the consent form itself says).
@@ -55,7 +55,8 @@ const BASE = {
       done: "完成了，謝謝你！",
       sent: "你的答案已經全部送出，可以關閉這個網頁。",
       previewEnd: "這是預覽，答案沒有送出。",
-      codeNote: "你的參與編號。之後要刪除資料，請附上編號來信 nickchiu@citi.sinica.edu.tw 或 pullpull@citi.sinica.edu.tw：",
+      codeLabel: "你的參與編號", copy: "複製", copied: "已複製", copyFail: "請手動選取複製",
+      codeWhy: "我們不收姓名，你的答案只用這組編號記錄。日後如果想刪除自己的資料，請來信 nickchiu@citi.sinica.edu.tw 或 pullpull@citi.sinica.edu.tw 並附上這組編號，我們才找得到你的答案。不需要的話可以直接關閉網頁。",
       lotteryTitle: "抽獎（選填）",
       lotteryBody: "有效填寫問卷者可留下 email 參加抽獎，抽出有效問卷的 1/20 贏取 7-11 百元禮券。留空就是不參加，不影響任何權益。",
       lotteryDone: "你已登記抽獎，完成的有效問卷才會列入抽獎。",
@@ -109,7 +110,8 @@ const BASE = {
       done: "All done, thank you!",
       sent: "All your answers have been sent. You can close this page.",
       previewEnd: "This is a preview. Your answers were not sent.",
-      codeNote: "Your participant code. To have your data deleted later, email this code to nickchiu@citi.sinica.edu.tw or pullpull@citi.sinica.edu.tw:",
+      codeLabel: "Your participant code", copy: "Copy", copied: "Copied", copyFail: "Select it to copy",
+      codeWhy: "We do not collect names; your answers are recorded under this code only. If you later want your data deleted, email nickchiu@citi.sinica.edu.tw or pullpull@citi.sinica.edu.tw with this code, so we can find your answers. Otherwise you can simply close this page.",
       lotteryTitle: "Prize draw (optional)",
       lotteryBody: "If you complete a valid response you may leave an email to enter a draw: 1 in 20 valid responses wins an NT$100 7-11 gift voucher. Leave it empty to skip; this does not affect your rights.",
       lotteryDone: "You entered the draw. Only completed, valid responses take part.",
@@ -141,9 +143,15 @@ const STUDY = {
     rule2d: ["評估指定部位以外的影像內容，是否與原圖保持一致。", "留意臉型、膚色、背景、光線、姿勢或取景。", "若整張結果變成 B 或其他身分，請排在最後。"],
     rule3: "影像是否自然",
     rule3d: ["評估整體影像是否像真實照片（不論是否符合修改要求）。", "留意接縫、色塊、扭曲、模糊或多餘物件。"],
-    note1: "同一張結果在三個問題可以排在不同位置，例如嘴巴換得最像 B，但背景或膚色變了很多，或看起來有接縫。很多張會很像，分不出時照你稍微偏好的順序點就好。",
-    note2: "依序點第 1 名、第 2 名……，一直點到最後一名。點錯了：再點一次已經有名次的那張，就會取消它和之後的名次；也可以按「重來」。想改前面的答案，按「上一組」回去。",
-    note3: "眼睛和嘴巴的題目，每張結果下面有放大的局部圖。點每張右上角的放大鏡可以看大圖，大圖裡也可以直接選。鍵盤：數字鍵選第幾張、Backspace 取消上一下、Enter 下一組。中途關掉網頁，用同一個瀏覽器再打開可以接續。",
+    tipsTitle: "作答小提醒",
+    tips: ["同一張結果在不同問題可以排不同名次，例如嘴巴換得最像 B，但背景或膚色變了很多。",
+      "很多張會很像，分不出來時照你稍微偏好的順序點就好。",
+      "依序點第 1 名、第 2 名……一直點到最後一名。",
+      "點錯了：再點一次已經有名次的那張，會取消它和之後的名次；也可以按「重來」。",
+      "想改前面的答案，按「上一組」，或點上方的進度條回去。",
+      "眼睛和嘴巴的題目，每張結果下面有放大的局部圖；點右上角的放大鏡可以看大圖，大圖裡也能直接選。",
+      "鍵盤：數字鍵選第幾張、Backspace 取消上一下、Enter 下一組。",
+      "中途關掉網頁，用同一個瀏覽器再打開可以接續。"],
     startPractice: "開始練習（1 題）", practiceSub: "練習不計分，只排一次，熟悉怎麼點名次", backToSets: "回到題目",
     practiceTag: () => "練習題（不計分）",
     chip: { swap: "換部位", text: "依指令修改", multi: "多部位" },
@@ -219,9 +227,15 @@ const STUDY = {
     rule2d: ["Judge whether everything outside the target part stays the same as in the original photo.", "Look at face shape, skin tone, background, lighting, pose and framing.", "If a result turned into B or someone else, rank it last."],
     rule3: "Does the image look natural?",
     rule3d: ["Judge whether the whole image looks like a real photo, whether or not the edit was done.", "Look for seams, colour patches, distortion, blur or extra objects."],
-    note1: "One result can rank differently on the three questions, for example the mouth looks most like B's, but the background or skin tone changed a lot, or there is a visible seam. Many results will look similar; if you cannot tell them apart, click in the order you slightly prefer.",
-    note2: "Click first place, then second, and so on, down to last place. Clicked the wrong one? Click a ranked result again to remove it and the ranks after it, or press Start over. To change an earlier answer, press Previous.",
-    note3: "For eyes and mouths, a close-up sits below each result. The magnifier at the top right of a result opens a large view, where you can also choose it. Keyboard: number keys choose a result, Backspace undoes the last click, Enter goes to the next set. If you close the page, reopen it in the same browser to continue.",
+    tipsTitle: "Tips",
+    tips: ["One result can rank differently on different questions, for example the mouth looks most like B's but the background or skin tone changed a lot.",
+      "Many results will look similar; if you cannot tell them apart, click in the order you slightly prefer.",
+      "Click first place, then second, and so on, down to last place.",
+      "Clicked the wrong one? Click a ranked result again to remove it and the ranks after it, or press Start over.",
+      "To change an earlier answer, press Previous, or click the progress bar at the top.",
+      "For eyes and mouths, a close-up sits below each result; the magnifier at the top right opens a large view, where you can also choose it.",
+      "Keyboard: number keys choose a result, Backspace undoes the last click, Enter goes to the next set.",
+      "If you close the page, reopen it in the same browser to continue."],
     startPractice: "Start practice (1 question)", practiceSub: "Practice is not scored; rank once to learn the clicking", backToSets: "Back to the sets",
     practiceTag: () => "Practice (not scored)",
     chip: { swap: "Part swap", text: "Text edit", multi: "Several parts" },
@@ -458,6 +472,7 @@ async function init() {
   $("btn-how").onclick = openIntro;
   $("btn-retry").onclick = () => flush().then(renderEnd);
   $("btn-save").onclick = saveFile;
+  $("btn-copy").onclick = copyPid;
   [0, 1, 2].forEach((k) => { $(`step-${k}`).onclick = () => goStage(k); });
   $("lb-close").onclick = closeZoom;
   $("lb-prev").onclick = () => stepZoom(-1);
@@ -599,7 +614,7 @@ function leaveSection() {
 // cur.crit: the criterion of this step; a step ranks one criterion only.
 function setItem(it, practice, prev, crit) {
   crit = crit || critsOf(it)[0];
-  const layout = practice ? it.cands.map((c) => c.id) : layoutFor(it, crit);
+  const layout = practice ? it.cands.slice(0, 5).map((c) => c.id) : layoutFor(it, crit);
   const ranks = { [crit]: prev ? prev.rank.slice() : [] };
   cur = { it, practice, layout, n: layout.length, byId: Object.fromEntries(it.cands.map((c) => [c.id, c])),
           ranks, crit, ms: {}, prevRt: prev ? prev.rt_ms : 0,
@@ -908,11 +923,19 @@ async function finish() {
 function renderEnd() {
   const n = S.unsent.length, ok = !n || PREVIEW;
   $("end-status").textContent = PREVIEW ? T("previewEnd") : ok ? T("sent") : T("pending")(n);
-  $("end-code").parentElement.hidden = PREVIEW;
-  $("end-code-note").textContent = T("codeNote");
+  $("end-pid").hidden = PREVIEW;
   $("end-code").textContent = S.pid;
+  $("copy-state").textContent = "";
   $("btn-retry").hidden = ok; $("btn-save").hidden = ok;
   $("end-lottery").textContent = S.lottery && !PREVIEW ? T("lotteryDone") : "";
+}
+function copyPid() {
+  const done = (ok) => { $("copy-state").textContent = T(ok ? "copied" : "copyFail"); };
+  const pick = () => { const r = document.createRange(); r.selectNodeContents($("end-code"));
+    const s = getSelection(); s.removeAllRanges(); s.addRange(r); };
+  const legacy = () => { pick(); let ok = false; try { ok = document.execCommand("copy"); } catch (e) { ok = false; } done(ok); };
+  if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(S.pid).then(() => done(true), legacy);
+  else legacy();
 }
 function saveFile() {
   const a = document.createElement("a");

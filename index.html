@@ -93,9 +93,8 @@
           <i class="d-tile"><b>4</b></i><i class="d-tile"><b>3</b></i>
         </div>
       </div>
-      <p class="note" data-i18n="note1"></p>
-      <p class="note" data-i18n="note2"></p>
-      <p class="note muted" data-i18n="note3"></p>
+      <h2 class="tips-title" data-i18n="tipsTitle"></h2>
+      <ul class="bul tips" data-i18n-list="tips"></ul>
       <button id="btn-intro" class="primary"></button>
       <p id="intro-sub" class="muted"></p>
       <button id="btn-ov-link" class="link ov-link" type="button" data-i18n="ovLink"></button>
@@ -146,8 +145,12 @@
     </div>
     <div class="page-body">
       <p id="end-status" class="lede"></p>
-      <p class="muted"><span id="end-code-note"></span><br><code id="end-code"></code></p>
       <p id="end-lottery" class="muted"></p>
+      <div id="end-pid" class="end-pid">
+        <span class="end-pid-label" data-i18n="codeLabel"></span>
+        <div class="end-pid-row"><code id="end-code"></code><button id="btn-copy" type="button" class="copy-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"></rect><path d="M5 15V5a2 2 0 0 1 2-2h10"></path></svg><span data-i18n="copy"></span></button><span id="copy-state" class="copy-state" aria-live="polite"></span></div>
+        <p class="end-pid-why" data-i18n="codeWhy"></p>
+      </div>
       <div class="end-actions">
         <button id="btn-retry" hidden data-i18n="retry"></button>
         <button id="btn-save" hidden data-i18n="saveFile"></button>
