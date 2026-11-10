@@ -62,14 +62,27 @@
     </div>
   </section>
 
+  <section id="v-overview" class="page intro overview" hidden>
+    <div class="page-body">
+      <h1 data-i18n="ovTitle"></h1>
+      <p class="lede" id="ov-lede"></p>
+      <ol class="ov-blocks" id="ov-blocks"></ol>
+    </div>
+    <div class="page-body">
+      <h2 class="ov-sub" data-i18n="ovNotesTitle"></h2>
+      <ul class="bul ov-notes" data-i18n-list="ovNotes"></ul>
+      <button id="btn-overview" class="primary"></button>
+    </div>
+  </section>
+
   <section id="v-intro" class="page intro" hidden>
     <div class="page-body">
       <h1 data-i18n="introTitle"></h1>
       <p class="lede" data-i18n="introLede"></p>
       <ol class="rules">
-        <li><b data-i18n="rule1"></b><span data-i18n="rule1d"></span></li>
-        <li><b data-i18n="rule2"></b><span data-i18n="rule2d"></span></li>
-        <li><b data-i18n="rule3"></b><span data-i18n="rule3d"></span></li>
+        <li><b data-i18n="rule1"></b><ul class="bul" data-i18n-list="rule1d"></ul></li>
+        <li><b data-i18n="rule2"></b><ul class="bul" data-i18n-list="rule2d"></ul></li>
+        <li><b data-i18n="rule3"></b><ul class="bul" data-i18n-list="rule3d"></ul></li>
       </ol>
     </div>
     <div class="page-body">
@@ -85,6 +98,7 @@
       <p class="note muted" data-i18n="note3"></p>
       <button id="btn-intro" class="primary"></button>
       <p id="intro-sub" class="muted"></p>
+      <button id="btn-ov-link" class="link ov-link" type="button" data-i18n="ovLink"></button>
     </div>
   </section>
 

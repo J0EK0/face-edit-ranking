@@ -6,7 +6,7 @@
 "use strict";
 
 const CFG = window.STUDY_CONFIG || { mode: "off" };
-const APP_VERSION = "v5.6";
+const APP_VERSION = "v5.8";
 
 // Consent and study information: v3/v4 wording (DESIGN_v3.md), with the storage lines rewritten to say what this
 // version does (answers are collected through Google Forms, as the consent form itself says).
@@ -127,11 +127,20 @@ const STUDY = {
     fMinN: "10–15",
     about1: "本研究透過這個網頁進行問卷調查，提供由模型預先生成的影像，請您對同一張照片的多張修改結果進行評分排序，答案經由 Google 表單收集。",
     howLink: "作答說明",
-    introTitle: "每組結果分幾輪排名",
-    introLede: "每組左邊是原圖 A，以及參考圖 B 或一句修改指令；右邊是同一張 A 用不同方法改出來的 3–6 張結果。每組結果會出現三次，每次只回答下面其中一個問題：先把所有組排完問題 ①，再回來排 ②，最後排 ③。最後的多部位題一次改兩個部位，會多一輪「照指令改的部位有沒有改對」，共四輪。每次出現時圖的位置都會重新打亂，從第 1 名點到最後一名。",
-    rule1: "部位改得對不對", rule1d: "看 A 臉上那個部位：換部位的題目看它像不像 B 的，依指令修改的題目看它有沒有照指令。整張變成 B 或別人、等於沒有改在 A 身上，排最後。接縫、自不自然留給第 ③ 題。",
-    rule2: "其他地方有沒有保持原樣", rule2d: "只看要改的部位以外：還是不是 A 這個人，臉型、膚色、背景、光線、姿勢、取景有沒有變。整張變成 B 或別人的排最後。",
-    rule3: "整張自不自然", rule3d: "整張看起來像不像一張真的照片：有沒有接縫、色塊、扭曲、模糊或多出來的東西。這題不管有沒有照要求改。",
+    ovTitle: "整體流程",
+    ovLede: (sets, steps) => `接下來共有 ${sets} 組圖、${steps} 次排序，約 10–15 分鐘。問卷分成三段，每一組圖會出現好幾輪，每一輪只回答一個問題。`,
+    ovBlock: (n, k, r) => `${n} 組・每組 ${k} 張結果・${r} 輪`,
+    ovNotesTitle: "作答方式",
+    ovNotes: ["正式開始前有 1 組練習，不計分。", "每一輪開始前，會有一頁說明這一輪要看什麼。", "同一組圖每一輪都會再出現，圖片位置會重新打亂，請依該輪的問題重新排名。", "上方的進度條可以點，回到任何一題修改；全部題目都答完才算完成。", "作答時右上角的「作答說明」可以隨時查看每一題要看什麼。"],
+    ovNext: "下一步：作答說明", ovBack: "回到作答說明", ovLink: "查看整體流程",
+    introTitle: "作答說明",
+    introLede: "每組包含原圖 A、參考圖 B 或文字指令，以及多張修改結果。請依當前評估項目，由最佳至最差依序點選。",
+    rule1: "指定部位是否符合修改要求",
+    rule1d: ["評估指定部位是否與參考圖的對應部位相似，或是否符合修改指令。", "若整張結果變成 B 或其他身分，請排在最後。"],
+    rule2: "其餘部分是否保留原圖",
+    rule2d: ["評估指定部位以外的影像內容，是否與原圖保持一致。", "留意臉型、膚色、背景、光線、姿勢或取景。", "若整張結果變成 B 或其他身分，請排在最後。"],
+    rule3: "影像是否自然",
+    rule3d: ["評估整體影像是否像真實照片（不論是否符合修改要求）。", "留意接縫、色塊、扭曲、模糊或多餘物件。"],
     note1: "同一張結果在三個問題可以排在不同位置，例如嘴巴換得最像 B，但背景或膚色變了很多，或看起來有接縫。很多張會很像，分不出時照你稍微偏好的順序點就好。",
     note2: "依序點第 1 名、第 2 名……，一直點到最後一名。點錯了：再點一次已經有名次的那張，就會取消它和之後的名次；也可以按「重來」。想改前面的答案，按「上一組」回去。",
     note3: "眼睛和嘴巴的題目，每張結果下面有放大的局部圖。點每張右上角的放大鏡可以看大圖，大圖裡也可以直接選。鍵盤：數字鍵選第幾張、Backspace 取消上一下、Enter 下一組。中途關掉網頁，用同一個瀏覽器再打開可以接續。",
@@ -196,11 +205,20 @@ const STUDY = {
     fMinN: "10–15",
     about1: "This questionnaire runs on this web page. It shows images generated in advance by the models and asks you to rate and rank several edited results of the same photo; answers are collected through Google Forms.",
     howLink: "Instructions",
-    introTitle: "Each set is ranked in several rounds",
-    introLede: "Each set shows the original photo A on the left, with a reference photo B or an editing instruction. On the right are 3 to 6 results made from A by different methods. Each set comes up three times, and each time you answer only one of the questions below: first question 1 for all sets, then question 2, then question 3. The final several-part sets edit two parts at once and get one extra round, whether the part edited by the instruction was done right, so four rounds. The results are reshuffled every time; click from first place to last.",
-    rule1: "Is the part edited correctly?", rule1d: "Look at that part on A's face: for a part swap, does it look like B's; for a text edit, does it follow the instruction. A result that turned into B or someone else was not edited on A and goes last. Seams and naturalness belong to question (3).",
-    rule2: "Is everything else kept as it was?", rule2d: "Look only outside the edited part: is it still the person in A, with the same face shape, skin tone, background, lighting, pose and framing? A result that turned into B or someone else goes last.",
-    rule3: "Does the whole photo look natural?", rule3d: "Does it look like a real photo: no seams, colour patches, distortion, blur or added things. This question ignores whether the edit was done.",
+    ovTitle: "How the study works",
+    ovLede: (sets, steps) => `There are ${sets} sets and ${steps} rankings in all, about 10 to 15 minutes. The study has three parts; each set comes up in several rounds, and each round asks one question.`,
+    ovBlock: (n, k, r) => `${n} sets · ${k} results each · ${r} rounds`,
+    ovNotesTitle: "How to answer",
+    ovNotes: ["One practice set comes first; it is not scored.", "Before each round, a page explains what to look at in that round.", "Each set comes back in every round with the results reshuffled; rank them again for that round's question.", "Click the progress bar at the top to go back to any set; the study is complete once every set is answered.", "While answering, Instructions at the top right shows what each question asks."],
+    ovNext: "Next: instructions", ovBack: "Back to the instructions", ovLink: "Show how the study works",
+    introTitle: "Instructions",
+    introLede: "Each set shows the original photo A, a reference photo B or a text instruction, and several edited results. For the question being asked, click the results from best to worst.",
+    rule1: "Does the target part meet the request?",
+    rule1d: ["Judge whether the target part looks like the matching part in the reference photo, or follows the instruction.", "If a result turned into B or someone else, rank it last."],
+    rule2: "Is the rest kept from the original?",
+    rule2d: ["Judge whether everything outside the target part stays the same as in the original photo.", "Look at face shape, skin tone, background, lighting, pose and framing.", "If a result turned into B or someone else, rank it last."],
+    rule3: "Does the image look natural?",
+    rule3d: ["Judge whether the whole image looks like a real photo, whether or not the edit was done.", "Look for seams, colour patches, distortion, blur or extra objects."],
     note1: "One result can rank differently on the three questions, for example the mouth looks most like B's, but the background or skin tone changed a lot, or there is a visible seam. Many results will look similar; if you cannot tell them apart, click in the order you slightly prefer.",
     note2: "Click first place, then second, and so on, down to last place. Clicked the wrong one? Click a ranked result again to remove it and the ranks after it, or press Start over. To change an earlier answer, press Previous.",
     note3: "For eyes and mouths, a close-up sits below each result. The magnifier at the top right of a result opens a large view, where you can also choose it. Keyboard: number keys choose a result, Backspace undoes the last click, Enter goes to the next set. If you close the page, reopen it in the same browser to continue.",
@@ -288,6 +306,9 @@ function partName(it) {
 function applyLang() {
   document.documentElement.lang = lang === "zh" ? "zh-Hant" : "en";
   document.querySelectorAll("[data-i18n]").forEach((x) => { x.textContent = T(x.dataset.i18n); });
+  document.querySelectorAll("[data-i18n-list]").forEach((x) => {
+    x.replaceChildren(...[].concat(T(x.dataset.i18nList)).map((t) => el("li", null, t)));
+  });
   document.querySelectorAll(".lang button").forEach((b) => {
     b.classList.toggle("on", b.dataset.lang === lang);
     b.setAttribute("aria-pressed", b.dataset.lang === lang);
@@ -296,6 +317,7 @@ function applyLang() {
   renderPracticeTag();
   if (bank) renderFacts();
   if (view === "v-intro") renderIntro();
+  if (view === "v-overview") renderOverview();
   if (view === "v-section") renderSection();
   if (cur) { renderRefs(); renderTrial(); }
   if (view === "v-end") renderEnd();
@@ -317,8 +339,8 @@ function setLang(l) {
 }
 function show(v) {
   view = v;
-  ["v-gate", "v-start", "v-intro", "v-trial", "v-section", "v-end"].forEach((x) => { $(x).hidden = x !== v; });
-  $("btn-how").hidden = !(S && S.phase !== "intro" && (v === "v-trial" || v === "v-section"));
+  ["v-gate", "v-start", "v-overview", "v-intro", "v-trial", "v-section", "v-end"].forEach((x) => { $(x).hidden = x !== v; });
+  $("btn-how").hidden = !(S && S.phase !== "intro" && S.phase !== "overview" && (v === "v-trial" || v === "v-section"));
   if (v !== "v-trial") { $("prog").hidden = true; $("prog-text").textContent = ""; }
   renderPracticeTag();
   window.scrollTo(0, 0);
@@ -427,6 +449,8 @@ async function init() {
   $("consent-check").onchange = syncConsent;
   syncConsent();
   $("btn-intro").onclick = leaveIntro;
+  $("btn-overview").onclick = leaveOverview;
+  $("btn-ov-link").onclick = () => { overviewFrom = { introFrom }; show("v-overview"); renderOverview(); };
   $("btn-section").onclick = leaveSection;
   $("btn-next").onclick = next;
   $("btn-back").onclick = back;
@@ -458,7 +482,8 @@ async function init() {
 }
 
 function resume() {
-  if (S.phase === "intro") showIntro();
+  if (S.phase === "overview") showOverview();
+  else if (S.phase === "intro") showIntro();
   else if (S.phase === "practice") startPractice();
   else if (S.section) showSection();
   else if (S.idx >= S.order.length) finish();
@@ -482,7 +507,7 @@ async function begin() {
   const list = forced ? +asked : got ? got.list : randomList(n);
   const pid = PREVIEW ? "preview" : newPid();
   S = { app: APP_VERSION, pid, list, assigned: forced, slot: got ? got.slot : null, show: got ? got.show : null,
-        lang, phase: "intro", idx: 0, section: 0,
+        lang, phase: "overview", idx: 0, section: 0,
         answers: {}, unsent: [], finished: false, finishSent: false, lottery: !!email, t0: Date.now() };
   Object.assign(S, ordered(list, pid));
   if (!PREVIEW) {
@@ -493,7 +518,40 @@ async function begin() {
   }
   save();
   renderFacts();
-  showIntro();
+  showOverview();
+}
+
+// ---------- overview: the three parts, their sets and rounds, read from this participant's list ----------
+// First page after the start page; reachable again from the instructions page (overviewFrom).
+let overviewFrom = null;
+function showOverview() { overviewFrom = null; show("v-overview"); renderOverview(); }
+function renderOverview() {
+  const blocks = [];
+  S.order.forEach((key) => {
+    const it = itemById(stepOf(key).tid), task = it.task;
+    let b = blocks.find((x) => x.task === task);
+    if (!b) { b = { task, tids: new Set(), k: shownIds(it).length, crits: critsOf(it) }; blocks.push(b); }
+    b.tids.add(it.tid);
+  });
+  const sets = blocks.reduce((a, b) => a + b.tids.size, 0);
+  $("ov-lede").textContent = T("ovLede")(sets, S.order.length);
+  $("ov-blocks").replaceChildren(...blocks.map((b) => {
+    const li = el("li");
+    li.append(el("b", null, T("secTitle")[b.task]), el("span", "ov-meta", T("ovBlock")(b.tids.size, b.k, b.crits.length)));
+    const qs = el("ol", "ov-rounds");
+    b.crits.forEach((c) => qs.append(el("li", null, T(b.task === "multi" ? "secCritMulti" : "secCrit")[c].replace(/^[：:]\s*/, ""))));
+    li.append(qs);
+    return li;
+  }));
+  $("btn-overview").textContent = overviewFrom ? T("ovBack") : T("ovNext");
+}
+function leaveOverview() {
+  if (overviewFrom) {
+    const from = overviewFrom; overviewFrom = null;
+    introFrom = from.introFrom; show("v-intro"); renderIntro();
+    return;
+  }
+  S.phase = "intro"; save(); showIntro();
 }
 
 // ---------- instructions and section pages ----------
