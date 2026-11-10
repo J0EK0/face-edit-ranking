@@ -5715,7 +5715,7 @@
    "group": 8,
    "items": [
     {
-     "tid": "te1c0859821",
+     "tid": "t92f85793db",
      "task": "swap",
      "parts": [
       "mouth"
@@ -5723,16 +5723,16 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/fa9a466723803a33.jpg",
+       "img": "img/641b090be5ab468f.jpg",
        "closes": [
-        "img/3a7f4da22fa6738f.jpg"
+        "img/6d81b052cb4e953f.jpg"
        ]
       },
       {
        "role": "B",
-       "img": "img/d201e6f96f0f9c5e.jpg",
+       "img": "img/3242a4a1cd884899.jpg",
        "closes": [
-        "img/ed4b5249600f9736.jpg"
+        "img/f23cd2b89135a76a.jpg"
        ]
       }
      ],
@@ -5741,61 +5741,61 @@
      "instr_note_en": null,
      "cands": [
       {
-       "id": "c912f3f36b1",
-       "img": "img/2bd1ae8fe088f156.jpg",
+       "id": "c325015ee0f",
+       "img": "img/5ca26dbe5dd7ff41.jpg",
        "closes": [
-        "img/06b0bb8e307ea128.jpg"
+        "img/6d5d6e464f030e5a.jpg"
        ]
       },
       {
-       "id": "c3320023291",
-       "img": "img/40298b60b4b7740e.jpg",
+       "id": "c0a2dd7efa3",
+       "img": "img/8d9ce9bd3a1c178d.jpg",
        "closes": [
-        "img/07aad21db9f209a9.jpg"
+        "img/57f479a90b8c77f9.jpg"
        ]
       },
       {
-       "id": "cd08ebef62f",
-       "img": "img/f5c7d3897cc7663c.jpg",
+       "id": "cd1547f4e14",
+       "img": "img/8857577adbbec894.jpg",
        "closes": [
-        "img/93762f191e369547.jpg"
+        "img/1972502fed753da5.jpg"
        ]
       },
       {
-       "id": "c8fad8da42b",
-       "img": "img/91fb53981f8608d2.jpg",
+       "id": "c22a7f25a1a",
+       "img": "img/38d4ba56d524b5ff.jpg",
        "closes": [
-        "img/191617853335dd74.jpg"
+        "img/b4a27a6e25d2b06e.jpg"
        ]
       },
       {
-       "id": "c12da66db69",
-       "img": "img/dc1e33068817efb8.jpg",
+       "id": "c8d4674ee1c",
+       "img": "img/f215dc19f1002938.jpg",
        "closes": [
-        "img/f31e8f75456964d7.jpg"
+        "img/1d9f96df251b6938.jpg"
        ]
       },
       {
-       "id": "cf7afddb868",
-       "img": "img/07728f3f4ae9887b.jpg",
+       "id": "c93b5eea024",
+       "img": "img/6f94901f72fb310c.jpg",
        "closes": [
-        "img/b636fe089f318d34.jpg"
+        "img/3f64101fb573b673.jpg"
        ]
       },
       {
-       "id": "ce992f879f3",
-       "img": "img/f49dec75e5d3b309.jpg",
+       "id": "c7c3a757f55",
+       "img": "img/c5dde458d742ac0c.jpg",
        "closes": [
-        "img/0ffd4ce216196881.jpg"
+        "img/1d1e1b1a06345beb.jpg"
        ]
       }
      ],
      "def": [
-      "c912f3f36b1",
-      "c3320023291",
-      "cd08ebef62f",
-      "cf7afddb868",
-      "ce992f879f3"
+      "c325015ee0f",
+      "c0a2dd7efa3",
+      "cd1547f4e14",
+      "c93b5eea024",
+      "c7c3a757f55"
      ]
     },
     {
