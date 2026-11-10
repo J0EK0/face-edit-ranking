@@ -5236,7 +5236,7 @@
      ]
     },
     {
-     "tid": "te7e2812a6e",
+     "tid": "tfc76c80c23",
      "task": "text",
      "parts": [
       "mouth"
@@ -5244,49 +5244,49 @@
      "refs": [
       {
        "role": "A",
-       "img": "img/80b5f6ed26ccf856.jpg",
+       "img": "img/49a0ef28f129f581.jpg",
        "closes": [
-        "img/7db20a9c41312af8.jpg"
+        "img/4e151d7fa774b0db.jpg"
        ]
       }
      ],
-     "instr_en": "make this person make a neutral expression with their mouth closed",
-     "instr_zh": "讓這個人不笑（面無表情），嘴巴閉著",
-     "instr_note_en": "(a calm face, not smiling)",
+     "instr_en": "make this person smile with their mouth open",
+     "instr_zh": "讓這個人微笑，嘴巴張開",
+     "instr_note_en": null,
      "cands": [
       {
-       "id": "c9d6aa81e36",
-       "img": "img/e97d91a60e4bb0b7.jpg",
+       "id": "c7c623efa6a",
+       "img": "img/5a4b32775a365984.jpg",
        "closes": [
-        "img/72b701b8b0a7d7fc.jpg"
+        "img/bd0c1f523a3a84a5.jpg"
        ]
       },
       {
-       "id": "c9038863813",
-       "img": "img/b299a16821cab07a.jpg",
+       "id": "cfecd90ba70",
+       "img": "img/afb2dacf0973ab06.jpg",
        "closes": [
-        "img/9a31871c3cd12558.jpg"
+        "img/652370b43f46322f.jpg"
        ]
       },
       {
-       "id": "cb7db1e81d7",
-       "img": "img/eff5f8d8b9d8800c.jpg",
+       "id": "c8524ad0aa9",
+       "img": "img/82c0f83793f04605.jpg",
        "closes": [
-        "img/87286b324569bdc2.jpg"
+        "img/738cec802c8941a7.jpg"
        ]
       },
       {
-       "id": "c756b2768ac",
-       "img": "img/0e7e76e02a2327c1.jpg",
+       "id": "c824c13960d",
+       "img": "img/da54deef7a848b02.jpg",
        "closes": [
-        "img/6a45e6d781494ced.jpg"
+        "img/9ec15fc47cbc1c24.jpg"
        ]
       },
       {
-       "id": "ce36bb24302",
-       "img": "img/94e9ec11c807fb9d.jpg",
+       "id": "cb31662bcc2",
+       "img": "img/83e711b5a4984df8.jpg",
        "closes": [
-        "img/d8cc66418df11bc0.jpg"
+        "img/439d8ba8fa0bb45d.jpg"
        ]
       }
      ]
