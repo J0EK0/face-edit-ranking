@@ -159,7 +159,7 @@ const STUDY = {
     secKicker: (k, n, m) => (k === 0 ? `練習結束。第 1 段，共 ${n} 段（${m} 組）` : `第 ${k + 1} 段，共 ${n} 段（${m} 組）`),
     secTitle: { swap: "換部位", text: "依指令修改", multi: "多部位" },
     secCrit: { part: "：① 部位改得對不對", keep: "：② 其他地方有沒有保持原樣", natural: "：③ 整張自不自然" },
-    secCritMulti: { swap: "：① 換的部位像不像 B", text: "：② 改的部位有沒有照指令", keep: "：③ 其他地方有沒有保持原樣", natural: "：④ 整張自不自然" },
+    secCritMulti: { swap: "：① 換的部位像不像參考圖", text: "：② 改的部位有沒有照指令", keep: "：③ 其他地方有沒有保持原樣", natural: "：④ 整張自不自然" },
     secBody: {
       swap: {
         part: "每組都有參考圖 B 和 5 張結果。這一輪看 A 臉上換過去的部位像不像 B 的；整張變成 B 或別人的排最後。其他地方和自不自然下兩輪再看。",
@@ -243,7 +243,7 @@ const STUDY = {
     secKicker: (k, n, m) => (k === 0 ? `Practice finished. Round 1 of ${n} (${m} sets)` : `Round ${k + 1} of ${n} (${m} sets)`),
     secTitle: { swap: "Part swap", text: "Text edit", multi: "Several parts" },
     secCrit: { part: ": (1) is the part right", keep: ": (2) is the rest unchanged", natural: ": (3) does it look natural" },
-    secCritMulti: { swap: ": (1) does the swapped part look like B's", text: ": (2) does the edited part follow the instruction", keep: ": (3) is the rest unchanged", natural: ": (4) does it look natural" },
+    secCritMulti: { swap: ": (1) does the swapped part match the reference photo", text: ": (2) does the edited part follow the instruction", keep: ": (3) is the rest unchanged", natural: ": (4) does it look natural" },
     secBody: {
       swap: {
         part: "Every set has a reference photo B and 5 results. In this round look at the part swapped onto A's face: does it look like B's. A result that turned into B or someone else goes last. The rest and naturalness come in the next two rounds.",
