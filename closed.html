@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="dark">
+<title>Face Edit Ranking</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  .closed { max-width: 40em; margin: 0 auto; min-height: calc(100vh - 124px); display: flex; flex-direction: column; justify-content: center; }
+  .closed a { color: var(--fg); text-decoration-color: var(--mark); text-underline-offset: 4px; }
+  @media (max-width: 700px) { header { padding: 0 16px; } main { padding: 24px 16px 48px; } .closed h1 { font-size: 34px; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="lang" role="group" aria-label="Language">
+    <button data-lang="zh" type="button">中文</button><button data-lang="en" type="button">English</button>
+  </div>
+</header>
+<main>
+  <section class="closed" data-l="zh">
+    <h1>問卷已結束</h1>
+    <p class="lede">本研究已停止收集回應，感謝你的關注與參與。</p>
+    <p>已完成問卷的參與者如果想刪除自己的資料，請來信 <a href="mailto:nickchiu@citi.sinica.edu.tw">nickchiu@citi.sinica.edu.tw</a> 或 <a href="mailto:pullpull@citi.sinica.edu.tw">pullpull@citi.sinica.edu.tw</a>，並附上結束頁顯示的參與編號。</p>
+    <p class="muted">抽獎將依開始頁的說明，於問卷結束後一至兩週內進行。</p>
+  </section>
+  <section class="closed" data-l="en" hidden>
+    <h1>This survey has closed</h1>
+    <p class="lede">We are no longer collecting responses. Thank you for your interest and participation.</p>
+    <p>If you completed the survey and want your data deleted, email <a href="mailto:nickchiu@citi.sinica.edu.tw">nickchiu@citi.sinica.edu.tw</a> or <a href="mailto:pullpull@citi.sinica.edu.tw">pullpull@citi.sinica.edu.tw</a> with the participant code shown on the last page.</p>
+    <p class="muted">As described on the start page, the prize draw takes place one to two weeks after the survey closes.</p>
+  </section>
+</main>
+<script>
+(function () {
+  var params = new URLSearchParams(location.search), stored = null;
+  try { stored = localStorage.getItem("us5_lang"); } catch (e) {}
+  var lang = [params.get("lang"), stored].filter(function (l) { return l === "zh" || l === "en"; })[0]
+    || ((navigator.language || "").indexOf("zh") === 0 ? "zh" : "en");
+  function apply(l) {
+    lang = l;
+    document.documentElement.lang = l === "zh" ? "zh-Hant" : "en";
+    document.querySelectorAll("[data-l]").forEach(function (s) { s.hidden = s.getAttribute("data-l") !== l; });
+    document.querySelectorAll(".lang button").forEach(function (b) {
+      b.classList.toggle("on", b.dataset.lang === l);
+      b.setAttribute("aria-pressed", b.dataset.lang === l);
+    });
+  }
+  document.querySelectorAll(".lang button").forEach(function (b) { b.onclick = function () { apply(b.dataset.lang); }; });
+  apply(lang);
+})();
+</script>
+</body>
+</html>
